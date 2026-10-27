@@ -2,6 +2,10 @@
 
 Dashboard em Power BI sobre o mercado brasileiro de planos de saúde, construído de ponta a ponta a partir dos dados públicos da **ANS (Agência Nacional de Saúde Suplementar)**: extração, camada analítica validada, modelo semântico que impede dupla contagem e um relatório de quatro páginas com identidade visual própria.
 
+### [▶ Abrir o relatório interativo](https://app.powerbi.com/view?r=eyJrIjoiMzE5YTFmZGItNDE3Ni00OGFjLTg2YTgtYTAxZTcxYjBlNWE2IiwidCI6IjcxZmE1OGY4LTc5NDktNGIwZS1iYzg2LTI4ODFlNzhjMmM3NyJ9)
+
+Versão publicada na web (Power BI Publicar na Web), sem necessidade de login. Para melhor leitura, use a tela cheia.
+
 ![Visão geral](docs/img/01-visao-geral.png)
 
 ## O que o painel mostra
