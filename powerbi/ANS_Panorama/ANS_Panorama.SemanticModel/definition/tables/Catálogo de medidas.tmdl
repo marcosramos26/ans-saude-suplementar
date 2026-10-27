@@ -1,0 +1,66 @@
+/// Catálogo técnico de aditividade por coluna de medida (documentação de controle). Tabela utilitária, sem relacionamento; oculta do consumo.
+table 'Catálogo de medidas'
+	isHidden
+	lineageTag: 9ba6cab2-65d4-47b5-942a-c9c8487525c8
+
+	column medida_id
+		dataType: string
+		isHidden
+		lineageTag: e80849ca-f53f-4890-95de-edf212d8d3bf
+		sourceColumn: medida_id
+
+	column Tabela
+		dataType: string
+		lineageTag: f2811fdc-c627-4753-a701-910c1864eb63
+		sourceColumn: tabela
+
+	column Coluna
+		dataType: string
+		lineageTag: c8e45fc8-f247-4d63-9239-d980dcf66f7c
+		sourceColumn: coluna
+
+	column Unidade
+		dataType: string
+		lineageTag: 169bb1e6-101e-4904-ba2f-c7f7761b6cc3
+		sourceColumn: unidade
+
+	column 'Tipo de dado'
+		dataType: string
+		lineageTag: 84045385-8f00-483b-87a9-bbf9ecbf1bfb
+		sourceColumn: tipo_dado
+
+	column Aditiva
+		dataType: string
+		lineageTag: d1f095ef-b60c-4b88-bbc3-07cc3000e108
+		sourceColumn: aditiva
+
+	column 'Grão de soma'
+		dataType: string
+		lineageTag: 2e5d6978-b4c6-400b-9b82-dc065aa5c90b
+		sourceColumn: grao_de_soma
+
+	column 'Não somar com'
+		dataType: string
+		lineageTag: b40cb11f-e53e-4eab-854a-5f3be1147284
+		sourceColumn: nao_somar_com
+
+	column Fonte
+		dataType: string
+		lineageTag: 229b96e1-7a8f-4b50-a3dd-9e47109dae3d
+		sourceColumn: fonte
+
+	column Regra
+		dataType: string
+		lineageTag: 8d9c1529-6a9f-4d93-8378-fe6338a35c59
+		sourceColumn: regra
+
+	partition 'Catálogo de medidas' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\dims\dim_medida.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"medida_id", type text}, {"tabela", type text}, {"coluna", type text}, {"unidade", type text}, {"tipo_dado", type text}, {"aditiva", type text}, {"grao_de_soma", type text}, {"nao_somar_com", type text}, {"fonte", type text}, {"regra", type text}}, "en-US")
+				in
+				    Tipos
+

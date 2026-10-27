@@ -1,0 +1,343 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "a0000000000000000044",
+  "position": {
+    "x": 24,
+    "y": 246,
+    "z": 1003,
+    "height": 454,
+    "width": 600,
+    "tabOrder": 3
+  },
+  "visual": {
+    "visualType": "deneb7E15AEF80B9E4D4F8E12924291ECE89A",
+    "query": {
+      "queryState": {
+        "dataset": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Recorte de vínculos"
+                    }
+                  },
+                  "Property": "Faixa etária associada"
+                }
+              },
+              "queryRef": "Recorte de vínculos.Faixa etária associada",
+              "nativeQueryRef": "faixa",
+              "displayName": "faixa"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Recorte de vínculos"
+                    }
+                  },
+                  "Property": "Sexo associado"
+                }
+              },
+              "queryRef": "Recorte de vínculos.Sexo associado",
+              "nativeQueryRef": "sexo",
+              "displayName": "sexo"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Recorte de vínculos"
+                    }
+                  },
+                  "Property": "Ordem"
+                }
+              },
+              "queryRef": "Recorte de vínculos.Ordem",
+              "nativeQueryRef": "ordem",
+              "displayName": "ordem"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Vínculos por recorte"
+                    }
+                  },
+                  "Property": "Vínculos por faixa etária e sexo"
+                }
+              },
+              "queryRef": "Vínculos por recorte.Vínculos por faixa etária e sexo",
+              "nativeQueryRef": "valor",
+              "displayName": "valor"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "vega": [
+        {
+          "properties": {
+            "jsonSpec": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"$schema\": \"https://vega.github.io/schema/vega-lite/v5.json\", \"data\": {\"name\": \"dataset\"}, \"width\": \"container\", \"height\": \"container\", \"padding\": {\"left\": 2, \"right\": 8, \"top\": 26, \"bottom\": 18}, \"transform\": [{\"joinaggregate\": [{\"op\": \"sum\", \"field\": \"valor\", \"as\": \"total\"}]}, {\"calculate\": \"datum.valor / datum.total\", \"as\": \"share\"}, {\"joinaggregate\": [{\"op\": \"min\", \"field\": \"ordem\", \"as\": \"fo\"}], \"groupby\": [\"faixa\"]}, {\"joinaggregate\": [{\"op\": \"sum\", \"field\": \"share\", \"as\": \"sexShare\"}], \"groupby\": [\"sexo\"]}, {\"calculate\": \"datum.faixa == ''Até 1 ano'' ? ''< 1 ano'' : datum.faixa == ''80 anos ou mais'' ? ''80 anos +'' : datum.faixa\", \"as\": \"faixaL\"}, {\"calculate\": \"datum.sexo == ''Feminino'' ? -datum.share : datum.share\", \"as\": \"sv\"}, {\"calculate\": \"replace(format(datum.share*100,''.1f''),''.'','','') + ''%''\", \"as\": \"lbl\"}, {\"calculate\": \"replace(format(datum.valor, '',.0f''), '','', ''.'')\", \"as\": \"lblFull\"}], \"layer\": [{\"transform\": [{\"filter\": \"datum.faixa != ''Inconsistente''\"}], \"encoding\": {\"y\": {\"field\": \"faixaL\", \"type\": \"nominal\", \"sort\": {\"field\": \"fo\", \"op\": \"min\", \"order\": \"descending\"}, \"scale\": {\"paddingInner\": 0.18}, \"axis\": {\"title\": null, \"domain\": false, \"ticks\": false, \"labelFontSize\": 10, \"labelColor\": \"#5B6170\", \"labelPadding\": 8}}, \"x\": {\"field\": \"sv\", \"type\": \"quantitative\", \"axis\": {\"title\": null, \"domain\": false, \"ticks\": false, \"grid\": true, \"tickCount\": 6, \"labelExpr\": \"replace(format(abs(datum.value)*100,''.0f''),''.'','','') + ''%''\"}}, \"tooltip\": [{\"field\": \"faixa\", \"title\": \"Faixa etária\"}, {\"field\": \"sexo\", \"title\": \"Sexo\"}, {\"field\": \"lblFull\", \"title\": \"Vínculos\"}, {\"field\": \"lbl\", \"title\": \"Participação no total\"}]}, \"layer\": [{\"mark\": {\"type\": \"bar\", \"cornerRadius\": 2}, \"encoding\": {\"color\": {\"field\": \"sexo\", \"type\": \"nominal\", \"scale\": {\"domain\": [\"Feminino\", \"Masculino\"], \"range\": [\"#0E6E6B\", \"#C49A5A\"]}, \"legend\": null}}}, {\"transform\": [{\"filter\": \"datum.sexo == ''Feminino''\"}], \"mark\": {\"type\": \"text\", \"align\": \"right\", \"dx\": -4, \"fontSize\": 9, \"color\": \"#5B6170\"}, \"encoding\": {\"text\": {\"field\": \"lbl\"}}}, {\"transform\": [{\"filter\": \"datum.sexo == ''Masculino''\"}], \"mark\": {\"type\": \"text\", \"align\": \"left\", \"dx\": 4, \"fontSize\": 9, \"color\": \"#5B6170\"}, \"encoding\": {\"text\": {\"field\": \"lbl\"}}}]}, {\"transform\": [{\"aggregate\": [{\"op\": \"max\", \"field\": \"sexShare\", \"as\": \"s\"}], \"groupby\": [\"sexo\"]}, {\"calculate\": \"datum.sexo + ''  '' + replace(format(datum.s*100,''.1f''),''.'','','') + ''%''\", \"as\": \"t\"}, {\"filter\": \"datum.sexo == ''Feminino''\"}], \"mark\": {\"type\": \"text\", \"baseline\": \"bottom\", \"fontSize\": 12, \"fontWeight\": 600, \"align\": \"left\", \"color\": \"#0E6E6B\"}, \"encoding\": {\"text\": {\"field\": \"t\"}, \"y\": {\"value\": -10}, \"x\": {\"value\": 0}}}, {\"transform\": [{\"aggregate\": [{\"op\": \"max\", \"field\": \"sexShare\", \"as\": \"s\"}], \"groupby\": [\"sexo\"]}, {\"calculate\": \"datum.sexo + ''  '' + replace(format(datum.s*100,''.1f''),''.'','','') + ''%''\", \"as\": \"t\"}, {\"filter\": \"datum.sexo == ''Masculino''\"}], \"mark\": {\"type\": \"text\", \"baseline\": \"bottom\", \"fontSize\": 12, \"fontWeight\": 600, \"align\": \"right\", \"color\": \"#C49A5A\"}, \"encoding\": {\"text\": {\"field\": \"t\"}, \"y\": {\"value\": -10}, \"x\": {\"value\": {\"expr\": \"width\"}}}}, {\"transform\": [{\"filter\": \"datum.faixa == ''Inconsistente''\"}, {\"aggregate\": [{\"op\": \"sum\", \"field\": \"valor\", \"as\": \"v\"}]}, {\"filter\": \"datum.v > 0\"}, {\"calculate\": \"''+ faixa inconsistente na fonte: '' + replace(format(datum.v, '',.0f''), '','', ''.'') + '' vínculos''\", \"as\": \"t\"}], \"mark\": {\"type\": \"text\", \"align\": \"left\", \"baseline\": \"top\", \"fontSize\": 10, \"color\": \"#8A8F99\"}, \"encoding\": {\"text\": {\"field\": \"t\"}, \"x\": {\"value\": 0}, \"y\": {\"value\": {\"expr\": \"height + 22\"}}}}, {\"transform\": [{\"filter\": \"datum.faixa != ''Inconsistente''\"}, {\"aggregate\": [{\"op\": \"max\", \"field\": \"share\", \"as\": \"m\"}]}, {\"fold\": [\"m\"]}, {\"calculate\": \"[-datum.m * 1.12, datum.m * 1.12]\", \"as\": \"pair\"}, {\"flatten\": [\"pair\"]}], \"mark\": {\"type\": \"point\", \"opacity\": 0}, \"encoding\": {\"x\": {\"field\": \"pair\", \"type\": \"quantitative\"}, \"y\": {\"value\": 0}}}]}'"
+                }
+              }
+            },
+            "jsonConfig": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"autosize\": {\"type\": \"fit\", \"contains\": \"padding\"}, \"view\": {\"stroke\": null}, \"background\": null, \"font\": \"Segoe UI\", \"axis\": {\"labelFont\": \"Segoe UI\", \"labelFontSize\": 10, \"labelColor\": \"#8A8F99\", \"gridColor\": \"#EEECE6\", \"gridWidth\": 1, \"domainColor\": \"#E2DFD7\", \"tickColor\": \"#E2DFD7\", \"titleColor\": \"#5B6170\"}, \"axisX\": {\"grid\": false}, \"legend\": {\"labelFont\": \"Segoe UI\", \"labelFontSize\": 10, \"labelColor\": \"#5B6170\", \"titleFont\": \"Segoe UI\", \"titleFontSize\": 10, \"titleColor\": \"#5B6170\", \"titleFontWeight\": 400}, \"text\": {\"font\": \"Segoe UI\"}}'"
+                }
+              }
+            },
+            "provider": {
+              "expr": {
+                "Literal": {
+                  "Value": "'vegaLite'"
+                }
+              }
+            },
+            "version": {
+              "expr": {
+                "Literal": {
+                  "Value": "'6.4.3'"
+                }
+              }
+            },
+            "renderMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'svg'"
+                }
+              }
+            },
+            "enableTooltips": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "enableContextMenu": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "enableSelection": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "enableHighlight": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "stateManagement": [
+        {
+          "properties": {
+            "viewportHeight": {
+              "expr": {
+                "Literal": {
+                  "Value": "374D"
+                }
+              }
+            },
+            "viewportWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "566D"
+                }
+              }
+            },
+            "supportFieldConfiguration": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"faixa\":{\"highlight\":false,\"highlightStatus\":false,\"highlightComparator\":false,\"format\":false,\"formatted\":false,\"names\":false},\"sexo\":{\"highlight\":false,\"highlightStatus\":false,\"highlightComparator\":false,\"format\":false,\"formatted\":false,\"names\":false},\"ordem\":{\"highlight\":false,\"highlightStatus\":false,\"highlightComparator\":false,\"format\":false,\"formatted\":false,\"names\":false},\"valor\":{\"highlight\":false,\"highlightStatus\":false,\"highlightComparator\":false,\"format\":true,\"formatted\":true,\"names\":false}}'"
+                }
+              }
+            },
+            "denebMetaVersion": {
+              "expr": {
+                "Literal": {
+                  "Value": "'2'"
+                }
+              }
+            },
+            "consolidateFieldParameters": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "developer": [
+        {
+          "properties": {
+            "version": {
+              "expr": {
+                "Literal": {
+                  "Value": "'2.0.0.0'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Pirâmide etária dos vínculos'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Participação de cada faixa e sexo no total, última competência'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "Filter0000000000000000000000e1",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "Recorte de vínculos"
+              }
+            },
+            "Property": "Recorte"
+          }
+        },
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "r",
+              "Entity": "Recorte de vínculos",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "r"
+                          }
+                        },
+                        "Property": "Recorte"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'faixa_etaria_sexo'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        },
+        "howCreated": "User"
+      }
+    ]
+  }
+}

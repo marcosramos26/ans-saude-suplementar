@@ -1,0 +1,568 @@
+﻿dimensao;periodo;valor;medida;consulta;cadencia;granularidade;arquivo_origem
+Aracaju;Jun/26;241935;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Mar/26;242598;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Dez/25;244910;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Set/25;244880;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Jun/25;243921;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Mar/25;241346;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Dez/24;241718;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Set/24;242184;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Jun/24;242448;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Mar/24;240259;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Dez/23;240138;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Set/23;238628;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Jun/23;237596;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Mar/23;238140;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Dez/22;240825;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Set/22;241046;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Jun/22;240062;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Mar/22;235774;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Dez/21;236230;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Set/21;232379;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Aracaju;Jun/21;229919;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Jun/26;396362;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Mar/26;397986;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Dez/25;400003;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Set/25;401933;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Jun/25;399326;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Mar/25;399062;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Dez/24;400042;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Set/24;402256;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Jun/24;402120;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Mar/24;400392;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Dez/23;402443;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Set/23;406182;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Jun/23;407299;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Mar/23;408301;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Dez/22;411560;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Set/22;412920;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Jun/22;411825;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Mar/22;410883;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Dez/21;417584;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Set/21;414772;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belém;Jun/21;417430;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Jun/26;1296893;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Mar/26;1291094;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Dez/25;1289440;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Set/25;1285714;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Jun/25;1278179;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Mar/25;1277812;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Dez/24;1272963;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Set/24;1275738;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Jun/24;1269869;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Mar/24;1265499;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Dez/23;1262700;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Set/23;1261436;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Jun/23;1258542;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Mar/23;1247135;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Dez/22;1246701;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Set/22;1269830;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Jun/22;1257701;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Mar/22;1252713;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Dez/21;1245806;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Set/21;1237822;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Belo Horizonte;Jun/21;1227456;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Jun/26;31820;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Mar/26;26763;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Dez/25;31534;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Set/25;31475;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Jun/25;30816;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Mar/25;29993;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Dez/24;30156;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Set/24;30090;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Jun/24;30494;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Mar/24;30860;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Dez/23;30507;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Set/23;31161;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Jun/23;31054;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Mar/23;31384;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Dez/22;31209;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Set/22;30829;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Jun/22;31291;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Mar/22;31071;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Dez/21;30271;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Set/21;30395;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Boa Vista;Jun/21;30202;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Jun/26;1044618;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Mar/26;1036373;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Dez/25;1023538;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Set/25;1004372;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Jun/25;993733;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Mar/25;983604;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Dez/24;982436;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Set/24;969918;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Jun/24;947765;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Mar/24;941703;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Dez/23;940894;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Set/23;935362;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Jun/23;930895;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Mar/23;925347;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Dez/22;933451;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Set/22;923969;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Jun/22;920464;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Mar/22;930112;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Dez/21;922785;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Set/21;925716;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Brasília;Jun/21;925658;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Jun/26;282505;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Mar/26;283972;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Dez/25;284536;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Set/25;283504;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Jun/25;282318;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Mar/25;281566;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Dez/24;282085;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Set/24;280213;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Jun/24;277267;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Mar/24;276778;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Dez/23;273839;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Set/23;275719;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Jun/23;274383;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Mar/23;270070;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Dez/22;268081;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Set/22;265632;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Jun/22;261828;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Mar/22;256982;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Dez/21;254305;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Set/21;252861;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Campo Grande;Jun/21;251086;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Jun/26;239484;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Mar/26;236878;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Dez/25;236299;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Set/25;237519;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Jun/25;236711;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Mar/25;237063;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Dez/24;239902;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Set/24;238799;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Jun/24;238554;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Mar/24;238419;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Dez/23;241418;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Set/23;243525;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Jun/23;241838;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Mar/23;243509;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Dez/22;243425;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Set/22;240164;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Jun/22;238079;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Mar/22;234554;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Dez/21;232862;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Set/21;231097;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Cuiabá;Jun/21;227500;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Jun/26;1001704;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Mar/26;1002016;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Dez/25;1003790;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Set/25;1003539;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Jun/25;1003068;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Mar/25;998745;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Dez/24;996573;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Set/24;993010;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Jun/24;991546;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Mar/24;990046;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Dez/23;992316;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Set/23;994173;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Jun/23;994577;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Mar/23;991318;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Dez/22;995080;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Set/22;991744;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Jun/22;989834;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Mar/22;987304;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Dez/21;986967;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Set/21;983874;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Curitiba;Jun/21;979771;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Jun/26;208287;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Mar/26;207026;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Dez/25;207678;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Set/25;207555;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Jun/25;206373;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Mar/25;205681;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Dez/24;206770;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Set/24;207071;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Jun/24;206112;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Mar/24;203770;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Dez/23;204334;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Set/23;205002;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Jun/23;202905;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Mar/23;206785;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Dez/22;208021;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Set/22;206668;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Jun/22;205056;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Mar/22;202729;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Dez/21;201014;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Set/21;199512;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Florianópolis;Jun/21;188848;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Jun/26;1057918;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Mar/26;1059270;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Dez/25;1060341;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Set/25;1064255;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Jun/25;1059271;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Mar/25;1052557;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Dez/24;1042591;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Set/24;1043290;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Jun/24;1041893;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Mar/24;1029883;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Dez/23;1030618;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Set/23;975067;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Jun/23;966745;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Mar/23;960402;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Dez/22;958589;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Set/22;958989;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Jun/22;953068;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Mar/22;938368;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Dez/21;934714;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Set/21;920021;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Fortaleza;Jun/21;914188;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Jun/26;753229;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Mar/26;750515;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Dez/25;751390;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Set/25;750398;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Jun/25;748184;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Mar/25;745401;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Dez/24;747447;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Set/24;748230;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Jun/24;742982;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Mar/24;735941;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Dez/23;732793;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Set/23;727303;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Jun/23;725469;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Mar/23;720367;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Dez/22;717500;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Set/22;714294;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Jun/22;703621;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Mar/22;694016;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Dez/21;687445;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Set/21;680580;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Goiânia;Jun/21;712998;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Jun/26;279480;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Mar/26;276948;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Dez/25;277004;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Set/25;276546;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Jun/25;274130;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Mar/25;269115;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Dez/24;268416;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Set/24;265297;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Jun/24;263554;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Mar/24;262053;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Dez/23;259925;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Set/23;257656;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Jun/23;253444;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Mar/23;251878;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Dez/22;250169;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Set/22;249779;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Jun/22;249035;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Mar/22;246211;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Dez/21;245731;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Set/21;242191;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+João Pessoa;Jun/21;240351;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Jun/26;52203;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Mar/26;53060;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Dez/25;53555;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Set/25;53683;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Jun/25;53243;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Mar/25;52622;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Dez/24;52532;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Set/24;52398;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Jun/24;52247;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Mar/24;51848;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Dez/23;51780;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Set/23;51495;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Jun/23;51981;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Mar/23;51519;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Dez/22;51591;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Set/22;51615;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Jun/22;51546;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Mar/22;51516;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Dez/21;51803;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Set/21;52107;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Macapá;Jun/21;48680;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Jun/26;282747;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Mar/26;282981;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Dez/25;284468;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Set/25;285477;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Jun/25;284584;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Mar/25;284964;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Dez/24;285446;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Set/24;283635;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Jun/24;285723;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Mar/24;285659;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Dez/23;288234;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Set/23;289655;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Jun/23;289058;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Mar/23;290315;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Dez/22;290094;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Set/22;291146;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Jun/22;288581;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Mar/22;283637;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Dez/21;281128;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Set/21;281096;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Maceió;Jun/21;279629;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Jun/26;689025;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Mar/26;686738;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Dez/25;684233;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Set/25;680158;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Jun/25;674044;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Mar/25;663907;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Dez/24;659185;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Set/24;614283;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Jun/24;598218;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Mar/24;590364;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Dez/23;580131;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Set/23;578438;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Jun/23;574241;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Mar/23;570990;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Dez/22;569095;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Set/22;562433;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Jun/22;544615;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Mar/22;557563;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Dez/21;558506;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Set/21;548442;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Manaus;Jun/21;536337;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Jun/26;376164;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Mar/26;346369;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Dez/25;345667;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Set/25;342817;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Jun/25;340276;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Mar/25;343130;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Dez/24;343234;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Set/24;340083;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Jun/24;338160;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Mar/24;337157;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Dez/23;336312;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Set/23;335088;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Jun/23;333653;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Mar/23;332395;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Dez/22;331955;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Set/22;330582;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Jun/22;328202;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Mar/22;322905;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Dez/21;328719;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Set/21;320226;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Natal;Jun/21;319121;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Jun/26;62626;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Mar/26;62448;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Dez/25;62983;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Set/25;62528;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Jun/25;61623;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Mar/25;60825;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Dez/24;58765;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Set/24;58660;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Jun/24;57607;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Mar/24;56950;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Dez/23;59373;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Set/23;59259;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Jun/23;59040;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Mar/23;58902;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Dez/22;59141;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Set/22;58384;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Jun/22;57944;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Mar/22;56935;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Dez/21;56769;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Set/21;56634;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Palmas;Jun/21;55784;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Jun/26;587949;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Mar/26;603974;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Dez/25;606199;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Set/25;607001;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Jun/25;605336;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Mar/25;603231;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Dez/24;604770;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Set/24;599108;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Jun/24;597227;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Mar/24;596755;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Dez/23;597590;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Set/23;600815;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Jun/23;596924;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Mar/23;591244;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Dez/22;595398;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Set/22;593569;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Jun/22;593696;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Mar/22;593572;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Dez/21;594649;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Set/21;596200;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Alegre;Jun/21;595911;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Jun/26;91576;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Mar/26;90736;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Dez/25;91488;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Set/25;90392;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Jun/25;85903;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Mar/25;84096;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Dez/24;84898;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Set/24;84717;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Jun/24;84388;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Mar/24;83274;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Dez/23;83600;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Set/23;80562;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Jun/23;81006;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Mar/23;82024;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Dez/22;87904;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Set/22;87874;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Jun/22;87492;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Mar/22;87083;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Dez/21;85998;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Set/21;86329;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Porto Velho;Jun/21;85548;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Jun/26;636367;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Mar/26;636920;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Dez/25;644241;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Set/25;645157;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Jun/25;642676;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Mar/25;644190;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Dez/24;644837;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Set/24;644427;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Jun/24;647909;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Mar/24;646057;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Dez/23;649851;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Set/23;651282;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Jun/23;647874;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Mar/23;644797;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Dez/22;634366;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Set/22;632546;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Jun/22;625674;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Mar/22;620280;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Dez/21;624614;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Set/21;622346;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Recife;Jun/21;623304;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Jun/26;41804;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Mar/26;41600;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Dez/25;41755;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Set/25;41298;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Jun/25;40881;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Mar/25;39700;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Dez/24;39888;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Set/24;39802;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Jun/24;39320;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Mar/24;38934;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Dez/23;38784;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Set/23;38498;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Jun/23;38348;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Mar/23;38157;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Dez/22;38174;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Set/22;38293;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Jun/22;38401;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Mar/22;38727;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Dez/21;38596;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Set/21;38453;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio Branco;Jun/21;38325;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Jun/26;3039515;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Mar/26;3040966;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Dez/25;3057218;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Set/25;3062064;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Jun/25;3059308;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Mar/25;3072620;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Dez/24;3070724;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Set/24;3082827;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Jun/24;3065819;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Mar/24;3221802;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Dez/23;3234989;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Set/23;3229913;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Jun/23;3112120;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Mar/23;3126994;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Dez/22;3121026;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Set/22;3086652;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Jun/22;3062583;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Mar/22;3042492;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Dez/21;3019915;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Set/21;2995276;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Rio de Janeiro;Jun/21;2979561;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Jun/26;815636;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Mar/26;818833;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Dez/25;822276;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Set/25;827725;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Jun/25;826301;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Mar/25;816216;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Dez/24;818429;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Set/24;818930;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Jun/24;814493;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Mar/24;814956;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Dez/23;812289;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Set/23;814228;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Jun/23;813360;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Mar/23;811259;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Dez/22;809748;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Set/22;800393;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Jun/22;793464;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Mar/22;780678;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Dez/21;779155;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Set/21;776836;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Salvador;Jun/21;781690;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Jun/26;301106;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Mar/26;301963;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Dez/25;301211;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Set/25;302932;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Jun/25;299943;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Mar/25;296998;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Dez/24;298744;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Set/24;300470;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Jun/24;300944;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Mar/24;297849;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Dez/23;298201;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Set/23;297800;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Jun/23;293154;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Mar/23;289279;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Dez/22;291185;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Set/22;289270;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Jun/22;284784;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Mar/22;277867;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Dez/21;278137;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Set/21;277716;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Luís;Jun/21;272008;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Jun/26;5948123;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Mar/26;5913830;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Dez/25;5922395;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Set/25;5845989;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Jun/25;5799473;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Mar/25;5777585;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Dez/24;5756568;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Set/24;5742970;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Jun/24;5745338;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Mar/24;5755602;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Dez/23;5786557;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Set/23;5798055;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Jun/23;5842654;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Mar/23;5878344;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Dez/22;5897019;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Set/22;5898672;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Jun/22;5883317;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Mar/22;5853245;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Dez/21;5854179;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Set/21;5803713;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+São Paulo;Jun/21;5772531;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Jun/26;311017;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Mar/26;310713;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Dez/25;311892;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Set/25;313474;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Jun/25;311720;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Mar/25;309824;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Dez/24;311120;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Set/24;312859;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Jun/24;308090;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Mar/24;302801;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Dez/23;302696;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Set/23;298456;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Jun/23;297684;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Mar/23;292397;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Dez/22;289039;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Set/22;284892;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Jun/22;281391;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Mar/22;274118;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Dez/21;272303;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Set/21;268565;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Teresina;Jun/21;265354;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Jun/26;229403;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Mar/26;228493;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Dez/25;228612;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Set/25;226213;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Jun/25;223751;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Mar/25;221963;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Dez/24;222020;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Set/24;222875;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Jun/24;223644;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Mar/24;226640;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Dez/23;228980;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Set/23;226973;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Jun/23;224898;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Mar/23;222715;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Dez/22;220985;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Set/22;219222;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Jun/22;221694;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Mar/22;218816;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Dez/21;216525;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Set/21;214778;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv
+Vitória;Jun/21;214320;Assistência Médica;Beneficiários por UFs, Regiões Metropolitanas (RM) e Capitais;trimestral;Capital x trimestral;beneficiarios_capital_competencia_am.csv

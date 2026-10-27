@@ -1,0 +1,66 @@
+/// Unidades federativas (27) mais o membro UF:00, que agrega o resíduo nacional (não identificado/exterior). Código em texto para preservar dígitos. A sigla do Distrito Federal não existe na fonte.
+table UF
+	lineageTag: e2fc5559-05a7-473d-bee8-c9beabec09c6
+
+	column uf_id
+		dataType: string
+		isHidden
+		lineageTag: 16e99708-7ca3-4ee5-a36f-c653b07639fc
+		sourceColumn: uf_id
+
+	/// Código IBGE de 2 dígitos em texto (00 = não identificado).
+	column 'Código UF'
+		dataType: string
+		lineageTag: a20eb803-f138-4bc8-801b-48e90026ed10
+		sourceColumn: codigo_uf
+
+	column Sigla
+		dataType: string
+		lineageTag: 8d7c0e89-34d3-4882-a6b7-2203cc1172f4
+		sourceColumn: sigla
+
+	column Nome
+		dataType: string
+		lineageTag: 11b8543e-1dc2-4fbe-b39f-ee6d0d7ea08e
+		dataCategory: State
+		sourceColumn: nome
+
+	/// real = unidade federativa; pseudo = resíduo nacional (UF:00).
+	column Tipo
+		dataType: string
+		lineageTag: e49bb45e-e305-4b14-8d6e-d710a205f5ca
+		sourceColumn: tipo
+
+	column Fonte
+		dataType: string
+		isHidden
+		lineageTag: ed56faf6-f848-440d-8f9c-118432413757
+		sourceColumn: fonte
+
+	column Validação
+		dataType: string
+		isHidden
+		lineageTag: 1ba8184a-011e-406a-add1-24f296b95b15
+		sourceColumn: validacao
+
+	column 'Desvio total'
+		dataType: double
+		isHidden
+		lineageTag: 5191e471-1f1b-4214-ac78-783a16b106a8
+		summarizeBy: sum
+		sourceColumn: desvio_total
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition UF = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\dims\dim_uf.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"uf_id", type text}, {"codigo_uf", type text}, {"sigla", type text}, {"nome", type text}, {"tipo", type text}, {"fonte", type text}, {"validacao", type text}, {"desvio_total", type number}}, "en-US")
+				in
+				    Tipos
+

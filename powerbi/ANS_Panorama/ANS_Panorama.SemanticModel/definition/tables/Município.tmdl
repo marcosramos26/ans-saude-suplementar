@@ -1,0 +1,75 @@
+/// 5.599 registros: 5.571 municípios com código IBGE, 26 rótulos 'ignorado na UF', exterior e 1 membro provisório (risco R2). Código IBGE em texto, sem zeros perdidos.
+table Município
+	lineageTag: c185c2ce-fcaf-4a4a-ac02-af2363588d78
+
+	column municipio_id
+		dataType: string
+		isHidden
+		lineageTag: 43fafb27-2059-4b69-a44f-246aebfb5f61
+		sourceColumn: municipio_id
+
+	column 'Código IBGE'
+		dataType: string
+		lineageTag: dd3fdbf8-7482-4c54-86f8-41080d94d301
+		sourceColumn: codigo_ibge
+
+	column Nome
+		dataType: string
+		lineageTag: 35787882-7e97-4fde-9582-e8986b4bbda5
+		sourceColumn: nome
+
+	column 'UF código'
+		dataType: string
+		isHidden
+		lineageTag: 1decb989-68ff-475d-958d-65d6b124065a
+		sourceColumn: uf_codigo
+
+	/// municipio = território real; ignorado_uf / ignorado_exterior / provisorio = rótulos de resíduo, não são territórios.
+	column Tipo
+		dataType: string
+		lineageTag: 32446540-9949-4bfc-8c64-98941a4cdf6c
+		sourceColumn: tipo
+
+	column 'Código inconsistente'
+		dataType: int64
+		isHidden
+		lineageTag: d097af36-c74b-4fc1-9646-9e5ecc7f46eb
+		summarizeBy: none
+		sourceColumn: flag_codigo_inconsistente
+
+	column 'Classificação provisória'
+		dataType: int64
+		isHidden
+		lineageTag: 1f350a77-83cc-4d27-bdab-db8bec9ad3fd
+		summarizeBy: none
+		sourceColumn: classificacao_provisoria
+
+	column 'Código de origem'
+		dataType: string
+		isHidden
+		lineageTag: a2daacd6-d014-4c2d-8906-932ec0d417bf
+		sourceColumn: codigo_origem
+
+	column 'Colide com nome de UF'
+		dataType: int64
+		isHidden
+		lineageTag: 943aa575-1284-4bca-a46c-b60288a24522
+		summarizeBy: none
+		sourceColumn: colide_com_nome_de_uf
+
+	column Origem
+		dataType: string
+		isHidden
+		lineageTag: 793c7699-d36d-47b3-a6cf-dcf5880de1cb
+		sourceColumn: origem
+
+	partition Município = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\dims\dim_municipio.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"municipio_id", type text}, {"codigo_ibge", type text}, {"nome", type text}, {"uf_codigo", type text}, {"tipo", type text}, {"flag_codigo_inconsistente", Int64.Type}, {"classificacao_provisoria", Int64.Type}, {"codigo_origem", type text}, {"colide_com_nome_de_uf", Int64.Type}, {"origem", type text}}, "en-US")
+				in
+				    Tipos
+

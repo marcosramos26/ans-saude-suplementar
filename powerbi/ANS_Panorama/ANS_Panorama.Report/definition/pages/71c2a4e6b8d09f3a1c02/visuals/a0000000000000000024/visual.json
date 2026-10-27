@@ -1,0 +1,304 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "a0000000000000000024",
+  "position": {
+    "x": 24,
+    "y": 246,
+    "z": 1003,
+    "height": 454,
+    "width": 404,
+    "tabOrder": 3
+  },
+  "visual": {
+    "visualType": "deneb7E15AEF80B9E4D4F8E12924291ECE89A",
+    "query": {
+      "queryState": {
+        "dataset": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "UF"
+                    }
+                  },
+                  "Property": "Sigla"
+                }
+              },
+              "queryRef": "UF.Sigla",
+              "nativeQueryRef": "sigla",
+              "displayName": "sigla"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "UF"
+                    }
+                  },
+                  "Property": "Nome"
+                }
+              },
+              "queryRef": "UF.Nome",
+              "nativeQueryRef": "nome",
+              "displayName": "nome"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Cobertura por UF e ano"
+                    }
+                  },
+                  "Property": "Média simples das taxas (UF)"
+                }
+              },
+              "queryRef": "Cobertura por UF e ano.Média simples das taxas (UF)",
+              "nativeQueryRef": "cob",
+              "displayName": "cob"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Vínculos por UF e competência"
+                    }
+                  },
+                  "Property": "Vínculos (assistência médica)"
+                }
+              },
+              "queryRef": "Vínculos por UF e competência.Vínculos (assistência médica)",
+              "nativeQueryRef": "vinculos",
+              "displayName": "vinculos"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Vínculos por UF e competência"
+                    }
+                  },
+                  "Property": "Participação da UF no total"
+                }
+              },
+              "queryRef": "Vínculos por UF e competência.Participação da UF no total",
+              "nativeQueryRef": "part",
+              "displayName": "part"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "vega": [
+        {
+          "properties": {
+            "jsonSpec": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"$schema\": \"https://vega.github.io/schema/vega-lite/v5.json\", \"data\": {\"name\": \"dataset\"}, \"width\": \"container\", \"height\": \"container\", \"padding\": {\"left\": 2, \"right\": 2, \"top\": 2, \"bottom\": 2}, \"transform\": [{\"lookup\": \"sigla\", \"from\": {\"data\": {\"values\": [{\"sigla\": \"RR\", \"c\": 1, \"r\": 0}, {\"sigla\": \"AP\", \"c\": 3, \"r\": 0}, {\"sigla\": \"AC\", \"c\": 0, \"r\": 1}, {\"sigla\": \"AM\", \"c\": 1, \"r\": 1}, {\"sigla\": \"PA\", \"c\": 2, \"r\": 1}, {\"sigla\": \"MA\", \"c\": 3, \"r\": 1}, {\"sigla\": \"CE\", \"c\": 4, \"r\": 1}, {\"sigla\": \"RN\", \"c\": 5, \"r\": 1}, {\"sigla\": \"RO\", \"c\": 1, \"r\": 2}, {\"sigla\": \"MT\", \"c\": 2, \"r\": 2}, {\"sigla\": \"TO\", \"c\": 3, \"r\": 2}, {\"sigla\": \"PI\", \"c\": 4, \"r\": 2}, {\"sigla\": \"PB\", \"c\": 5, \"r\": 2}, {\"sigla\": \"MS\", \"c\": 1, \"r\": 3}, {\"sigla\": \"GO\", \"c\": 2, \"r\": 3}, {\"sigla\": \"DF\", \"c\": 3, \"r\": 3}, {\"sigla\": \"BA\", \"c\": 4, \"r\": 3}, {\"sigla\": \"PE\", \"c\": 5, \"r\": 3}, {\"sigla\": \"PR\", \"c\": 1, \"r\": 4}, {\"sigla\": \"SP\", \"c\": 2, \"r\": 4}, {\"sigla\": \"MG\", \"c\": 3, \"r\": 4}, {\"sigla\": \"ES\", \"c\": 4, \"r\": 4}, {\"sigla\": \"AL\", \"c\": 5, \"r\": 4}, {\"sigla\": \"SC\", \"c\": 1, \"r\": 5}, {\"sigla\": \"RJ\", \"c\": 3, \"r\": 5}, {\"sigla\": \"SE\", \"c\": 5, \"r\": 5}, {\"sigla\": \"RS\", \"c\": 1, \"r\": 6}]}, \"key\": \"sigla\", \"fields\": [\"c\", \"r\"]}}, {\"filter\": \"isValid(datum.c)\"}, {\"calculate\": \"replace(format(datum.cob, ''.1f''), ''.'', '','') + ''%''\", \"as\": \"lblCob\"}, {\"calculate\": \"replace(format(datum.vinculos / 1e6, ''.2f''), ''.'', '','') + '' mi''\", \"as\": \"lblVin\"}, {\"calculate\": \"replace(format(datum.part * 100, ''.1f''), ''.'', '','') + ''%''\", \"as\": \"lblPart\"}], \"encoding\": {\"x\": {\"field\": \"c\", \"type\": \"ordinal\", \"scale\": {\"domain\": [0, 1, 2, 3, 4, 5], \"paddingInner\": 0.1, \"paddingOuter\": 0.05}, \"axis\": null}, \"y\": {\"field\": \"r\", \"type\": \"ordinal\", \"scale\": {\"domain\": [0, 1, 2, 3, 4, 5, 6], \"paddingInner\": 0.1, \"paddingOuter\": 0.05}, \"axis\": null}, \"tooltip\": [{\"field\": \"nome\", \"title\": \"UF\"}, {\"field\": \"lblCob\", \"title\": \"Cobertura\"}, {\"field\": \"lblVin\", \"title\": \"Vínculos\"}, {\"field\": \"lblPart\", \"title\": \"Participação no Brasil\"}]}, \"layer\": [{\"mark\": {\"type\": \"rect\", \"cornerRadius\": 5, \"cursor\": \"pointer\"}, \"encoding\": {\"color\": {\"field\": \"cob\", \"type\": \"quantitative\", \"scale\": {\"range\": [\"#E6EFEE\", \"#0E6E6B\"], \"zero\": false}, \"legend\": {\"title\": \"Cobertura (%)\", \"orient\": \"bottom-right\", \"direction\": \"horizontal\", \"gradientLength\": 110, \"gradientThickness\": 8, \"labelExpr\": \"format(datum.value, ''.0f'') + ''%''\", \"titleOrient\": \"top\"}}, \"opacity\": {\"condition\": {\"test\": \"datum.__selected__ == ''off''\", \"value\": 0.3}, \"value\": 1}}}, {\"mark\": {\"type\": \"text\", \"dy\": -6, \"fontSize\": 13, \"fontWeight\": 600}, \"encoding\": {\"text\": {\"field\": \"sigla\"}, \"color\": {\"condition\": {\"test\": \"datum.cob >= 24\", \"value\": \"#FFFFFF\"}, \"value\": \"#16181D\"}, \"opacity\": {\"condition\": {\"test\": \"datum.__selected__ == ''off''\", \"value\": 0.35}, \"value\": 1}}}, {\"mark\": {\"type\": \"text\", \"dy\": 8, \"fontSize\": 10}, \"encoding\": {\"text\": {\"field\": \"lblCob\"}, \"color\": {\"condition\": {\"test\": \"datum.cob >= 24\", \"value\": \"#E6EFEE\"}, \"value\": \"#5B6170\"}, \"opacity\": {\"condition\": {\"test\": \"datum.__selected__ == ''off''\", \"value\": 0.35}, \"value\": 1}}}]}'"
+                }
+              }
+            },
+            "jsonConfig": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"autosize\": {\"type\": \"fit\", \"contains\": \"padding\"}, \"view\": {\"stroke\": null}, \"background\": null, \"font\": \"Segoe UI\", \"axis\": {\"labelFont\": \"Segoe UI\", \"labelFontSize\": 10, \"labelColor\": \"#8A8F99\", \"gridColor\": \"#EEECE6\", \"gridWidth\": 1, \"domainColor\": \"#E2DFD7\", \"tickColor\": \"#E2DFD7\", \"titleColor\": \"#5B6170\"}, \"axisX\": {\"grid\": false}, \"legend\": {\"labelFont\": \"Segoe UI\", \"labelFontSize\": 10, \"labelColor\": \"#5B6170\", \"titleFont\": \"Segoe UI\", \"titleFontSize\": 10, \"titleColor\": \"#5B6170\", \"titleFontWeight\": 400}, \"text\": {\"font\": \"Segoe UI\"}}'"
+                }
+              }
+            },
+            "provider": {
+              "expr": {
+                "Literal": {
+                  "Value": "'vegaLite'"
+                }
+              }
+            },
+            "version": {
+              "expr": {
+                "Literal": {
+                  "Value": "'5.21.0'"
+                }
+              }
+            },
+            "renderMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'svg'"
+                }
+              }
+            },
+            "enableTooltips": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "enableContextMenu": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "enableSelection": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "enableHighlight": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Cobertura de planos de saúde por UF'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Beneficiários ÷ população  ·  clique numa UF para ver o perfil'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "UF"
+              }
+            },
+            "Property": "Tipo"
+          }
+        },
+        "howCreated": "User",
+        "name": "Filter0000000000000000000000d1",
+        "type": "Categorical",
+        "filter": {
+          "Version": 2,
+          "From": [
+            {
+              "Name": "u",
+              "Entity": "UF",
+              "Type": 0
+            }
+          ],
+          "Where": [
+            {
+              "Condition": {
+                "In": {
+                  "Expressions": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "u"
+                          }
+                        },
+                        "Property": "Tipo"
+                      }
+                    }
+                  ],
+                  "Values": [
+                    [
+                      {
+                        "Literal": {
+                          "Value": "'real'"
+                        }
+                      }
+                    ]
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

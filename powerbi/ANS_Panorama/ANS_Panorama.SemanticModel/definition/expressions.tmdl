@@ -1,0 +1,4 @@
+/// Parâmetro do Power Query: pasta local da camada curated/ (CSV UTF-8 com BOM, separador ;, decimal ponto). Ao clonar o projeto, troque em Transformar dados > Editar parâmetros.
+expression PastaCurated = "C:\Users\DELL\Documents\Projetos\Github\ANS_Saude_Suplementar\curated" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: c5ce0d77-476e-45c9-9163-00363fc3401f
+

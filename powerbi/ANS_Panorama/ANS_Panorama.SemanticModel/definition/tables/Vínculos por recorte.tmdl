@@ -1,0 +1,183 @@
+/// Cortes demográficos e de contratação do total nacional e das grandes regiões. Recortes se sobrepõem: cada medida fixa exatamente um recorte e um nível geográfico.
+table 'Vínculos por recorte'
+	lineageTag: d169511d-4262-4775-91b0-4788c17692ab
+
+	/// Internal: soma crua do fato de recortes. Soma níveis geográficos e recortes sobrepostos, portanto NÃO usar em visuais. Serve apenas de base para as medidas fixadas. Estoque: com mais de uma competência no filtro, devolve a competência trimestral mais recente do filtro (nunca soma trimestres).
+	measure 'Vínculos recorte (base)' =
+			VAR _ord =
+			    CALCULATE ( MAX ( 'Período'[Ordem] ), 'Período'[Tipo de granularidade] = "trimestral" )
+			RETURN
+			    CALCULATE ( SUM ( 'Vínculos por recorte'[Vínculos] ), 'Período'[Ordem] = _ord )
+		formatString: #,##0
+		isHidden
+		lineageTag: 46629f03-f068-4933-88f4-508a41289df0
+
+	/// Vínculos do total nacional por sexo (recorte=sexo, nível BRASIL). Não somar com outros recortes.
+	measure 'Vínculos por sexo' =
+			CALCULATE (
+			    [Vínculos recorte (base)],
+			    'Vínculos por recorte'[Recorte] = "sexo",
+			    'Vínculos por recorte'[Nível geográfico] = "BRASIL"
+			)
+		formatString: #,##0
+		lineageTag: 98cd90f3-4d02-46cd-a225-3ae70b3a6ee3
+
+	/// Vínculos do total nacional por faixa etária (recorte=faixa_etaria, nível BRASIL). Não somar com outros recortes.
+	measure 'Vínculos por faixa etária' =
+			CALCULATE (
+			    [Vínculos recorte (base)],
+			    'Vínculos por recorte'[Recorte] = "faixa_etaria",
+			    'Vínculos por recorte'[Nível geográfico] = "BRASIL"
+			)
+		formatString: #,##0
+		lineageTag: 72aa263e-fdab-4a97-b21c-39dbb1ed3a60
+
+	/// Vínculos do total nacional por faixa etária e sexo (recorte=faixa_etaria_sexo, nível BRASIL). Usar com as colunas de faixa e sexo da dimensão Recorte de vínculos.
+	measure 'Vínculos por faixa etária e sexo' =
+			CALCULATE (
+			    [Vínculos recorte (base)],
+			    'Vínculos por recorte'[Recorte] = "faixa_etaria_sexo",
+			    'Vínculos por recorte'[Nível geográfico] = "BRASIL"
+			)
+		formatString: #,##0
+		lineageTag: 903d6fd8-8b76-4621-9cb1-eca3517be2d5
+
+	/// Vínculos do total nacional por modalidade de operadora (recorte=modalidade, nível BRASIL).
+	measure 'Vínculos por modalidade' =
+			CALCULATE (
+			    [Vínculos recorte (base)],
+			    'Vínculos por recorte'[Recorte] = "modalidade",
+			    'Vínculos por recorte'[Nível geográfico] = "BRASIL"
+			)
+		formatString: #,##0
+		lineageTag: f5942c10-5dfa-430d-b4fc-97bc97f401e4
+
+	/// Vínculos do total nacional por segmentação (recorte=segmentacao_grupo, nível BRASIL).
+	measure 'Vínculos por segmentação' =
+			CALCULATE (
+			    [Vínculos recorte (base)],
+			    'Vínculos por recorte'[Recorte] = "segmentacao_grupo",
+			    'Vínculos por recorte'[Nível geográfico] = "BRASIL"
+			)
+		formatString: #,##0
+		lineageTag: ab73787e-272c-40de-ace9-ea694d89fa3b
+
+	/// Vínculos do total nacional por tipo de contratação (recorte=tipo_contratacao, nível BRASIL).
+	measure 'Vínculos por tipo de contratação' =
+			CALCULATE (
+			    [Vínculos recorte (base)],
+			    'Vínculos por recorte'[Recorte] = "tipo_contratacao",
+			    'Vínculos por recorte'[Nível geográfico] = "BRASIL"
+			)
+		formatString: #,##0
+		lineageTag: 5c32fd21-3467-4e2c-b4cc-0b3c8f467177
+
+	/// Vínculos por tipo de contratação no nível UF (recorte=tipo_contratacao, nível UF). Usar com a dimensão UF; a soma das UFs reproduz o total nacional.
+	measure 'Vínculos por tipo de contratação por UF' =
+			CALCULATE (
+			    [Vínculos recorte (base)],
+			    'Vínculos por recorte'[Recorte] = "tipo_contratacao",
+			    'Vínculos por recorte'[Nível geográfico] = "UF"
+			)
+		formatString: #,##0
+		lineageTag: ad5b16ee-4512-4985-be56-a337a7c2be93
+
+	/// Vínculos por grande região (recorte=grande_regiao, nível REGIAO). Usar com a dimensão Região.
+	measure 'Vínculos por grande região' =
+			CALCULATE (
+			    [Vínculos recorte (base)],
+			    'Vínculos por recorte'[Recorte] = "grande_regiao",
+			    'Vínculos por recorte'[Nível geográfico] = "REGIAO"
+			)
+		formatString: #,##0
+		lineageTag: 5587df83-91e4-424a-abf6-5cee8986a9e3
+
+	/// Teste de reconciliação: total do recorte sexo (BRASIL) menos total do fato de UF na mesma competência (deve ser 0).
+	measure 'Diferença recorte vs total UF' =
+			VAR _pid =
+			    CALCULATE ( MAX ( 'Vínculos por UF e competência'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _rec =
+			    CALCULATE (
+			        [Vínculos recorte (base)],
+			        'Vínculos por recorte'[Recorte] = "sexo",
+			        'Vínculos por recorte'[Nível geográfico] = "BRASIL",
+			        'Período'[periodo_id] = _pid
+			    )
+			VAR _uf =
+			    CALCULATE ( [Vínculos (assistência médica)], 'Período'[periodo_id] = _pid )
+			RETURN
+			    _rec - _uf
+		formatString: #,##0
+		lineageTag: 696b8344-b2a7-4db6-853d-3fb311b70c6a
+
+	column periodo_id
+		dataType: string
+		isHidden
+		lineageTag: ac6975f4-02ce-47ef-9457-362ca669f47f
+		sourceColumn: periodo_id
+
+	column 'Nível geográfico'
+		dataType: string
+		isHidden
+		lineageTag: c7d2cc99-edd8-4e36-a584-804a4846265e
+		sourceColumn: nivel_geografico
+
+	column geo_id
+		dataType: string
+		isHidden
+		lineageTag: 188f59e1-d099-464c-abb2-39c85fa6636a
+		sourceColumn: geo_id
+
+	/// Preenchida apenas nas linhas de UF (chave derivada do recorte tipo de contratação).
+	column uf_id
+		dataType: string
+		isHidden
+		lineageTag: 8a01f47e-2c95-4d95-86d2-771924d8c94e
+		sourceColumn: uf_id
+
+	/// Preenchida apenas nas linhas de grande região.
+	column regiao_id
+		dataType: string
+		isHidden
+		lineageTag: 0e8be967-92bb-4f3e-9b28-9edb3f24246c
+		sourceColumn: regiao_id
+
+	column Recorte
+		dataType: string
+		isHidden
+		lineageTag: ba88c7a9-cf9e-4f40-8780-e2678a8a436f
+		sourceColumn: recorte
+
+	column membro_id
+		dataType: string
+		isHidden
+		lineageTag: 9f14d3ae-1ca9-4b8f-b76c-9c523043cf63
+		sourceColumn: membro_id
+
+	column Membro
+		dataType: string
+		isHidden
+		lineageTag: 188bb325-308d-4a3c-af34-5412f214037a
+		sourceColumn: membro
+
+	/// Vínculos do recorte. Base (medida Assistência Médica) única deste fato.
+	column Vínculos
+		dataType: int64
+		formatString: #,##0
+		lineageTag: d9492f53-ae6a-4794-bd21-52d9b81e2e00
+		summarizeBy: sum
+		sourceColumn: vinculos
+
+	partition 'Vínculos por recorte' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\fatos\fato_beneficiarios_recorte_competencia.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"periodo_id", type text}, {"nivel_geografico", type text}, {"geo_id", type text}, {"recorte", type text}, {"membro_id", type text}, {"membro", type text}, {"vinculos", Int64.Type}, {"medida", type text}}, "en-US"),
+				    UfId = Table.AddColumn(Tipos, "uf_id", each if [nivel_geografico] = "UF" then [geo_id] else null, type text),
+				    RegiaoId = Table.AddColumn(UfId, "regiao_id", each if [nivel_geografico] = "REGIAO" then [geo_id] else null, type text),
+				    Final = Table.SelectColumns(RegiaoId, {"periodo_id", "nivel_geografico", "geo_id", "recorte", "membro_id", "membro", "vinculos", "uf_id", "regiao_id"})
+				in
+				    Final
+

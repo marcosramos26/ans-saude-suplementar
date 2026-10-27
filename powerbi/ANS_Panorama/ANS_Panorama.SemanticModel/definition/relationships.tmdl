@@ -1,0 +1,105 @@
+relationship Período-uf
+	fromColumn: 'Vínculos por UF e competência'.periodo_id
+	toColumn: Período.periodo_id
+
+relationship Período-recorte
+	fromColumn: 'Vínculos por recorte'.periodo_id
+	toColumn: Período.periodo_id
+
+relationship Período-particao
+	fromColumn: 'Vínculos por partição'.periodo_id
+	toColumn: Período.periodo_id
+
+relationship Período-capital
+	fromColumn: 'Vínculos por capital'.periodo_id
+	toColumn: Período.periodo_id
+
+relationship Período-municipio
+	fromColumn: 'Vínculos por município'.periodo_id
+	toColumn: Período.periodo_id
+
+relationship Período-operadora
+	fromColumn: 'Vínculos por operadora'.periodo_id
+	toColumn: Período.periodo_id
+
+relationship Período-cobertura-uf
+	fromColumn: 'Cobertura por UF e ano'.periodo_id
+	toColumn: Período.periodo_id
+
+relationship Período-cobertura-municipio
+	fromColumn: 'Cobertura por município e ano'.periodo_id
+	toColumn: Período.periodo_id
+
+relationship Período-receita-operadora
+	fromColumn: 'Receitas por operadora e ano'.periodo_id
+	toColumn: Período.periodo_id
+
+relationship Período-receita-modalidade
+	fromColumn: 'Receitas por modalidade e ano'.periodo_id
+	toColumn: Período.periodo_id
+
+relationship UF-uf_competencia
+	fromColumn: 'Vínculos por UF e competência'.uf_id
+	toColumn: UF.uf_id
+
+relationship UF-municipio
+	fromColumn: 'Vínculos por município'.uf_id
+	toColumn: UF.uf_id
+
+relationship UF-cobertura_uf
+	fromColumn: 'Cobertura por UF e ano'.uf_id
+	toColumn: UF.uf_id
+
+relationship UF-cobertura_municipio
+	fromColumn: 'Cobertura por município e ano'.uf_id
+	toColumn: UF.uf_id
+
+relationship UF-recorte
+	fromColumn: 'Vínculos por recorte'.uf_id
+	toColumn: UF.uf_id
+
+relationship Regiao-recorte
+	fromColumn: 'Vínculos por recorte'.regiao_id
+	toColumn: Região.regiao_id
+
+relationship Municipio-vinculos
+	fromColumn: 'Vínculos por município'.municipio_id
+	toColumn: Município.municipio_id
+
+relationship Municipio-cobertura
+	fromColumn: 'Cobertura por município e ano'.municipio_id
+	toColumn: Município.municipio_id
+
+relationship Capital-vinculos
+	fromColumn: 'Vínculos por capital'.capital_id
+	toColumn: Capital.capital_id
+
+relationship Operadora-vinculos
+	fromColumn: 'Vínculos por operadora'.operadora_id
+	toColumn: Operadora.operadora_id
+
+relationship Operadora-receitas
+	fromColumn: 'Receitas por operadora e ano'.operadora_id
+	toColumn: Operadora.operadora_id
+
+relationship Modalidade-receitas
+	fromColumn: 'Receitas por modalidade e ano'.modalidade_id
+	toColumn: Modalidade.modalidade_id
+
+relationship Particao-vinculos
+	fromColumn: 'Vínculos por partição'.particao_id
+	toColumn: 'Partição territorial'.particao_id
+
+relationship Recorte-vinculos
+	fromColumn: 'Vínculos por recorte'.membro_id
+	toColumn: 'Recorte de vínculos'.membro_id
+
+relationship UF-capital
+	fromColumn: Capital.uf_id
+	toColumn: UF.uf_id
+
+relationship c66bb51c-b357-4423-ace7-94d07a78da0a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Período.'Data de referência'
+	toColumn: LocalDateTable_910adea6-41a8-44c1-aaed-a3cc169e212d.Date
+

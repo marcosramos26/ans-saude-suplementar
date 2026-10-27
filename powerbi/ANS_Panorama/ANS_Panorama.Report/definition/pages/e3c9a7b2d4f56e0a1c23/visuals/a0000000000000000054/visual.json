@@ -1,0 +1,285 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "a0000000000000000054",
+  "position": {
+    "x": 24,
+    "y": 246,
+    "z": 1003,
+    "height": 454,
+    "width": 520,
+    "tabOrder": 3
+  },
+  "visual": {
+    "visualType": "deneb7E15AEF80B9E4D4F8E12924291ECE89A",
+    "query": {
+      "queryState": {
+        "dataset": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Operadora"
+                    }
+                  },
+                  "Property": "Código"
+                }
+              },
+              "queryRef": "Operadora.Código",
+              "nativeQueryRef": "codigo",
+              "displayName": "codigo"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Operadora"
+                    }
+                  },
+                  "Property": "Nome curto"
+                }
+              },
+              "queryRef": "Operadora.Nome curto",
+              "nativeQueryRef": "nome",
+              "displayName": "nome"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Vínculos por operadora"
+                    }
+                  },
+                  "Property": "Vínculos das operadoras"
+                }
+              },
+              "queryRef": "Vínculos por operadora.Vínculos das operadoras",
+              "nativeQueryRef": "vin",
+              "displayName": "vin"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Vínculos por operadora"
+                    }
+                  },
+                  "Property": "Vínculos das operadoras - ano anterior"
+                }
+              },
+              "queryRef": "Vínculos por operadora.Vínculos das operadoras - ano anterior",
+              "nativeQueryRef": "ant",
+              "displayName": "ant"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "vega": [
+        {
+          "properties": {
+            "jsonSpec": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"$schema\": \"https://vega.github.io/schema/vega-lite/v5.json\", \"data\": {\"name\": \"dataset\"}, \"width\": \"container\", \"height\": \"container\", \"padding\": {\"left\": 2, \"right\": 8, \"top\": 24, \"bottom\": 20}, \"transform\": [{\"filter\": \"datum.vin > 0\"}, {\"joinaggregate\": [{\"op\": \"sum\", \"field\": \"vin\", \"as\": \"tot\"}]}, {\"calculate\": \"datum.vin / datum.tot\", \"as\": \"share\"}, {\"window\": [{\"op\": \"row_number\", \"as\": \"rank\"}], \"sort\": [{\"field\": \"vin\", \"order\": \"descending\"}]}, {\"calculate\": \"datum.ant > 0 ? datum.vin / datum.ant - 1 : null\", \"as\": \"var\"}, {\"calculate\": \"(datum.vin >= 1e6 ? replace(format(datum.vin/1e6,''.2f''),''.'','','') + '' mi'' : format(datum.vin/1e3,''.0f'') + '' mil'') + ''  ·  '' + replace(format(datum.share*100,''.1f''),''.'','','') + ''%''\", \"as\": \"lbl\"}, {\"calculate\": \"isValid(datum.var) ? (datum.var >= 0 ? ''▲ '' : ''▼ '') + replace(format(abs(datum.var)*100,''.1f''),''.'','','') + ''%'' : ''nova''\", \"as\": \"lblVar\"}, {\"calculate\": \"replace(format(datum.vin, '',.0f''), '','', ''.'')\", \"as\": \"lblFull\"}, {\"calculate\": \"replace(format(datum.ant, '',.0f''), '','', ''.'')\", \"as\": \"lblAnt\"}], \"layer\": [{\"transform\": [{\"filter\": \"datum.rank <= 15\"}], \"encoding\": {\"y\": {\"field\": \"nome\", \"type\": \"nominal\", \"sort\": {\"field\": \"vin\", \"order\": \"descending\"}, \"scale\": {\"paddingInner\": 0.3}, \"axis\": {\"title\": null, \"domain\": false, \"ticks\": false, \"labelFontSize\": 10, \"labelColor\": \"#5B6170\", \"labelLimit\": 200, \"labelPadding\": 6}}, \"x\": {\"field\": \"vin\", \"type\": \"quantitative\", \"axis\": null}, \"tooltip\": [{\"field\": \"nome\", \"title\": \"Operadora\"}, {\"field\": \"lblFull\", \"title\": \"Vínculos\"}, {\"field\": \"lblAnt\", \"title\": \"Um ano antes\"}, {\"field\": \"lblVar\", \"title\": \"Variação 12 meses\"}]}, \"layer\": [{\"mark\": {\"type\": \"bar\", \"cornerRadiusEnd\": 2}, \"encoding\": {\"color\": {\"condition\": {\"test\": \"datum.rank <= 5\", \"value\": \"#0E6E6B\"}, \"value\": \"#9FC2BD\"}}}, {\"mark\": {\"type\": \"text\", \"align\": \"left\", \"dx\": 5, \"fontSize\": 9, \"color\": \"#16181D\"}, \"encoding\": {\"text\": {\"field\": \"lbl\"}}}, {\"mark\": {\"type\": \"text\", \"align\": \"right\", \"fontSize\": 9, \"fontWeight\": 600}, \"encoding\": {\"text\": {\"field\": \"lblVar\"}, \"x\": {\"value\": {\"expr\": \"width + 112\"}}, \"color\": {\"condition\": {\"test\": \"datum.var < 0\", \"value\": \"#C0513A\"}, \"value\": \"#0B5754\"}}}]}, {\"transform\": [{\"filter\": \"datum.rank == 1\"}], \"mark\": {\"type\": \"text\", \"align\": \"right\", \"baseline\": \"bottom\", \"fontSize\": 10, \"color\": \"#8A8F99\"}, \"encoding\": {\"text\": {\"value\": \"em 12 meses\"}, \"x\": {\"value\": {\"expr\": \"width + 112\"}}, \"y\": {\"value\": -8}}}, {\"transform\": [{\"filter\": \"datum.rank > 15\"}, {\"aggregate\": [{\"op\": \"sum\", \"field\": \"share\", \"as\": \"s\"}, {\"op\": \"count\", \"as\": \"n\"}]}, {\"calculate\": \"''+ '' + datum.n + '' operadoras somam '' + replace(format(datum.s*100,''.1f''),''.'','','') + ''% dos vínculos''\", \"as\": \"t\"}], \"mark\": {\"type\": \"text\", \"align\": \"left\", \"baseline\": \"top\", \"fontSize\": 10, \"color\": \"#8A8F99\"}, \"encoding\": {\"text\": {\"field\": \"t\"}, \"x\": {\"value\": 0}, \"y\": {\"value\": {\"expr\": \"height + 8\"}}}}]}'"
+                }
+              }
+            },
+            "jsonConfig": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"autosize\": {\"type\": \"fit\", \"contains\": \"padding\"}, \"view\": {\"stroke\": null}, \"background\": null, \"font\": \"Segoe UI\", \"axis\": {\"labelFont\": \"Segoe UI\", \"labelFontSize\": 10, \"labelColor\": \"#8A8F99\", \"gridColor\": \"#EEECE6\", \"gridWidth\": 1, \"domainColor\": \"#E2DFD7\", \"tickColor\": \"#E2DFD7\", \"titleColor\": \"#5B6170\"}, \"axisX\": {\"grid\": false}, \"legend\": {\"labelFont\": \"Segoe UI\", \"labelFontSize\": 10, \"labelColor\": \"#5B6170\", \"titleFont\": \"Segoe UI\", \"titleFontSize\": 10, \"titleColor\": \"#5B6170\", \"titleFontWeight\": 400}, \"text\": {\"font\": \"Segoe UI\"}}'"
+                }
+              }
+            },
+            "provider": {
+              "expr": {
+                "Literal": {
+                  "Value": "'vegaLite'"
+                }
+              }
+            },
+            "version": {
+              "expr": {
+                "Literal": {
+                  "Value": "'6.4.3'"
+                }
+              }
+            },
+            "renderMode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'svg'"
+                }
+              }
+            },
+            "enableTooltips": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "enableContextMenu": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "enableSelection": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            },
+            "enableHighlight": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "stateManagement": [
+        {
+          "properties": {
+            "viewportHeight": {
+              "expr": {
+                "Literal": {
+                  "Value": "374D"
+                }
+              }
+            },
+            "viewportWidth": {
+              "expr": {
+                "Literal": {
+                  "Value": "486D"
+                }
+              }
+            },
+            "supportFieldConfiguration": {
+              "expr": {
+                "Literal": {
+                  "Value": "'{\"codigo\":{\"highlight\":false,\"highlightStatus\":false,\"highlightComparator\":false,\"format\":false,\"formatted\":false,\"names\":false},\"nome\":{\"highlight\":false,\"highlightStatus\":false,\"highlightComparator\":false,\"format\":false,\"formatted\":false,\"names\":false},\"vin\":{\"highlight\":false,\"highlightStatus\":false,\"highlightComparator\":false,\"format\":true,\"formatted\":true,\"names\":false},\"ant\":{\"highlight\":false,\"highlightStatus\":false,\"highlightComparator\":false,\"format\":true,\"formatted\":true,\"names\":false}}'"
+                }
+              }
+            },
+            "denebMetaVersion": {
+              "expr": {
+                "Literal": {
+                  "Value": "'2'"
+                }
+              }
+            },
+            "consolidateFieldParameters": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "developer": [
+        {
+          "properties": {
+            "version": {
+              "expr": {
+                "Literal": {
+                  "Value": "'2.0.0.0'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Maiores operadoras'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "padding": [
+        {
+          "properties": {
+            "top": {
+              "expr": {
+                "Literal": {
+                  "Value": "14D"
+                }
+              }
+            },
+            "bottom": {
+              "expr": {
+                "Literal": {
+                  "Value": "10D"
+                }
+              }
+            },
+            "left": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            },
+            "right": {
+              "expr": {
+                "Literal": {
+                  "Value": "16D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Vínculos e participação na última competência  ·  5 maiores em destaque'"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

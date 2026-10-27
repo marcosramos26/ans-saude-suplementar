@@ -1,0 +1,7 @@
+﻿regiao_id;nome;tipo;ordem
+REG:01;Centro Oeste;regiao;1
+REG:02;Nordeste;regiao;2
+REG:03;Norte;regiao;3
+REG:04;Não Identificado;pseudo;4
+REG:05;Sudeste;regiao;5
+REG:06;Sul;regiao;6

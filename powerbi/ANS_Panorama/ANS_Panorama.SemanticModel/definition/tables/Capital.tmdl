@@ -1,0 +1,52 @@
+/// 27 capitais estaduais. Subconjunto dos municípios: a soma das capitais não é o total nacional.
+table Capital
+	lineageTag: 984acf3e-53b7-4584-8060-c27dc83c232d
+
+	column capital_id
+		dataType: string
+		isHidden
+		lineageTag: 483226b1-2134-4a54-9563-0edd47cb5f13
+		sourceColumn: capital_id
+
+	column Nome
+		dataType: string
+		lineageTag: 20511c4c-5000-40dd-ba6d-2f5466722844
+		sourceColumn: nome
+		sortByColumn: 'Capital ordem'
+
+	column 'Capital ordem'
+		dataType: int64
+		isHidden
+		lineageTag: 5c6712a5-5c02-4f31-917a-c1f4e0acffbf
+		summarizeBy: none
+		sourceColumn: capital_ordem
+
+	column municipio_id
+		dataType: string
+		isHidden
+		lineageTag: 46f518d8-af83-44c7-bdea-58aaa7b3b4b1
+		sourceColumn: municipio_id
+
+	column Resolução
+		dataType: string
+		isHidden
+		lineageTag: 55adc140-27ca-4faf-bd7b-242d968a0831
+		sourceColumn: resolucao
+
+	column uf_id
+		dataType: string
+		isHidden
+		lineageTag: 0189dce1-143c-475f-84d5-919b3bd8c709
+		sourceColumn: uf_id
+
+	partition Capital = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\dims\dim_capital.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"capital_id", type text}, {"nome", type text}, {"capital_ordem", Int64.Type}, {"municipio_id", type text}, {"resolucao", type text}}, "en-US"),
+				    ComUF = Table.AddColumn(Tipos, "uf_id", each "UF:" & Text.Middle([municipio_id], 4, 2), type text)
+				in
+				    ComUF
+

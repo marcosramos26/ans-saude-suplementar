@@ -1,0 +1,29 @@
+﻿uf_id;codigo_uf;sigla;nome;tipo;fonte;validacao;desvio_total
+UF:00;00;XX;Não Identificado;pseudo;rotulo_municipio;bucket de residuo nacional (000000 Ignorado ou exterior);0
+UF:11;11;RO;Rondônia;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:12;12;AC;Acre;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:13;13;AM;Amazonas;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:14;14;RR;Roraima;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:15;15;PA;Pará;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:16;16;AP;Amapá;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:17;17;TO;Tocantins;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:21;21;MA;Maranhão;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:22;22;PI;Piauí;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:23;23;CE;Ceará;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:24;24;RN;Rio Grande do Norte;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:25;25;PB;Paraíba;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:26;26;PE;Pernambuco;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:27;27;AL;Alagoas;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:28;28;SE;Sergipe;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:29;29;BA;Bahia;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:31;31;MG;Minas Gerais;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:32;32;ES;Espírito Santo;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:33;33;RJ;Rio de Janeiro;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:35;35;SP;São Paulo;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:41;41;PR;Paraná;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:42;42;SC;Santa Catarina;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:43;43;RS;Rio Grande do Sul;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:50;50;MS;Mato Grosso do Sul;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:51;51;MT;Mato Grosso;real;reconciliacao_valores;21/21 competencias exatas;0.0
+UF:52;52;GO;Goiás;real;reconciliacao_valores;20/21 competencias exatas (desvio: ver R2);7.0
+UF:53;53;DF;Distrito Federal;real;reconciliacao_valores;21/21 competencias exatas;0.0

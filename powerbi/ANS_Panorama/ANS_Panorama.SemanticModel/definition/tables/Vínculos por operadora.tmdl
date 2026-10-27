@@ -1,0 +1,70 @@
+/// Grão: período x operadora. Cobre apenas as operadoras com vínculos no trimestre.
+table 'Vínculos por operadora'
+	lineageTag: ea535ba2-59f8-4c46-bbf5-e67515e6430d
+
+	/// Vínculos por operadora no período em contexto. Soma as operadoras com vínculos no trimestre. Estoque: com mais de uma competência no filtro, devolve a competência trimestral mais recente do filtro (nunca soma trimestres).
+	measure 'Vínculos das operadoras' =
+			VAR _ord =
+			    CALCULATE ( MAX ( 'Período'[Ordem] ), 'Período'[Tipo de granularidade] = "trimestral" )
+			RETURN
+			    CALCULATE ( SUM ( 'Vínculos por operadora'[Vínculos] ), 'Período'[Ordem] = _ord )
+		formatString: #,##0
+		lineageTag: 87c5ffbc-cfc5-424b-8aa6-4a3bc8081eb2
+
+	/// Quantidade de operadoras distintas com vínculos no período em contexto. Estoque: com mais de uma competência no filtro, devolve a competência trimestral mais recente do filtro (nunca soma trimestres). Conta só operadoras com vínculos > 0 (o fato traz linhas zeradas).
+	measure 'Operadoras com vínculos' =
+			VAR _ord =
+			    CALCULATE ( MAX ( 'Período'[Ordem] ), 'Período'[Tipo de granularidade] = "trimestral" )
+			RETURN
+			    CALCULATE ( DISTINCTCOUNT ( 'Vínculos por operadora'[operadora_id] ), 'Período'[Ordem] = _ord, 'Vínculos por operadora'[Vínculos] > 0 )
+		formatString: #,##0
+		lineageTag: d253f350-ac70-418d-a3a7-efefd66e92d2
+
+	/// Participação da operadora no total nacional do período em contexto.
+	measure 'Participação da operadora' =
+			DIVIDE (
+			    [Vínculos das operadoras],
+			    CALCULATE ( [Vínculos das operadoras], REMOVEFILTERS ( 'Operadora' ) )
+			)
+		formatString: 0.0%
+		lineageTag: 92ec9d42-9308-4763-9c78-903213e64320
+
+	/// Vínculos das operadoras na mesma competência do ano anterior (Ordem − 100) à competência mais recente do filtro. Base da variação em 12 meses por operadora.
+	measure 'Vínculos das operadoras - ano anterior' =
+			VAR _ord =
+			    CALCULATE ( MAX ( 'Período'[Ordem] ), 'Período'[Tipo de granularidade] = "trimestral" )
+			RETURN
+			    CALCULATE ( SUM ( 'Vínculos por operadora'[Vínculos] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _ord - 100 )
+		formatString: #,##0
+		lineageTag: 75c769a2-5641-40f8-ba44-ab11e7ad7976
+
+	column periodo_id
+		dataType: string
+		isHidden
+		lineageTag: cf65b695-c067-45d7-b552-e78f612fd460
+		sourceColumn: periodo_id
+
+	column operadora_id
+		dataType: string
+		isHidden
+		lineageTag: 77e2ce3f-841c-49e6-b192-abf8bca7dc19
+		sourceColumn: operadora_id
+
+	column Vínculos
+		dataType: int64
+		formatString: #,##0
+		lineageTag: 1aec41de-912b-4566-8c20-f18ae67479d8
+		summarizeBy: sum
+		sourceColumn: vinculos
+
+	partition 'Vínculos por operadora' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\fatos\fato_beneficiarios_operadora_competencia.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"periodo_id", type text}, {"operadora_id", type text}, {"vinculos", Int64.Type}, {"medida", type text}}, "en-US"),
+				    Final = Table.SelectColumns(Tipos, {"periodo_id", "operadora_id", "vinculos"})
+				in
+				    Final
+

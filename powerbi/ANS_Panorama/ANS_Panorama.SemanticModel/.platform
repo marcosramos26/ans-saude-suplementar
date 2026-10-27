@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "ANS_Panorama"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "f5436430-d319-42f8-b2f0-2e78a69dcda1"
+  }
+}

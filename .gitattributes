@@ -1,0 +1,5 @@
+# Dados e logs com checksum: preservar bytes exatos (sem conversão de fim de linha)
+*.csv -text
+*.jsonl -text
+*.json -text
+*.png binary

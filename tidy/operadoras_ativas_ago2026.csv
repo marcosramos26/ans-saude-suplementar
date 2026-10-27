@@ -1,0 +1,888 @@
+﻿dimensao;periodo;valor;medida;consulta;cadencia;granularidade;arquivo_origem
+000515-ALLIANZ SAÚDE S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+000582-PORTO SEGURO - SEGURO SAÚDE S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+000701-UNIMED SEGUROS SAÚDE S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+000884-ITAUSEG SAÚDE S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+005711-BRADESCO SAÚDE S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+006246-SUL AMERICA COMPANHIA DE SEGURO SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+300136-UNIMED LITORAL SUL/RS - COOPERATIVA DE ASSI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+300713-UNIMED DE ASSIS COOPERATIVA DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+300730-DENTAL GOLD ASSISTÊNCIA ODONTOLÓGICA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+300870-UNIMED DO BRASIL - CONF. NACIONAL DAS COOPE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+301060-UNIMED ITUIUTABA COOPERATIVA TRABALHO MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+301124-UNIMED GURUPI COOPERATIVA DE TRABALHO MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+301574-UNIMED DE LIMEIRA COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+301647-UNIODONTO DE FERNANDOPOLIS COOPERATIVA ODON;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+301728-PRONTOMED PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+301744-UNIMED MEIO OESTE CATARINENSE COOPERATIVA D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+301949-BRADSAUDE S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+302147-PREVENT SENIOR PRIVATE OPERADORA DE SAÚDE L;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+302228-UNIMED VALE DO CORUMBÁ COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+302627-CAIXA DE ASSISTÊNCIA DOS MAGISTRADOS DE PER;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+302953-UNIMED DE MACAÉ COOPERATIVA DE ASSISTÊNCIA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+303178-UNIMED DE SOBRAL SOCIEDADE COOPERATIVA MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+303259-UNIODONTO SÃO JOSÉ DO RIO PRETO - COOPERATI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+303267-UNIMED JUNDIAI - COOPERATIVA DE TRABALHO MÉ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+303291-UNIODONTO MOSSORÓ - COOPERATIVA DOS CIRURGI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+303356-UNIMED LITORAL COOPERATIVA DE TRABALHO MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+303623-CENTRO TRASMONTANO DE SAO PAULO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+303739-SERMED-SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+303844-UNIMED DE ANDRADINA - COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+303976-UNIMED BELÉM COOPERATIVA DE TRABALHO MÉDICO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304051-UNIMED MONTES CLAROS COOPERATIVA DE  TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304123-UNIMED DE AVARÉ COOPERATIVA DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304131-ASSOCIAÇÃO BENEFICENTE DE ASSISTÊNCIA A SAÚ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304212-CENTRO CLÍNICO SAÚDE SUL LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304344-UNIMED PARÁ DE MINAS COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304395-UNIMED INCONFIDENTES COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304441-NACIONAL ODONTO OPERADORA DE PLANOS ODONTOL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304468-UNIMED BARRA DO GARÇAS - COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304484-DENTAL UNI - COOPERATIVA ODONTOLÓGICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304531-AME-ASSISTÊNCIA MÉDICA A EMPRESAS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304701-UNIMED CURITIBA - SOCIEDADE COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+304883-UNIMED DE BOTUCATU COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+305227-UNIMED OESTE DO PARANA - COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+305421-UNIODONTO RS FEDERACAO DAS UNIODONTOS DO RG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+305472-UNIMED REGIONAL SUL GOIAS COOP. DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+305626-PRONTOCLINICA E HOSPITAIS SAO LUCAS S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+305740-UNIODONTO DE RECIFE - COOPERATIVA ODONTOLÓG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+305928-NOSAMED ASSISTÊNCIA MÉDICA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+306045-SANTA CASA DE MISERICÓRDIA DE TUPÃ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+306100-UNIMED REGIONAL DE CAMPO MOURÃO COOP TRAB M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+306126-UNIMED DE RIO CLARO SP COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+306398-UNIMED - COOPERATIVA DE SERVIÇOS DE SAÚDE D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+306754-ASSOCIAÇÃO DOS FUNCIONÁRIOS DO FISCO DO EST;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+306762-UNIMED REGIONAL JAU - COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+306886-UNIMED JUIZ DE FORA COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+307319-CAIXA DE ASSISTÊNCIA DOS EMPREGADOS DO BANC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+307751-FUNDAÇAO COMPESA DE PREVIDENCIA E ASSISTENC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+308811-UNIMED VALE DO PIQUIRI-COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+309028-ASSOCIAÇÃO DOS SERVIDORES MUNICIPAIS, ESTAD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+309087-UNIMED BARBACENA - COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+309222-GRUPO HOSPITALAR DO RIO DE JANEIRO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+309524-UNIMED DE MONTE ALTO - COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+309907-UNIMED PALMAS COOPERATIVA DE TRABALHO MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+310107-UNIODONTO DE SALVADOR - COOPERATIVA DE TRAB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+310239-PESSOAL SAÚDE PLANOS DE ASSISTÊNCIA MÉDICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+310247-CIRCULO OPERARIO CAXIENSE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+310522-PROASA SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+310981-ODONTO EMPRESAS CONVENIOS DENTARIOS LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311057-UNIMED VALE DO URUCUIA - COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311146-UNIMED COSTA VERDE RJ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311294-UNIMED DE OURINHOS - COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311359-FUNDAÇÃO DE SAÚDE ITAIGUAPY;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311375-UNIMED PELOTAS/RS - COOPERATIVA DE ASSISTÊN;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311391-UNIODONTO DE MANAUS - COOPERATIVA ODONTOLÓG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311472-CEAM BRASIL - PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311618-UNIMED MISSÕES/RS - COOPERATIVA DE ASSISTÊN;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311669-UNIODONTO DE AVARE COOPERATIVA ODONTOLÓGICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311715-UNIMED ENCOSTA DA SERRA/RS SOCIEDADE COOPER;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311847-UNIMED REGIONAL DA BAIXA MOGIANA - COOPERAT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311944-UNIMED DE ADAMANTINA-COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+311961-UNIMED DE MANAUS COOP. DO TRABALHO MÉDICO L;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+312126-FUNDAÇÃO SAÚDE ITAÚ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+312282-INTERMEDICI PIRACICABA ASSISTENCIA MEDICA L;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+312321-ODONTO JARAGUÁ LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+312347-UNIMED ANÁPOLIS COOPERATIVA DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+312363-UNIMED DO EST. DO RJ FEDERAÇÃO EST. DAS COO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+312592-UNIMED NORTE FLUMINENSE COOPERATIVA DE TRAB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+312720-UNIMED DO ESTADO DO PARANÁ FEDERAÇÃO ESTADU;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+312851-UNIMED CAMPO GRANDE MS COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+312924-CAIXA ECONÔMICA FEDERAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+313084-COOPERATIVA DE TRABALHO MEDICO DE ARAGUAÍNA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+313149-UNIMED DE BATATAIS - COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+313211-UNIMED VALE DO CAÍ/RS - COOPERATIVA DE ASSI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+313475-UNIMED REGIONAL DE PICOS - COOPERATIVA DE T;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+313751-UNIODONTO DE SÃO JOSÉ DOS CAMPOS COOPERATIV;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+313807-UNIODONTO DOURADOS - COOPERATIVA ODONTOLÓGI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+313971-FEDERAÇÃO DAS SOCIEDADES COOPERATIVAS DE TR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314099-UNIMED VALE DO SEPOTUBA - COOPERATIVA DE TR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314218-ASSOCIAÇÃO DE BENEFICÊNCIA E FILANTROPIA SÃ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314242-UNIMED DE PIRASSUNUNGA COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314251-CAIXA ASSISTENCIAL UNIVERSITÁRIA DO RIO GRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314315-UNIODONTO DO BRASIL CENTRAL NACIONAL DAS CO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314366-DENTAL PLUS CONVÊNIO ODONTOLÓGICO LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314587-UNIMED VIÇOSA - COOPERATIVA DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314668-ABERTTA SAÚDE - ASSOCIAÇÃO BENEFICENTE DOS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314706-HOSPITAL CESAR LEITE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314757-CENTRO ODONTOLOGICO INTEGRADO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314781-UNIMED DE DRACENA - COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+314871-UNIODONTO SUDOESTE GOIANO - COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+315044-FUNDAÇÃO CELESC DE SEGURIDADE SOCIAL - CELO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+315265-PARANA ASSISTENCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+315478-FUNDAÇÃO CESP;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+315494-UNIMED NOROESTE DE MINAS COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+315567-FUNDAÇÃO AFFEMG DE ASSISTÊNCIA E SAÚDE - FU;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+315583-CAIXA DE ASSISTÊNCIA DOS EMPREGADOS DO BANE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+315648-UNIMED CATAGUASES COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+315729-UNIMED DE PIRACICABA SOCIEDADE COOPERATIVA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+315796-UNIMED DE PRESIDENTE PRUDENTE COOPERATIVA D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+315818-UNIODONTO PONTA GROSSA COOPERATIVA ODONTOLÓ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+316148-UNIMED POÇOS DE CALDAS - SOC. COOP. DE TRAB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+316458-UNIMED REGIONAL DE FLORIANO - COOPERATIVA D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+316849-TELOS - FUNDAÇÃO EMBRATEL DE SEGURIDADE SOC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+316873-CAIXA DE ASSISTENCIA A SAUDE DA UNIVERSIDAD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+316881-UNIMED TEOFILO OTONI COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+316903-POLIMÉDICA SAÚDE SOCIEDADE SIMPLES LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+316997-UNIODONTO DE ARARAQUARA COOPERATIVA ODONTOL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+317012-COOPERATIVA DE TRABALHO MÉDICO DO PLANALTO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+317144-UNIMED DE FORTALEZA SOCIEDADE COOPERATIVA M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+317632-ASSOCIACAO DOS AUDITORES FISCAIS DA RECEITA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+317896-UNIMED VERTENTE DO CAPARAÓ - COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+318035-UNIMED GUAXUPÉ COOPERATIVA DE TRABALHO MEDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+318213-COOPERATIVA DE TRABALHO MEDICO REGIÃO DO PL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+318299-BENEFICENCIA CAMILIANA DO SUL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+318388-UNIMED DE SÃO ROQUE - COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+318477-OPERADORA UNICENTRAL DE PLANOS DE SAÚDE LTD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+318566-UNIMED METROPOLITANA DO AGRESTE - COOPERATI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+319121-UNIMED DIVINOPOLIS - COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+319180-SÃO DOMINGOS SAÚDE- ASSISTÊNCIA MÉDICA  LTD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+319350-UNIODONTO TAUBATÉ COOPERATIVA DE TRABALHO O;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+319384-UNIMED PLANALTO MÉDIO/RS - COOPERATIVA DE A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+319422-IRMANDADE DA SANTA CASA DE MISERICORDIA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+319708-UNIMED SANTA MARIA/RS - COOPERATIVA DE ASSI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+319872-CAMIM OPERADORA DE PLANO DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+319996-UNIMED DO ESTADO DE SÃO PAULO - FEDERAÇÃO E;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+320251-UNIMED RIO VERDE COOPERATIVA TRABALHO MEDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+320510-ATÍVIA SERVIÇOS DE SAÚDE S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+320706-UNIMED SUL CAPIXABA COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+320820-CAIXA DE ASSISTÊNCIA SISTEMA SAÚDE INTEGRAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+320838-UNIMED INTRAFEDERATIVA FEDERAÇÃO REGIONAL S;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+320862-UNIMED DE PARANAVAÍ COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+320897-UNIMED CENTRO SUL FLUMINENSE COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+321044-UNIMED JOAO PESSOA - COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+321087-UNIMED MARQUES DE VALENÇA COOPERATIVA DE TR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+321125-UNIODONTO MACEIÓ COOPERATIVA ODONTOLÓGICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+321273-UNIMED DE JOINVILLE COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+321320-IRMANDADE DA SANTA CASA DE MISERICÓRDIA E M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+321931-CONFERÊNCIA SÃO JOSÉ DO AVAÍ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+321958-UNIMED DO CEARÁ - FEDERAÇÃO DAS SOCIEDADES;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+322326-ASSOCIAÇÃO BENEFICENTE CATÓLICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+322571-UNIMED GUARAPUAVA COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+322831-UNIMED ITAJUBA COOPERATIVA DE TRABALHO MEDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+322890-DENTALPAR ASSISTÊNCIA ODONTOLÓGICA EMPRESAR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+323004-UNIMED DE PENAPOLIS - COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+323055-UNIMED NORTE PAULISTA - COOPERATIVA DE TRAB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+323080-GEAP AUTOGESTÃO EM SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+323268-UNIMED VALE DO SÃO FRANCISCO COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+323357-UNIMED CABO FRIO COOPERATIVA TRABALHO MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+323926-UNIMED SÃO JOÃO DEL REI - COOPERATIVA DE TR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+323942-FUNDAÇÃO FILANTRÓPICA E BENEFICENTE DE SAÚD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+323993-UNIMED PETROPOLIS-RJ COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324159-UNIMED ALTA MOGIANA COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324175-UNIMED SUDOESTE DE MINAS COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324213-UNIMED NORTE/NORDESTE-FEDERAÇÃO INTERFEDERA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324299-PLAMER PLANO MEDICO RESENDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324345-UNIMED COSTA DO DESCOBRIMENTO COOPERATIVA D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324361-CAIXA DE ASSISTÊNCIA À SAÚDE - CABERJ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324477-CAIXA DE PREVIDÊNCIA E ASSISTÊNCIA DOS SERV;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324493-S.P.A SAUDE- SISTEMA DE PROMOÇÃO ASSISTENCI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324523-UNIMED PARAIBA - FEDERAÇAO DAS SOCIEDADES C;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324566-UNIMED DE CATALÃO COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+324710-SERVIÇO DE ASSISTÊNCIA ODONTOLÓGICA SOCIAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+325031-UNIMED DE LENÇOIS PAULISTA - COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+325082-UNIMED DO OESTE DA BAHIA COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+325236-ASSISTÊNCIA MÉDICA SÃO MIGUEL LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+325465-AMPARA ASSISTÊNCIA MÉDICA PARAÍSO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+325571-UNIMED SERRA GAUCHA/RS COOPERATIVA DE ASSIS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+326305-AMIL ASSISTÊNCIA MÉDICA INTERNACIONAL S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+326500-SOBAM CENTRO MÉDICO HOSPITALAR S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+326755-ASSOCIAÇÃO EVANGELICA BENEFICENTE DE LONDRI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+326861-PROMÉDICA - PROTEÇÃO MEDICA A EMPRESAS S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+327093-UNIODONTO BEBEDOURO - COOPERATIVA ODONTOLÓG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+327328-CASA DE SAÚDE NOSSA SENHORA DE FÁTIMA  LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+327352-UNIMED SÃO SEBASTIÃO DO PARAÍSO COOPERATIVA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+327417-AUSTACLINICAS ASSISTÊNCIA MÉDICA E HOSPITAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+327441-UNIODONTO SUDESTE MINEIRO COOPERATIVA DE SA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+327468-UNIMED SUDOESTE PAULISTA COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+327557-CAIXA ASSISTENCIAL E BENEFICENTE DOS FUNCIO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+327638-UNIMED SÃO JOÃO NEPOMUCENO COOPERATIVA DE T;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+327689-UNIMED MACEIO COOPERATIVA DE TRABALHO MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+327867-DENTIÇÃO CONVÊNIOS ODONTOLÓGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+328031-UNIMED FEDERAÇAO DO ESTADO DO MATO GROSSO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+328294-UNIMED NORDESTE PAULISTA - FED. INTRAFEDERA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+328308-UNIMED DE MOCOCA COOPERATIVA DE TRAB. MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+328375-UNIMED REGIÃO DA FRONTEIRA - RS COOPERATIVA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+328537-MED-TOUR ADMINISTRADORA DE BENEFÍCIOS E EMP;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+329282-INDUSTRIAS NUCLEARES DO BRASIL S/A - INB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+329339-UNIMED DE CRICIÚMA COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+329355-IRMANDADE DE MISERICORDIA DE PORTO FERREIRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+329665-FUNDACAO CAPITAL PREVIDENCIA E SAUDE - CAPI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+329886-UNIMED DE JABOTICABAL COOP. DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+329967-MATTOS ODONTOLOGIA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+330051-COMPANHIA DE ENGENHARIA DE TRAFEGO - CET;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+330108-UNIMED CURVELO COOPERATIVA DE TRABALHO MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+330116-SANTA CASA DE MISERICÓRDIA DE VOTUPORANGA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+330264-UNIMED DE BARRA MANSA SOC. COOP. SERV.MED.E;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+330281-ASSOCIAÇÃO DOS AUDITORES FISCAIS DO ESTADO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+330566-UNIMED RESENDE COOPERATIVA DE TRABALHO MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+330809-FUNDAÇÃO DE SEGURIDADE SOCIAL DA ARCELORMIT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+330892-ASSOCIAÇÃO SAÚDE CONCEIÇÃO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+331104-UNIODONTO DE PINDAMONHANGABA COOP ODONTOLOG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+331317-REAL GRANDEZA - FUNDAÇÃO DE PREVIDÊNCIA E A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+331341-UNIMED DE BEBEDOURO COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+331651-UNIMED ARAXÁ COOPERATIVA DE TRABALHO MÉDICO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+331872-UNIMED SAO JOSE DOS CAMPOS - COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+331988-PASA - PLANO DE ASSISTENCIA A SAUDE DO APOS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+333051-UNIMED DE GUARULHOS COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+333239-SISTEMA PREVSAUDE DENTAL LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+333620-DENTAL-MED ASSISTENCIA ODONTOLOGICA S/S LTD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+333662-UNIMED DE DOURADOS COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+333689-MEDISERVICE OPERADORA DE PLANOS DE SAÚDE S.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+333808-IRMANDADE DE MISERICÓRDIA DO HOSPITAL DA SA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+333867-ASSOCIAÇAO UNISAUDE MARAU;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+333875-IRMANDADE DA SANTA CASA DE MISERICÓRDIA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+334154-UNIMED DE CAÇAPAVA - COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+334189-COMPANHIA NACIONAL DE ABASTECIMENTO - CONAB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+334243-UNIODONTO DE SOROCABA COOPERATIVA ODONTOLÓG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+334511-UNIMED VALE DO PARAÍBA - FEDERAÇÃO INTRAFED;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+334561-UNIMED BLUMENAU - COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+334847-UNIMED DE JATAÍ COOPERATIVA DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335100-UNIMED SAO JOSÉ DO RIO PRETO - COOP. DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335215-UNIMED ARARUAMA COOPERATIVA DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335258-UNIODONTO DE FORTALEZA COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335479-UNIMED NOVA FRIBURGO-SOC.COOP.SERV.MED.HOSP;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335517-UNIMED ITABIRA COOPERATIVA DE TRABALHO MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335525-UNIODONTO SÃO CARLOS - COOPERATIVA ODONTOLÓ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335541-UNIMED VALE DAS ANTAS, RS - COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335592-UNIMED NATAL SOC. COOP. DE TRAB. MÉDICO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335614-SAMEDIL SERVIÇOS DE ATENDIMENTO MÉDICO S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335657-ADVANCE PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335690-UNIMED CAMPINAS - COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335754-ASSOCIAÇÃO DOS SERVIDORES FISCAIS DO ESTADO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+335789-CAIXA DE ASSISTÊNCIA DOS EMPREGADOS DO BANE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+336017-UNIODONTO DE PRESIDENTE PRUDENTE COOPERATIV;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+336025-UNIODONTO DE RONDONIA COOPERATIVA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+336106-UNIMED DE MARILIA COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+336238-UNIODONTO DE MONTE ALTO COOPERATIVA ODONTOL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+336467-UNIMED PATOS - COOPERATIVA DE TRABALHO MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+336831-IRMANDADE SANTA CASA DE MISERICÓRDIA DE MAR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+336858-UNIMED FRANCISCO BELTRAO COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+336874-ATEMDE ODONTO SAÚDE CLUBE DE BENEFÍCIOS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+337188-COOPERATIVA DE TRABALHO MÉDICO DE POUSO ALE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+337374-UNIMED PORTO VELHO - SOCIEDADE COOPERATIVA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+337498-UNIMED TRÊS RIOS COOPERATIVA DE TRABALHO MÉ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+337561-UNIMED VALE DO CARANGOLA COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+337668-UNIMED SERGIPE - COOPERATIVA DE TRABALHO MÉ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+337871-UNIMED RIO BRANCO COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+338346-SULMED - ASSISTÊNCIA MÉDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+338648-FUNDAÇÃO SANEPAR DE ASSISTÊNCIA SOCIAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+339270-CELULOSE NIPO-BRASILEIRA S/A - CENIBRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+339458-DENTAL CENTER LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+339636-FUNDAÇÃO DE ASSISTÊNCIA E PREVIDÊNCIA SOCIA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+339679-UNIMED CNU - COOPERATIVA CENTRAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+339954-FUNDAÇÃO SÃO FRANCISCO XAVIER;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+340120-UNIODONTO ATHENAS PAULISTA - COOPERATIVA OD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+340251-UNIMED EXTREMO OESTE CATARINENSE COOPERATIV;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+340782-CLINIPAM CLINICA PARANAENSE DE ASSISTENCIA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+340952-UNIMED CARUARU-COOPERATIVA DE TRABALHO MEDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+341819-UNIMED ALTO PARANAIBA COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+341894-UNIODONTO FRONTEIRA OESTE/RS COOPERATIVA OD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342033-SAMP ESPIRITO SANTO ASSISTENCIA MEDICA SA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342084-UNIMED CUIABA COOPERATIVA DE TRABALHO MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342131-UNIMED VILHENA - COOPERATIVA DE TRABALHO ME;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342157-UNIMED MORRINHOS COOPERATIVA DE TRABALHO ME;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342203-UNIODONTO DE SC COOPERATIVA ADMINISTRADORA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342335-COOPERATIVA ODONTOLÓGICA DE GARANHUNS E AGR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342343-UNIMED DE PINDAMONHANGABA - COOPERATIVA TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342386-UNIMED REGIONAL DE TRES LAGOAS COOPERATIVA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342556-ASSOCIAÇÃO DR. BARTHOLOMEU TACCHINI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342611-ECONOMUS INSTITUTO DE SEGURIDADE SOCIAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342807-SANTA CASA DE MISERICÓRDIA DE JUIZ DE FORA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+342955-HSMED SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343056-UNIODONTO JACAREÍ COOPERATIVA ODONTOLÓGICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343064-GARANTIA DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343129-ASSOCIACAO DOS PROFESSORES UNIVERSITÁRIOS D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343153-UNIMED SOUSA - COOPERATIVA DE TRABALHO MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343269-UNIMED DE LONDRINA COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343331-CAIXA DE ASSISTÊNCIA DOS EMPREGADOS DO SIST;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343404-UNIODONTO DE MATO GROSSO COOP TRAB ODONTOLO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343463-PLAMED PLANO DE ASSISTENCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343676-SAMOC S.A. - SOCIEDADE ASSISTENCIAL MÉDICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343684-UNIMED ALTO DA SERRA - SOCIEDADE COOPERATIV;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343722-UNIMED PONTE NOVA COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343731-UNIMED-SÃO GONÇALO - NITERÓI - SOC.COOP.SER;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343765-UNIMED CALDAS NOVAS - COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343889-UNIMED BELO HORIZONTE COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+343919-UNIODONTO COOPERATIVA ODONTOLÓGICA DO SERID;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344095-SISDENTE - SISTEMA INTEGRADO DE SAÚDE DENTA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344141-UNIMED CAJAZEIRAS - SOCIEDADE COOPERATIVA D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344184-CAIXA DE ASSISTÊNCIA DOS EMPREGADOS DO SETO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344397-UNIMED REGIONAL FLUMINENSE COOPERATIVA DE T;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344451-UNIODONTO REGIONAL COOPERATIVA ODONTOLOGICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344486-ODONTOBASE PLANOS DE SAUDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344681-UNIODONTO DE LINS COOPERATIVA ODONTOLOGICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344729-UNIMED VARGINHA COOPERATIVA DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344788-UNIMED DE CORUMBA COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344800-BLUE MED SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344885-UNIMED RECIFE COOPERATIVA DE TRABALHO MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+344915-SANTA CASA DE MISERICÓRDIA E ASILO DOS POBR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+345091-SANTA CASA DE MISERICORDIA DE SAO JOAQUIM D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+345318-UNIODONTO/RN - COOPERATIVA ODONTOLOGICA DO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+345458-UNIMED LAVRAS COOPERATIVA DE TRABALHO MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+345474-SERVIÇO FEDERAL DE PROCESSAMENTO DE DADOS (;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+345598-UNIMED AMPARO COOPERATIVA DE TRABALHO MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+345695-VALE S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+345709-UNIMED CONSELHEIRO LAFAIETE COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+345776-UNIMED DE BIRIGUI - COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+346004-UNIODONTO PIRACICABA - COOPERATIVA ODONTOLÓ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+346209-UNIMED EXTREMO SUL COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+346276-UNIMED SALTO/ITU - COOPERATIVA MÉDICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+346659-CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+346926-FUNDAÇÃO ASSISTENCIAL DOS SERVIDORES DO MIN;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+346951-UNIMED CAÇADOR COOPERATIVA DE TRABALHO MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+347108-UNIMED DE BARRETOS COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+347183-UNIODONTO DE CAMPO GRANDE SIST. NAC. COOP.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+347302-UNIODONTO DE CACAPAVA COOPERATIVA ODONTOLOG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+347477-UNIODONTO DE BOTUCATU COOPERATIVA ODONTOLOG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+347507-UNIMED CENTRO RONDÔNIA COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+347604-UNIODONTO DE AMERICANA COOPERATIVA ODONTOLÓ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+347655-IRMANDADE DA SANTA CASA DE MISERICÓRDIA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+347736-UNIMED CARATINGA - COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+347795-UNIODONTO DE JUNDIAÍ COOPERATIVA ODONTOLÓGI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+347825-CAIXA ASSISTENCIAL UNIVERSITARIA DO RIO DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+348082-UNIMED ANHANGUERA COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+348180-HUMANA SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+348244-UNIMED DE BRUSQUE COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+348261-UNIMED ALTO SÃO FRANCISCO COOPERATIVA DE TR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+348295-UNIMED SOROCABA COOPERATIVA DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+348520-NOTRE DAME INTERMÉDICA MINAS GERAIS SAÚDE S;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+348830-PLENA SAÚDE S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+349011-UNIODONTO DE RIO CLARO COOPERATIVA ODONTOLO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+349283-UNIODONTO DE ARACAJU COOP DE TRABALHO ODONT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+349291-MAIS DENTAL PLANOS ODONTOLOGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+349682-DOCTOR CLIN OPERADORA DE PLANOS DE SAÚDE LT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+349712-UNIMED PONTA GROSSA COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+350249-H.B. SAÚDE S/A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+350290-UNIODONTO DE TAQUARITINGA COOPERATIVA ODONT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+350346-UNIMED CACERES COOPERATIVA DE TRABALHO MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+350371-UNIMED DO SUDOESTE COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+350494-UNIODONTO DE CAMPINAS COOPERATIVA ODONTOLÓG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+350630-UNIODONTO DE VOTUPORANGA COOPERATIVA ODONTO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+350648-UNIMED REGIÃO DA CAMPANHA/RS - COOPERATIVA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+350699-CENTRO HOSPITALAR ATIBAIA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+350770-UNIODONTO DE LONDRINA COOP. ODONTOLÓGICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+351202-UNIMED DE RIBEIRAO PRETO - COOPERATIVA DE T;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+351270-POLI SAUDE OPERADORA DE PLANO DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+351351-MULTI - BUCAL ODONTOLOGIA LTDA - LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+351407-UNIMED DE CATANDUVA - COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+351628-WM ADMINISTRAÇÃO DE PLANOS ODONTOLÓGICOS LT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+351776-UNIMED DE REGISTRO COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+352152-RISOMED PLANOS ODONTOLÓGICOS LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+352179-UNIMED FRONTEIRA NOROESTE/RS - COOPERATIVA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+352314-UNIMED JOÃO MONLEVADE COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+352331-CAIXA BENEFICENTE DOS FUNCIONARIOS DO BANCO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+352501-UNIMED PORTO ALEGRE - COOPERATIVA MÉDICA LT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+352519-UNIMED ALTO JACUÍ/RS - COOPERATIVA DE ASSIS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+352543-UNIMED MARANHÃO DO SUL - COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+352586-SISTEMAS E PLANOS DE SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+352683-UNIMED DE CAMPOS COOPERATIVA DE TRABALHO MÉ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+352888-NUCLEBRÁS EQUIPAMENTOS PESADOS S/A - NUCLEP;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+353027-UNIMED SUL PAULISTA - COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+353060-UNIMED PATOS DE MINAS COOPERATIVA TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+353264-SANTA CASA DE MISERICORDIA HOSPITAL SÃO VIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+353353-UNIMED TERESINA - COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+353477-COOPERATIVA DE ASSISTÊNCIA ODONTOLÓGICA VAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+353663-UNIMED NORTE DO MATO GROSSO COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+353698-UNIMED REGIÃO DA PRODUÇÃO/RS - COOPERATIVA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+353752-UNIODONTO COOP ODONT VALE TAQUARI E RIO PAR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+353876-UNIMED PONTAL DO TRIÂNGULO - COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+353892-COOPERCISO - CENTRO INTEGRADO DE SERVIÇO OD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354031-UNIMED SÃO CARLOS - COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354066-UNIMED UBERABA COOPERATIVA DE TRABALHO MEDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354279-UNIMED DE LINS - COOPERATIVA DE TRABALHOS M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354295-UNIMED CHAPECÓ - COOPERATIVA DE TRABALHO MÉ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354325-UNIMED ARAGUARI COOPERATIVA DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354511-OPERADORA UNIESTE DE PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354562-IRMANDADE DA SANTA CASA DE MISERICÓRDIA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354619-UNIMED DE SAO JOSÉ DO RIO PARDO-COOP. DE TR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354627-UNIMED DE CIANORTE - COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354678-UNIMED MACHADO COOPERATIVA DE TRABALHO MEDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354686-UNIODONTO DE CATANDUVA COOPERATIVA ODONTOLÓ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354783-UNIMED FRANCA - SOCIEDADE COOPERATIVA DE SE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+354996-UNIMED ALFENAS COOPERATIVA DE TRABALHO MEDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+355097-SANTA HELENA ASSISTÊNCIA MÉDICA S/A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+355151-FUNDAÇÃO COPEL DE PREVIDÊNCIA E ASSISTÊNCIA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+355577-UNIMED DE GUARATINGUETA-COOPERATIVA DE TRAB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+355593-UNIMED PATROCÍNIO COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+355691-UNIMED DO ESTADO DE SANTA CATARINA FED. EST;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+355721-UNIMED DE SANTOS COOP DE TRAB MEDICO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+356123-UNIMED DO CARIRI - SOCIEDADE COOPERATIVA MÉ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+356417-UNIMED VALE DO SINOS/RS - COOPERATIVA DE AS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+356476-SIM - CAIXA DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+356581-UNIMED ITAÚNA COOPERATIVA DE TRABALHO MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+357022-UNIMED ERECHIM - COOPERATIVA DE SERVIÇOS DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+357138-UNIMED CENTRO OESTE PAULISTA - FEDERAÇÃO IN;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+357260-UNIMED NOROESTE/RS - SOCIEDADE COOPERATIVA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+357391-UNIMED VITORIA COOPERATIVA DE TRABALHO MEDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+357511-HUMANA SAÚDE NORDESTE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+357669-DESBAN - FUNDAÇÃO BDMG DE SEGURIDADE SOCIAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+357715-UNIMED DE MINEIROS COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+358053-SELECT OPERADORA DE PLANO DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+358088-UNIMED LESTE PAULISTA COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+358096-UNIMED APUCARANA COOPERATIVA DE TRABALHO MÉ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+358282-UNIMED NORTE DO PARANÁ COOPERATIVA REGIONAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+358339-UNIODONTO DO SUL GOIANO COOPERATIVA ODONTOL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+358436-UNIODONTO GOIANIA COOPERATIVA DE CIRURGIÕES;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+358754-CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+359017-NOTRE DAME INTERMÉDICA SAÚDE S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+359033-UNIMED TRÊS CORAÇÕES COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+359122-CAIXA DE ASSISTÊNCIA DOS SERVIDORES FAZENDÁ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+359289-UNIMED VALE DO AÇO COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+359394-INTEGRAL SERVIÇOS ODONTOLÓGICOS LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+359459-COOPERATIVA DOS CIRURGIÕES DENTISTAS DO EST;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+359661-OMINT SERVIÇOS DE SAÚDE S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+359777-UNIMED RONDONOPOLIS COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+360414-UNIMED NOROESTE FLUMINENSE - COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+360449-UNIMED GRANDE FLORIANÓPOLIS-COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+360783-ASSOCIACAO DE SAUDE HOLAMBRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+361011-SINDIFISCO NACIONAL - SINDICATO NACIONAL DO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+361461-VIVACOM PLANOS DE SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+361569-UNIODONTO DE JOÃO PESSOA COOPERATIVA ODONTO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+361593-UNIODONTO PAULISTA-FEDERAÇÃO DAS COOPERATIV;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+361615-UNIMED DE PARANAGUÁ COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+361941-UNIMED DE TATUI - COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+362140-UNIMED OESTE DO PARÁ - COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+362573-UNIMED DE UBA COOPERATIVA DE TRABALHO MEDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+362824-UNIODONTO DE ARAÇATUBA COOPERATIVA ODONTOLO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+362832-UNIMED PLANALTO CENTRAL/RS - COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+363286-UNIMED DE TAUBATÉ COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+363391-PLANO ASSISTENCIAL SÃO LUCAS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+363855-CAIXA DE ASSISTÊNCIA DOS EMPREGADOS DA SANE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+364070-UNIMED TRÊS PONTAS - COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+364312-UNIMED DE ARARAQUARA - COOP. DE TRAB. MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+364584-UNIMED DE VOLTA REDONDA COOPERATIVA DE TRAB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+364592-LEADER ASSISTÊNCIA MÉDICA E HOSPITALAR LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+364860-UNIMED DE TUBARAO - COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+365238-UNIMED DE IBITINGA COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+365297-ASSISTÊNCIA ODONTOLÓGICA ESPECIALIZADA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+365530-UNIMED DE TUPA COOPERATIVA DE TRABALHO MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+365645-DONA SAÚDE CLINICAS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+365777-UNIMED NOROESTE DO PARANÁ COOP DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+365785-COOPERATIVA ODONTOLÓGICA DO ESTADO DO AMAPÁ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+366064-UNIMED NORTE PIONEIRO - COOPERATIVA DE TRAB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+366234-ITAIPU BINACIONAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+366340-UNIMED DE CAPIVARI -COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+366439-UNIODONTO PORTO ALEGRE COOPERATIVA ODONTOLO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+366510-ORAL SAÚDE DE IBITINGA SERVIÇOS ODONTOLÓGIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+366561-BENSAUDE PLANO DE ASSISTENCIA MEDICA HOSPIT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+367087-COOPERATIVA CENTRAL UNIMED DE COOPERATIVAS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+367095-SAMEL PLANO DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+367397-UNIMED CAMPINA GRANDE - COOPERATIVA DE TRAB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+367613-UNIMED CAMPO BELO- COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+367966-UNIODONTO RIO GRANDE-LITORAL COOPERATIVA OD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+368148-UNIMED MURIAÉ COOPERATIVA DE TRABALHO MEDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+368181-CROE - CENTRO DE REABILITACAO ORAL ESPECIAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+368253-HAPVIDA ASSISTENCIA MEDICA S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+368555-UNIODONTO BELÉM - COOPERATIVA DE ASSISTÊNCI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+368920-AGROS - INSTITUTO UFV DE SEGURIDADE SOCIAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+369292-UNIMED DE SANTA BÁRBARA D'OESTE E AMERICANA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+369411-UNIMED DE ARACATUBA - COOPERATIVA DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+369462-UNIODONTO DE LIMEIRA COOPERATIVA ODONTOLÓGI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+369659-UNIMED DE BAURU COOPERATIVA DE TRABALHO MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+370070-UNIMED DE CASCAVEL COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+370088-UNIMED SÃO LOURENÇO COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+370568-UNIODONTO UBERABA - COOPERATIVA DE ASSISTÊN;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+370592-FUNASA SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+370681-UNIMED PATO BRANCO SOCIEDADE COOPERATIVA DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+370711-UNIODONTO ESPIRITO SANTO COOPERATIVA ODONTO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+370975-UNIMED VALE DO JAURU COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+371106-UNIMED COSTA OESTE - COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+371254-UNIMED REGIONAL MARINGÁ COOP.DE TRABALHO MÉ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+371564-UNIMED FRUTAL COOPERATIVA DE TRABALHO MEDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+371629-UNIMED NOROESTE CAPIXABA COOPERATIVA DE TRA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+371777-UNIMED NORTE CAPIXABA- COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+372561-UNIMED ALTO VALE - COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+372609-NOSSA SAÚDE - OPERADORA PLANOS PRIVADOS DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+373109-UNIODONTO DE SERTAOZINHO SP COOPERATIVA ODO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+374440-PREVIDENT ASSISTÊNCIA ODONTOLÓGICA S.A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+378216-FUNDAÇÃO LIBERTAS DE SEGURIDADE SOCIAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+378682-UNIODONTO DE SAO JOSE DO RIO PARDO - COOPER;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+378941-UNIODONTO PIRASSUNUNGA - COOPERATIVA ODONTO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+379280-LIV LINHAS INTELIGENTES DE ATENÇÃO À VIDA S;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+379956-CARE PLUS MEDICINA ASSISTENCIAL LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+380661-METRUS INSTITUTO DE SEGURIDADE SOCIAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+381144-UNIODONTO MARINGA COOPERATIVA ODONTOLOGICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+382281-PLANO DE ASSISTÊNCIA MÉDICA MINEIRA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+382337-UNIODONTO METROPOLITANA COOPERATIVA ODONTOL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+382540-ASSOCIAÇÃO BENEFICENTE DOS PROFESSORES PÚBL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+382639-ASSOCIAÇÃO DOS FISCAIS DE TRIBUTOS ESTADUAI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+382655-UNIODONTO VALE HISTORICO COOPERATIVA ODONTO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+382876-UNIMED GOIANIA COOPERATIVA DE TRABALHO MÉDI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+383929-UNIODONTO BAHIA SUL - COOPERATIVA ODONTOLOG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+384577-UNIMED UBERLÂNDIA COOPERATIVA REGIONAL TRAB;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+384704-ASSOCIAÇÃO DOS EMPREGADOS DA COMPANHIA ESTA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+384844-PREST ODONTO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+385255-UNIHOSP SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+385620-UNIMED DE LORENA COOPERATIVA DE TRABALHO MÉ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+385697-CAIXA DE ASSISTÊNCIA DOS FUNCIONÁRIOS DO BA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+386219-DENTAL CARE CLINICA ODONTOLOGICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+386588-UNIMED GOVERNADOR VALADARES COOP. DE TRABAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+386596-CENTRAL REGIONAL DAS COOPERATIVAS MÉDICAS -;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+386901-UNIMED LEOPOLDINA COOPERATIVA DE TRABALHO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+387185-ASSOCIAÇÃO DOS AUDITORES FISCAIS DA RECEITA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+388092-ASSOCIAÇÃO DOS FUNCIONÁRIOS FISCAIS DO ESTA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+389358-CARE PLUS ODONTOLOGIA ASSISTENCIAL LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+389854-ODONTOGROUP SISTEMA DE SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+390259-COMSEDER - COOPERATIVA DE ASSISTÊNCIA MÉDIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+392405-COMPANHIA ESPIRITO SANTENSE DE SANEAMENTO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+392804-CENTRO CLÍNICO GAÚCHO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+393533-ASSOCIAÇÃO DO FISCO DE ALAGOAS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+394734-AMEPLAN ASSISTÊNCIA MÉDICA PLANEJADA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+395480-ESMALE ASSISTENCIA INTERNACIONAL DE SAUDE L;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+397245-CROWN ODONTOLOGIA DE GRUPO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+400190-SANTO ANDRÉ PLANOS DE ASSISTENCIA MÉDICA LT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+400556-UNIODONTO DE FEIRA DE SANTANA - COOPERATIVA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+400572-COOPERATIVA EVIDENTE - COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+400882-ÁPICE ODONTO ASSISTÊNCIA ODONTOLÓGICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+400891-EMPRESA BRASILEIRA DE INFRA-ESTRUTURA AEROP;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+401072-UNIDENTAL- COOPERATIVA UNIÃO DOS DENTISTAS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+401081-AMESC - ASSOCIAÇÃO MÉDICA ESPÍRITA CRISTÃ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+401480-EVANGELICO SAUDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+402001-SISTEMA TOTAL DE SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+402010-COOPERATIVA ODONTOLÓGICA REGIÃO SUL DA BAHI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+402095-SITO - SISTEMA INTEGRADO DE TRATAMENTO ODON;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+402109-UNIODONTO PAULO AFONSO COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+402206-ASSOCIAÇÃO GOIANA DO MINISTÉRIO PÚBLICO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+402516-UNIODONTO DE CAMPOS - COOPERATIVA ODONTOLOG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+403245-SOPREVI SERVIÇO ODONTOLÓGICO PREVENTIVO INT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+403458-PLENODONTO ASSISTÊNCIA ODONTOLÓGICA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+403512-UNIODONTO ARAPIRACA COOPERATIVA DE TRABALHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+403636-PREVINA ODONTOLOGIA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+403865-SISTEMA INTEGRADO DE SAUDE ORAL LTDA-EPP;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+403962-SÃO FRANCISCO ASSISTÊNCIA MÉDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+403997-UNIODONTO DE RIO BRANCO ACRE COOPERATIVA OD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+404241-COOPERATIVA DOS USUÁRIOS DE SERVIÇOS DE SAÚ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+404772-ORION ODONTOLOGIA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+404942-UNIFICAÇÃO DOS DENTISTAS DE ITUVERAVA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+405582-SANTOS VIP ASSISTÊNCIA ODONTOLÓGICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+405671-ODONTO PLUS CONVENIO ODONTOLOGICO SOCIEDADE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+405931-CONSTRUDENTE ASSISTENCIA ODONTOLOGICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+406121-UNIODONTO RESENDE - COOPERATIVA ODONTOLOGIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+406414-ODONTO LIFE ASSISTÊNCIA ODONTOLÓGICA S/A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+406481-METLIFE PLANOS ODONTOLÓGICOS LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+406554-ASSOCIAÇÃO ADVENTISTA NORTE BRASILEIRA DE P;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+406635-ASSOCIACAO POLICIAL DE ASSISTENCIA A SAUDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+406805-COOPERATIVA DOS USUÁRIOS DE SERVIÇOS DE SAÚ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+406813-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+406937-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+406945-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+407011-GAMA SAUDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+407224-SEPACO SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+407241-COOP-ODONTOCLASSIC - COOPERATIVA DE TRABALH;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+407534-ÔNIX OPERADORA DE PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+407569-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+408026-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+408034-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+408093-ASSOCIAÇÃO POLICIAL DE ASSISTENCIA A SAUDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+408263-ASSOCIAÇÃO POLICIAL DE ASSISTENCIA À SAUDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+408522-SANTA CASA DA MISERICÓRDIA DE SÃO JOÃO DEL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+408794-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+409243-SAUDE PAS - MEDICINA E ODONTO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+409286-G & M ASSESSORIA MEDICA EMPRESARIAL LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+409405-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+409413-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA A SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+409634-ASSOCIACAO CIVIL PRÓ-SAÚDE DOS SERVIDORES D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+409791-COOPERATIVA ODONTOLÓGICA POÇOS DE CALDAS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+410110-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA A SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+410128-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+410292-FUNDACAO LEONOR DE BARROS CAMARGO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+410608-ASSOCIACAO POLICIAL DE ASSISTENCIA A SAUDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+410624-CONFIANÇA ASSISTÊNCIA MÉDICO HOSPITALAR LTD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+410888-FILOSANITAS SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+411248-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+411256-PLANO HOSPITAL SAMARITANO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+411582-PLANO DE SAUDE ASES LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+411752-ASSOCIAÇÃO ASSISTENCIAL DE SAÚDE SUPLEMENTA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+411809-SOCIEDADE DE ASSISTÊNCIA MÉDICA - SAMEISA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+411868-MEDIC GLOBAL PLANOS DE SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+412015-MH VIDA - OPERADORA DE PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+412040-ODONTOREAL LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+412058-SBC SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+412252-SV SAUDE ADMINSTRADORES DE PLANO DE SAUDE L;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+412295-CAIXA DE ASSISTÊNCIA À SAUDE DOS EMPREGADOS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+412490-LÍDER COMÉRCIO E INDÚSTRIA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+412635-ASSOCIAÇÃO VALEPARAIBANA DE ASSISTÊNCIA MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+412759-TERRAMAR ADMINISTRADORA DE PLANO DE SAUDE L;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+412996-ORALE ASSISTÊNCIA ODONTOLÓGICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413160-GS PLANO GLOBAL DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413267-PREVENT SENIOR CORPORATE OPERADORA DE SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413283-AESP ODONTO ASSISTÊNCIA ODONTOLÓGICA S/S LT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413330-AMEP FREGUESIA OPERADORA DE PLANO DE SAUDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413372-SOCIEDADE PORTUGUESA DE BENEFICÊNCIA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413429-UNIDENTIS ASSISTENCIA ODONTOLOGICA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413518-CAIXA DE ASSISTÊNCIA DO SINDFISCO - CASSIND;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413534-CAIXA DE ASSISTENCIA DOS SERVIDORES DO ESTA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413551-PLAMEDH - PLANO DE ASSISTÊNCIA MÉDICO-HOSPI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413721-SOCIEDADE BENEFICENTE DEZOITO DE JULHO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413747-DENTAL MASTER LTDA - EPP;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+413941-SOCIEDADE DE ASSISTÊNCIA ODONTOLOGICA DE GR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414026-CAIXA BENEFICENTE DOS FUNCIONÁRIOS DO GRUPO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414212-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414247-VOLVO DO BRASIL VEÍCULOS LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414310-SAÚDE BRB - CAIXA DE ASSISTÊNCIA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414352-HBC SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414387-ODONTOART PLANOS ODONTOLÓGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414425-DENTSY ODONTOLOGIA S/S LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414492-LIFE EMPRESARIAL SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414557-IDENTAL ASSISTÊNCIA ODONTOLÓGICA LTDA - ME;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414573-UNIMED CENTRO PAULISTA - FEDERAÇÃO INTRAFED;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414581-UNIÃO MÉDICA PLANOS DE SAÚDE S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414654-SEMPRE ODONTO PLANOS ODONTOLOGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414662-VIVENTERIS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414689-FUNDO DE ASSISTÊNCIA À SAÚDE DOS FUNCIONÁRI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414701-SERVDONTO - PLANO DE ASSISTÊNCIA ODONTOLÓGI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414891-UNIODONTO - COOPERATIVA ODONTOLOGICA DE CAR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414905-VITA ASSISTÊNCIA A SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414921-IDEAL ODONTO ASSISTÊNCIA ODONTOLÓGICA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414930-SAÚDE SANTA TEREZA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+414981-INSTITUTO DE ODONTOLOGIA DO MARANHÃO LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415014-UNIMED OS BANDEIRANTES COOPERATIVA DE TRABA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415065-MAIS SAÚDE PLANO DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415081-PORTO DIAS SAUDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415111-BIOVIDA SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415243-RODRIGUES LEIRA ODONTOLOGIA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415260-INSTITUTO DE SAÚDE ODONTOLÓGICA - ISODONT L;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415626-FEDERAÇÃO DAS COOP ODONTOLÓGICAS DO ESTADO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415693-POLICLIN SAÚDE S/A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415774-CABERJ INTEGRAL SAÚDE S.A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415782-PARRA ODONTOLOGIA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415821-ROPE ODONTOLOGIA ESPECIALIZADA S/S LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415871-SOLIMEO ASSISTÊNCIA ODONTOLÓGICA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415898-SOCIEDADE BENECAP DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415901-SAME-SERVIÇO DE ASSISTÊNCIA MÉDICA EMPRESAR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415910-CENTRO DE ENDOCRINOLOGIA DE JUNDIAÍ S/S LTD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415936-PLANO ODONTOLÓGICO DENTALVIDAS LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415944-CLÍNICA SÃO GABRIEL S/S LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415952-CDA - ASSISTÊNCIA ODONTOLÓGICA LTDA - EPP;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+415987-PLANO VIDA SAUDE SERVIÇOS ODONTOLOGICOS LTD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416070-ARCELORMITTAL BRASIL S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416118-DANA INDUSTRIAS LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416193-TOP DOCTOR'S ODONTOLOGIA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416371-ORION PLANOS E SERVIÇOS ODONTOLÓGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416398-HOSPITAIS E CLÍNICAS DO PIAUÍ S/S LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416401-CAIXA DE ASSISTÊNCIA DOS EMPREGADOS DA EMPR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416410-SOCIODONTO PLANO DE ASSISTÊNCIA ODONTOLÓGIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416428-SUL AMÉRICA PARANÁ CLÍNICAS SERVIÇOS DE SAÚ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416495-MATÃO CLINICAS & AMHMA SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416517-PLANODENTE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416525-PRIMA VIDA ODONTOLOGIA DE GRUPO LIMITADA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416568-ASSOCIAÇÃO DE ASSISTÊNCIA À SAÚDE DOS EMPRE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416584-ASSOCIAÇÃO FUNDO DE PROTEÇÃO À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416690-ASSOCIAÇÃO DE ASSISTÊNCIA À SAÚDE DA AMAGIS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416703-MINERAÇÃO CARAÍBA S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416738-OESTE SAÚDE ASSISTÊNCIA A SAÚDE SUPLEMENTAR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416801-UNIMED SAÚDE E ODONTO S.A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416819-GKN DO BRASIL LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416835-MACIEL & MACIEL ASSISTÊNCIA ODONTOLÓGICA LT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+416908-DENTALPLAN PLANOS DE ASSISTENCIA ODONTOLOGI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417092-CENTRAL OPERADORA DE PLANOS DE SAÚDE NORTE-;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417106-PLANO DE ASSISTÊNCIA ODONTOLÓGICA FAUCHARD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417114-TOPDONTO OPERADORA DE PLANO ODONTOLÓGICO LT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417131-QUALIDONTO - QUALIDADE EM ODONTOLOGIA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417149-RIBERDENTE SERVIÇOS ODONTOLÓGICOS S/S LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417211-ASSOCIAÇÃO MINEIRA DE ASSISTÊNCIA À SAÚDE D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417238-BRF S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417297-ELOSAÚDE - ASSOCIAÇÃO DE ASSISTÊNCIA À SAÚD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417475-PRONTO SOCORRO CONDE DE MOREIRA LIMA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417491-PORTOMED - PORTO SEGURO SERVIÇOS DE SAUDE L;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417505-CEMIG SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417530-ASSOCIAÇÃO DE SAÚDE PORTUGUESA DE BENEFICÊN;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417548-CAIXA DE ASSISTÊNCIA OSWALDO CRUZ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417599-ASSOCIAÇAO DOS FUNCIONARIOS PUBLICOS DO EST;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417661-CAIXA DE ASSISTÊNCIA À SAÚDE DO SINDICATO D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417815-SUL AMÉRICA ODONTOLÓGICO S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417831-ODONTOLIVE OPERADORA DE PLANOS ODONTOLÓGICO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417840-VERTEMED S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417874-BEM MAIS ODONTO OPERADORA ODONTOLÓGICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417947-ASSOCIAÇÃO DA SANTA CASA SAÚDE DE RIBEIRÃO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+417955-ASSOCIAÇÃO DE ASSISTÊNCIA MÉDICO HOSPITALAR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418021-ASSOCIAÇÃO SANTA SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418072-CAIXA SEGURADORA ESPECIALIZADA EM SAÚDE S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418111-ODONTOCLINICA RCC LTDA. S/S;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418129-FUNDO DE ASSISTÊNCIA MÉDICO-HOSPITALAR DO M;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418137-UNIX SAÚDE S.A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418170-QUALLITY PRÓ SAÚDE PLANO DE ASSISTÊNCIA MÉD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418200-ORAL BLUE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418218-ASSOCIAÇÃO SAÚDE RURAL ALEGRETE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418226-OPLAN SAÚDE OPERADORA DE PLANO DE SAÚDE LTD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418242-COOPERATIVA DE SAÚDE ODONTOLÓGICA - UNIODON;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418285-FUNDAÇÃO FIAT SAÚDE E BEM ESTAR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418374-LUMINAR SAÚDE - ASSOCIAÇÃO DE ASSISTÊNCIA À;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418501-FUNDAÇÃO PLAMHUV - PLANO MÉDICO HOSPITALAR;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418536-LIKE DENTAL PLANOS ODONTOLÓGICOS SS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418587-AMHA SAUDE S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418617-ASSOCIAÇÃO PARANAENSE DE ASSISTÊNCIA À SAUD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418625-PORTO SEGURO SERVIÇOS ODONTOLÓGICOS LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418650-MÚTUA DOS MAGISTRADOS DO ESTADO DO RIO DE J;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418731-ASSOCIAÇÃO DE SAÚDE DOS FORNECEDORES DE CAN;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418749-CEDPLAN SAÚDE LTDA EPP;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418790-SISTEMA 1 SERVIÇOS DE ASSISTÊNCIA À SAÚDE S;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418803-ASSOCIAÇÃO SANTA CASA SAÚDE DE ARAÇATUBA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418820-CAIXA DE ASSISTÊNCIA AOS MEMBROS DA DEFENSO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418862-RBS PARTICIPAÇÕES S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418919-ASSOCIAÇÃO SAÚDE SÃO JOSÉ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+418994-ODONTO PRIME S/S LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419010-INSTITUTO CURITIBA DE SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419028-COOPERATIVA DE TRABALHO ODONTOLOGICO - UNIO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419052-AMAZÔNIA PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419061-USODONTO PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419079-BIORAL SISTEMA ODONTOLÓGICO LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419133-POSTAL SAÚDE CAIXA DE ASSISTÊNCIA E SAÚDE D;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419141-ASSOCIAÇÃO SÃO FRANCISCO VIDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419150-ASSOCIAÇÃO MAIS SAÚDE SANTA CASA DE SÃO JOÃ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419184-ODONTOMAIS SERVIÇOS ODONTOLÓGICOS LTDA - ME;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419249-ASSOCIAÇÃO SANTA CASA SAÚDE DE SÃO JOSÉ DOS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419281-ODONTO SEG OPERADORA DE PLANOS ODONTOLOGICO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419419-BRASILDENTAL OPERADORA DE PLANOS ODONTOLÓGI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419427-INSTITUIÇÃO BENEFICENTE CEL MASSOT - IBCM;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419486-PLADISA PLANOS DE SAÚDE SA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419516-MAIS SAUDE S/A - EM LIQUIDAÇÃO EXTRAJUDICIA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419524-SORRIDEN CONVÊNIOS ODONTOLÓGICOS S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419583-ODONTOMAXI OPERADORA DE PLANOS ODONTOLÓGICO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419591-ASSOCIAÇÃO DOS SERVIDORES PÚBLICOS DA ADMIN;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419613-BRAZIL DENTAL OPERADORA DE PLANOS ODONTOLÓG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419699-OPERADORA DE PLANOS PRIVADOS DE SAÚDE - SAN;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419729-UNIODONTO PASSOS - COOPERATIVA ODONTOLÓGICA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419753-MEDGOLD ASSISTENCIA MEDICA LTDA - ME;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419796-COMPANHIA DAS DOCAS DO ESTADO DA BAHIA - CO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419818-FR PLANO ODONTOLÓGICO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419851-CAIXA DE ASSISTÊNCIA À SAÚDE DOS TRABALHADO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419958-ASSOCIAÇÃO PLANO DE SAÚDE SANTA CASA DE VAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419974-PLAMESC PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419982-ALPHA DENTAL PLANO DE SAUDE LTDA ME;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+419991-OROS OPERADORA DE PLANOS ODONTOLÓGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420000-ASSOCIAÇÃO DO PLANO DE SAÚDE DA SANTA CASA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420077-SERVIÇO SOCIAL DA INDÚSTRIA DO PAPEL, PAPEL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420085-SANTA CASA DE SAÚDE - SCS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420093-ASSOCIACAO DOS SERVIDORES DA EMDAGRO - ASSE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420123-ASSOCIAÇÃO UNIVIDA SANTA RITA DO PASSA QUAT;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420158-ASSOCIAÇÃO PADRE ALBINO SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420166-PLANO DE SAÚDE DA SANTA CASA DE BRAGANÇA PA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420239-DENTAL CARE ASSISTÊNCIA ODONTOLÓGICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420271-R.M.I. OPERADORA DE SAÚDE INTEGRADA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420701-FUNDAÇÃO DE ASSISTÊNCIA À SAÚDE DA ASSOCIAÇ;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420751-IDEAL SAÚDE ASSISTÊNCIA MÉDICA AMBULATORIAL;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420778-PASSPORT SYSTEM ODONTOLOGIA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420786-ASSOCIAÇÃO SANTA CASA CLÍNICAS DE BIRIGUI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420816-ASSOCIAÇÃO PADRE PIO PLANOS DE SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420841-INTERCLINICAS PLANO VIDA USA OPERADORA DE S;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420930-HOSPITAL DE CARIDADE SÃO VICENTE DE PAULO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420972-ORALPLAN PLANOS DE SAUDE ODONTOLÓGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+420981-S1 OPERADORA DE PLANO DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421006-ASSOCIAÇÃO SÃO LUIZ SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421049-W. DENTAL PLANOS ODONTOLÓGICOS S.A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421081-DELFHI PLANOS ODONTOLÓGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421154-SAÚDE BRASIL ASSISTÊNCIA MÉDICA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421189-BENEFICENCIA SOCIAL BOM SAMARITANO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421197-SANTA CASA DE MAUÁ SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421341-CAIXA DE ASSISTÊNCIA À SAÚDE DOS SERVIDORES;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421359-RIO DOCE SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421367-MEDHEALTH PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421383-PROPULSÃO PLANOS ODONTOLÓGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421421-2CARE OPERADORA DE SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421464-ODONTO ALEGRE CLINICAS E PLANOS ODONTOLOGIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421561-BRASIL ODONTO OPERADORA DE PLANOS ODONTOLÓG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421618-ASSOCIAÇÃO HOSPITAL SAÚDE DE VARGEM GRANDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421626-HOSPITAL MATER DEI SA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421634-SD-M OPERADORA DE PLANOS DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421642-EXCELÊNCIA PLANO DE SAÚDE S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421707-PERSONAL CARE OPERADORA DE SAÚDE SA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421715-BRADESCO SAÚDE - OPERADORA DE PLANOS  S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421723-HEALTH-MED SISTEMA DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421731-AMHE MED ASSISTENCIA A SAUDE LTDA - EPP;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421766-BEST SENIOR OPERADORA DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421871-ANGELI SISTEMAS DE SAUDE S.A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421928-ALICE OPERADORA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421944-ÚNICA ASSISTENCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+421952-CRZ PLANO ODONTOLÓGICO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422029-KLINI PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422053-ASSOCIAÇÃO FCA SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422070-ELETROS SAÚDE - ASSOCIAÇÃO DE ASSISTÊNCIA À;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422088-ODONT-OPERADORA ODONTOLOGICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422151-ATITUDE SAÚDE ASSISTÊNCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422304-CARING SAÚDE ASSISTÊNCIA MÉDICA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422321-ASSOCIAÇÃO DE SAÚDE DO VALE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422339-LEVE SAUDE OPERADORA DE PLANOS DE SAUDE S.A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422355-PD BRASIL ASSISTENCIA ODONTOLOGICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422371-SF SISTEMAS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422398-SAMI ASSISTÊNCIA MÉDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422436-CENIBRA LOGÍSTICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422479-LIVRI OPERADORA DE PLANO DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422533-PROVER ODONTOLOGIA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422584-PB ASSISTENCIA MEDICA EU LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422622-ODONTO MAIS SAUDE EMPREENDIMENTOS LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422631-ASSOCIAÇÃO PETROBRAS DE SAÚDE - APS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422673-OPERADORA DE PLANOS ODONTOLOGICOS ULTRAODON;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422681-GOCARE PLANOS DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422703-PS ASSISTENCIA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422720-AMPLA PLANOS DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422746-SALUSMED OPERADORA DE PLANOS DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422762-SANTA CASA DE MISERICÓRDIA E BENEFICÊNCIA P;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422771-TEMPO MED PLANO DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422827-TRINO - ALIANCA FILANTRÓPICA DE ASSISTÊNCIA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422835-VIDA TOP MAIS SAÚDE OPERADORA DE PLANOS DE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422924-ODONTOCOOP - OPERADORA DE PLANOS DE SAÚDE L;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422959-PRESERVE SAUDE ASSISTENCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+422975-DENTALMASTER LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423050-DENTAL WHITE PLANO DE ASSISTÊNCIA ODONTOLÓG;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423092-YOU ODONTO LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423106-SAUDE INTEGRAL ASSISTENCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423173-INTEGRA ASSISTENCIA MEDICA SA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423181-BEMSTAR ASSISTENCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423203-ASSOCIAÇÃO POLICIAL DE ASSISTÊNCIA À SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423262-ALMA ODONTO OPERADORA DE PLANOS ODONTOLOGIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423319-ANAFE SAUDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423335-UNITY SERVIÇOS INTEGRADOS DE SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423351-AME VVIDA PLANOS DE SAUDE INTEGRADO LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423408-PLANO SIGMA SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423424-IPRESB - INSTITUTO DE PREVENÇÃO EM SAÚDE BU;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423432-ASSOC DE ASSIST À SAÚDE DOS SERV DAS UNIV E;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423441-PLENUM ASSISTENCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423491-ODONTOBRAS PLANOS ODONTOLOGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423548-TOTAL ASSISTÊNCIA MÉDICA HOSPITALAR LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423556-SISO PLANO ODONTOLOGICO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423564-INFINITY SAÚDE SUPLEMENTAR LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423572-INNOVA PLANO DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423629-AURORA SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423645-SAUDIA ASSISTENCIA MÉDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423653-DR DIA PLANOS ODONTOLOGICOS E SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423661-NOVA SAÚDE OPERADORA INTEGRADA DE SAÚDE LTD;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423670-HES PLANO DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423700-EVO SAUDE ASSISTENCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423718-SUL DO PARÁ SAÚDE LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423726-GOLD PLAN EMPREENDIMENTOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423777-FEBRAFITE SAUDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423807-ASSOCIAÇÃO HOSPITALAR MOINHOS DE VENTO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423815-SAGRADA SAÚDE ASSISTÊNCIA MÉDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423858-AMPLITUDE PLANOS DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423874-SF SAÚDE ODONTOMAIS ASSISTÊNCIA ODONTOLÓGIC;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423912-ASSISTÊNCIA MÉDICA 12 DE OUTUBRO LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423921-JFC SAUDE ASSISTENCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+423963-CLARO S.A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424013-VCT PLANOS DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424030-OMEGA ODONTO OPERADORA DE PLANOS ODONTOLOGI;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424048-VALE PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424064-MB PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424129-HOSPITAL MATERNIDADE SÃO VICENTE DE PAULO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424170-BLUZZ SAÚDE S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424188-SERV SOCIAL AUTÔNOMO DE ASSIST À SAÚDE DOS;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424196-MAXIMED PLANOS DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424277-AMÉLIA OPERADORA DE PLANOS DE SAUDE S/A.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424285-AIRES OPERADORA DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424340-ARTYODONTO BRASIL PLANO DE ASSISTÊNCIA ODON;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424358-LD RODRIGUES LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424391-HOSPITAL DE CLÍNICAS DE PASSO FUNDO;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424447-DENTAL SAUDE SUPREME PLANOS ODONTOLOGICOS L;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424463-SAUDE SALV ASSISTENCIA MEDICA S/A;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424480-VIVER SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424528-ATIMED ASSISTENCIA MEDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424544-ELITE SAUDE SERVICOS MEDICOS LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424561-NOVAMED PLANOS DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424587-GRINGO PLANOS ODONTOLOGICOS LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424595-SF SAÚDE ASSISTÊNCIA MÉDICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424676-DENTAL KLIN ASSISTENCIA ODONTOLOGICA LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424722-VITAPLENA OPERADORA DE PLANOS DE SAÚDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424773-VIDA E SAUDE ASSISTENCIA MEDICA LTDA.;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424897-HIGIA OPERADORA DE PLANOS DE SAUDE LTDA;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv
+424986-ASSOCIAÇÃO VALLISVITTA OPERADORA DE SAÚDE;Ago/2026;1;Ops._com_Benef.;Operadoras com registro ativo;snapshot mensal;Operadora x snapshot mensal;operadoras_ativas_ago2026.csv

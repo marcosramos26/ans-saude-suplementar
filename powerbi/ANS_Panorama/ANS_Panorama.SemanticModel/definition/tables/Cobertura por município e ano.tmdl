@@ -1,0 +1,47 @@
+/// Grão: ano x município. Taxa de cobertura municipal, não aditiva.
+table 'Cobertura por município e ano'
+	lineageTag: 6a629b79-da0c-4444-84ef-d279c2ded457
+
+	/// Taxa de cobertura municipal em pontos percentuais. Retorna vazio quando o contexto agrega mais de um município ou mais de um ano.
+	measure 'Taxa de cobertura (município)' = SELECTEDVALUE ( 'Cobertura por município e ano'[Taxa de cobertura] )
+		formatString: 0.00"%"
+		lineageTag: 5acbaef8-7ab1-4b8f-8977-b0069a1bbe8b
+
+	column periodo_id
+		dataType: string
+		isHidden
+		lineageTag: d6b9e1bb-d2f9-4b7f-bcf1-5dd98df0726a
+		sourceColumn: periodo_id
+
+	column municipio_id
+		dataType: string
+		isHidden
+		lineageTag: c71f2650-348c-43d9-b90e-f4d361ced5bb
+		sourceColumn: municipio_id
+
+	column uf_id
+		dataType: string
+		isHidden
+		lineageTag: a1af629e-79a6-468b-b0f4-8555c12c9f94
+		sourceColumn: uf_id
+
+	/// Percentual em pontos percentuais. Taxa não é aditiva entre municípios.
+	column 'Taxa de cobertura'
+		dataType: double
+		formatString: 0.00"%"
+		lineageTag: 26e7181d-eedb-4e43-a97f-674192c7a382
+		summarizeBy: sum
+		sourceColumn: taxa_cobertura_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Cobertura por município e ano' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\fatos\fato_taxa_cobertura_municipio_ano.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"periodo_id", type text}, {"municipio_id", type text}, {"uf_id", type text}, {"taxa_cobertura_pct", type number}}, "en-US")
+				in
+				    Tipos
+

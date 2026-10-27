@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "ANS_Panorama"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "0a71ac5a-4c36-46a7-811d-f9d12032a7e3"
+  }
+}

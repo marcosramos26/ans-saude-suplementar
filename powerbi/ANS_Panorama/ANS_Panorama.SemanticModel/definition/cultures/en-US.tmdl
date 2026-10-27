@@ -1,0 +1,833 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "vínculos_por_uf_e_competência.vínculos__última_competência": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "Vínculos - última competência"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "vínculos_por_uf_e_competência.variação_anual_de_vínculos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "Variação anual de vínculos"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "receitas_por_operadora_e_ano.receita__último_ano_completo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Receitas por operadora e ano",
+			          "ConceptualProperty": "Receita - último ano completo"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "receitas_por_operadora_e_ano.variação_anual_de_receita": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Receitas por operadora e ano",
+			          "ConceptualProperty": "Variação anual de receita"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "vínculos_por_operadora.operadoras_com_vínculos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por operadora",
+			          "ConceptualProperty": "Operadoras com vínculos"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "cobertura_por_uf_e_ano.média_simples_das_taxas_uf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cobertura por UF e ano",
+			          "ConceptualProperty": "Média simples das taxas (UF)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cob": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.cabeçalho_html__panorama": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "Cabeçalho HTML - Panorama"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Cabeçalho HTML - Panorama": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.vínculos_assistência_médica": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "Vínculos (assistência médica)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vinculos": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.participação_da_uf_no_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "Participação da UF no total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "part": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "período.ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Período",
+			          "ConceptualProperty": "Ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ordem": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "período.rótulo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Período",
+			          "ConceptualProperty": "Rótulo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rotulo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "recorte_de_vínculos.membro": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Recorte de vínculos",
+			          "ConceptualProperty": "Membro"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "membro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_recorte.vínculos_por_modalidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por recorte",
+			          "ConceptualProperty": "Vínculos por modalidade"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_recorte.vínculos_por_tipo_de_contratação": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por recorte",
+			          "ConceptualProperty": "Vínculos por tipo de contratação"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "uf.sigla": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UF",
+			          "ConceptualProperty": "Sigla"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sigla": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "uf.nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "UF",
+			          "ConceptualProperty": "Nome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.cabeçalho_html__território": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "Cabeçalho HTML - Território"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Cabeçalho HTML - Território": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.kpi_html__território": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "KPI HTML - Território"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KPI HTML - Território": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.perfil_html__uf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "Perfil HTML - UF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Perfil HTML - UF": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.cabeçalho_html__perfil": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "Cabeçalho HTML - Perfil"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Cabeçalho HTML - Perfil": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.kpi_html__perfil": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "KPI HTML - Perfil"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KPI HTML - Perfil": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "período.ano": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Período",
+			          "ConceptualProperty": "Ano"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ano": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "recorte_de_vínculos.faixa_etária_associada": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Recorte de vínculos",
+			          "ConceptualProperty": "Faixa etária associada"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "faixa": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "recorte_de_vínculos.sexo_associado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Recorte de vínculos",
+			          "ConceptualProperty": "Sexo associado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sexo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "recorte_de_vínculos.ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Recorte de vínculos",
+			          "ConceptualProperty": "Ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ordem": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_recorte.vínculos_por_grande_região": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por recorte",
+			          "ConceptualProperty": "Vínculos por grande região"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_recorte.vínculos_por_faixa_etária_e_sexo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por recorte",
+			          "ConceptualProperty": "Vínculos por faixa etária e sexo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_recorte.vínculos_por_tipo_de_contratação_por_uf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por recorte",
+			          "ConceptualProperty": "Vínculos por tipo de contratação por UF"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "região.nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Região",
+			          "ConceptualProperty": "Nome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "membro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "partição_territorial.nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partição territorial",
+			          "ConceptualProperty": "Nome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "membro": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "partição_territorial.ordem": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Partição territorial",
+			          "ConceptualProperty": "Ordem"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ordem": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_partição.vínculos_capital__interior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por partição",
+			          "ConceptualProperty": "Vínculos capital + interior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "valor": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "cobertura_por_uf_e_ano.taxa_de_cobertura_uf": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Cobertura por UF e ano",
+			          "ConceptualProperty": "Taxa de cobertura (UF)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cob": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.cabeçalho_html__mercado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "Cabeçalho HTML - Mercado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Cabeçalho HTML - Mercado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.kpi_html__mercado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "KPI HTML - Mercado"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KPI HTML - Mercado": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_uf_e_competência.último_ano_completo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por UF e competência",
+			          "ConceptualProperty": "Último ano completo"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ult": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "operadora.código": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Operadora",
+			          "ConceptualProperty": "Código"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codigo": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "operadora.nome_curto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Operadora",
+			          "ConceptualProperty": "Nome curto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_operadora.vínculos_das_operadoras": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por operadora",
+			          "ConceptualProperty": "Vínculos das operadoras"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vin": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vínculos_por_operadora.vínculos_das_operadoras__ano_anterior": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Vínculos por operadora",
+			          "ConceptualProperty": "Vínculos das operadoras - ano anterior"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ant": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "modalidade.nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Modalidade",
+			          "ConceptualProperty": "Nome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "modalidade": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "receitas_por_modalidade_e_ano.receita_de_contraprestações_modalidade": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Receitas por modalidade e ano",
+			          "ConceptualProperty": "Receita de contraprestações (modalidade)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "receita": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

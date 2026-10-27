@@ -1,0 +1,98 @@
+[
+ {
+  "teste": "V1 unicidade de chave em 20 tabelas",
+  "ok": true,
+  "n": 0,
+  "detalhe": "chaves duplicadas: 0"
+ },
+ {
+  "teste": "V2 integridade referencial (fatos -> dimensoes)",
+  "ok": true,
+  "n": 0,
+  "detalhe": "nenhuma chave orfa"
+ },
+ {
+  "teste": "T4 cardinalidade pos-juncao (chave de dimensao unica e total)",
+  "ok": true,
+  "n": 0,
+  "detalhe": "tabelas com chave repetida: []"
+ },
+ {
+  "teste": "V3a UF x tipo de contratacao == total da UF (21 competencias x 28 UFs)",
+  "ok": true,
+  "n": 0,
+  "detalhe": "divergencias: []"
+ },
+ {
+  "teste": "V3b recortes nacionais (sexo/faixa/contratacao/segmentacao/modalidade/faixa_sexo) == total nacional",
+  "ok": true,
+  "n": 0,
+  "detalhe": "divergencias: []"
+ },
+ {
+  "teste": "V3c municipios (5.598 rotulos) == total nacional",
+  "ok": true,
+  "n": 0,
+  "detalhe": "divergencias: []"
+ },
+ {
+  "teste": "V3d particao Capital + Interior == total nacional",
+  "ok": true,
+  "n": 0,
+  "detalhe": "divergencias: []"
+ },
+ {
+  "teste": "V3e operadora (758) == total nacional",
+  "ok": true,
+  "n": 0,
+  "detalhe": "divergencias: []"
+ },
+ {
+  "teste": "V3f grande regiao == total nacional",
+  "ok": true,
+  "n": 0,
+  "detalhe": "divergencias: []"
+ },
+ {
+  "teste": "V4 cobertura de relacionamento: capitais resolvidas 27/27",
+  "ok": true,
+  "n": 0,
+  "detalhe": "todas resolvidas"
+ },
+ {
+  "teste": "V4 cobertura de relacionamento: operadora (R4)",
+  "ok": true,
+  "n": 0,
+  "detalhe": "dimensao=1201 | nas 3 fontes=636 | so cadastro ativo=17 | so beneficiarios=22 | so receitas=217"
+ },
+ {
+  "teste": "V5a taxas na faixa 0-100% (sem negativos)",
+  "ok": true,
+  "n": 0,
+  "detalhe": "acima de 100%: 1 ocorrencia(s) [('MUN:270080', 100.5, 'A2021-12')]"
+ },
+ {
+  "teste": "V5b teste NAO aditivo: taxa da UF dentro do min/max municipal do proprio estado",
+  "ok": true,
+  "n": 0,
+  "detalhe": "violacoes: []"
+ },
+ {
+  "teste": "V6a SHA-256 dos 29 originais == registrado no log de extracao",
+  "ok": true,
+  "n": 29,
+  "detalhe": "29/29 arquivos conferidos (29 resolvidos pelo nome apos a movimentacao da pasta)"
+ },
+ {
+  "teste": "V6b soma tidy (UF x competencia) == soma curated (UF x competencia)",
+  "ok": true,
+  "n": 0,
+  "detalhe": "tidy=1072851372 | curated=1072851372"
+ },
+ {
+  "teste": "V6c nenhuma coluna Total entrou na curated",
+  "ok": true,
+  "n": 0,
+  "detalhe": "colunas verificadas: capital_id, classificacao_provisoria, codigo_origem, flag_codigo_inconsistente, geo_id, medida, membro, membro_id, modalidade_id, municipio_id, nivel_geografico, operadora_id, origem, particao_id, periodo_id, receita_contraprestacoes_reais, recorte, taxa_cobertura_pct, uf_id, vinculos, vinculos_assistencia_medica, vinculos_excl_odontologico"
+ }
+]

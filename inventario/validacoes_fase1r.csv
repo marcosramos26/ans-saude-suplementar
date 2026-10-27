@@ -1,0 +1,18 @@
+﻿teste;resultado;n_divergencias;exemplos;observacao
+Soma das 28 UFs == linha Total;OK;0;[];
+Municipios (6 arquivos por regiao) == Total UF;OK;0;[];
+Sexo (M+F) == Total UF;OK;0;[];
+Grande Regiao == Total UF;OK;0;[];
+Segmentacao grupo == Total UF;OK;0;[];
+Modalidade == Total UF;OK;0;[];
+Tipo de contratacao == Total UF;OK;0;[];
+Faixa etaria == Total UF;OK;0;[];
+Interior (eixo Capital/Interior, 2 linhas) == Total UF;OK;0;[];eixo Interior e a particao Capital x Interior
+"Capital (27 capitais somadas) == linha ""Capital"" do eixo Interior";OK;0;[];Capital sozinho NAO fecha o total nacional
+UF x Tipo de contratacao (5 arquivos) == Total UF;OK;0;[];
+Faixa etaria x Sexo (2 arquivos) == Faixa etaria;OK;0;[];
+Operadora == Total UF;OK;0;[];758 operadoras com beneficiarios no periodo
+Assistencia Medica vs Excl. Odontologico sao medidas distintas (nao somar);OK;0;[];Jun/26: AM=53055406 | EO=36736226
+"Taxa de cobertura: coluna ""Total"" e a MEDIA dos anos (nao a soma)";OK;0;['media 23.97 vs coluna 24.00'];valores em % com virgula decimal
+"Receitas: coluna ""Total"" e a SOMA dos anos";OK;0;['soma 1603582001141 vs coluna 1603582001141'];R$ correntes, sem deflacionamento
+Cobertura municipal: 5598 linhas de municipio nos 6 arquivos;OK;0;[];contagem inclui os rotulos XX0000 Municipio ignorado - UF

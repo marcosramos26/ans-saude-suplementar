@@ -1,0 +1,64 @@
+/// Grão: ano x operadora. Receita anual de contraprestações em reais. Anos são completos (grao anual).
+table 'Receitas por operadora e ano'
+	lineageTag: 0a6f86a4-d96a-455d-b0ce-80ae8ee8f386
+
+	/// Receita anual de contraprestações em reais, por operadora. Respeita o filtro de período da página (anos A2021..A2026).
+	measure 'Receita de contraprestações (operadora)' = SUM ( 'Receitas por operadora e ano'[Receita de contraprestações] )
+		formatString: R$ #,##0
+		lineageTag: b3d9cb67-dffa-46cf-a432-b5d67abaaf9e
+
+	/// Receita total no último ano completo (regra: se o corte está em dezembro, o próprio ano; senão, o ano anterior). Ignora o filtro de período da página.
+	measure 'Receita - último ano completo' =
+			VAR _ano = [Último ano completo]
+			RETURN
+			    CALCULATE ( [Receita de contraprestações (operadora)], 'Período'[Ano] = _ano )
+		formatString: R$ #,##0
+		lineageTag: b81cf845-254b-4153-9db2-fb14be569310
+
+	/// Receita total no ano anterior ao último ano completo, para base de comparação.
+	measure 'Receita - ano anterior' =
+			VAR _ano = [Último ano completo] - 1
+			RETURN
+			    CALCULATE ( [Receita de contraprestações (operadora)], 'Período'[Ano] = _ano )
+		formatString: R$ #,##0
+		lineageTag: 939dc610-ce3d-41b0-b693-1d80d52baeab
+
+	/// Variação percentual da receita entre o último ano completo e o ano anterior.
+	measure 'Variação anual de receita' =
+			DIVIDE (
+			    [Receita - último ano completo] - [Receita - ano anterior],
+			    [Receita - ano anterior]
+			)
+		formatString: +0.0%;-0.0%;0.0%
+		lineageTag: b83c5d12-2f29-4929-81e0-36d2afc92791
+
+	column periodo_id
+		dataType: string
+		isHidden
+		lineageTag: 1df1be25-9ce9-4fbf-be09-366355148004
+		sourceColumn: periodo_id
+
+	column operadora_id
+		dataType: string
+		isHidden
+		lineageTag: 52b4e8b6-8df1-4439-bb35-29cd734fafa3
+		sourceColumn: operadora_id
+
+	/// Receita anual de contraprestações em reais, por operadora.
+	column 'Receita de contraprestações'
+		dataType: double
+		formatString: R$ #,##0
+		lineageTag: c60846a0-0c37-4361-b5e3-a84bdafa3117
+		summarizeBy: sum
+		sourceColumn: receita_contraprestacoes_reais
+
+	partition 'Receitas por operadora e ano' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\fatos\fato_receitas_operadora_ano.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"periodo_id", type text}, {"operadora_id", type text}, {"receita_contraprestacoes_reais", type number}}, "en-US")
+				in
+				    Tipos
+

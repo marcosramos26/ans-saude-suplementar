@@ -1,0 +1,66 @@
+/// 1.201 operadoras: união do cadastro ativo (Ago/2026), do fato de vínculos e do fato de receitas. Não misturar fontes sem checar a coluna Correspondência.
+table Operadora
+	lineageTag: c0b9e69a-1716-4adb-a2d8-0b8b5e4fc778
+
+	column operadora_id
+		dataType: string
+		isHidden
+		lineageTag: 28edc7e0-f5df-46d8-8f70-a584d2d7b950
+		sourceColumn: operadora_id
+
+	column Código
+		dataType: string
+		lineageTag: fbb492b3-95d2-4bd5-b601-6c75a6838a8b
+		sourceColumn: codigo
+
+	column 'Razão social'
+		dataType: string
+		lineageTag: 226b54c2-7003-4582-9017-ba91c8555068
+		sourceColumn: razao_social
+
+	column 'Cadastro ativo (Ago/2026)'
+		dataType: string
+		lineageTag: 77b0a978-ab13-4bdd-a037-aeea8ebbe193
+		sourceColumn: cadastro_ativo_ago2026
+
+	column 'Presente nos vínculos'
+		dataType: string
+		lineageTag: ff870a86-8321-4848-9db3-f5f9176dbfae
+		sourceColumn: presente_no_fato_beneficiarios
+
+	column 'Presente nas receitas'
+		dataType: string
+		lineageTag: f8688148-c604-42b5-bd13-b4e2b75603a2
+		sourceColumn: presente_no_fato_receitas
+
+	column Fontes
+		dataType: string
+		isHidden
+		lineageTag: 4178bac8-8ab9-459f-8c56-30adf1d61043
+		sourceColumn: fontes
+
+	column Correspondência
+		dataType: string
+		lineageTag: 715c0cda-6f07-4705-8528-edf68233e649
+		sourceColumn: correspondencia
+
+	/// Razão social sem sufixo societário e em caixa mista, para rótulos de visuais.
+	column 'Nome curto'
+		dataType: string
+		lineageTag: 35776175-4e31-4988-8733-5c4c15ceb14e
+		summarizeBy: none
+		sourceColumn: nome_curto
+
+	partition Operadora = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\dims\dim_operadora.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"operadora_id", type text}, {"codigo", type text}, {"razao_social", type text}, {"cadastro_ativo_ago2026", Int64.Type}, {"presente_no_fato_beneficiarios", Int64.Type}, {"presente_no_fato_receitas", Int64.Type}, {"ops_com_benef_snapshot", type number}, {"fontes", type text}, {"correspondencia", type text}}, "en-US"),
+				    Sinal = Table.TransformColumns(Tipos, {{"cadastro_ativo_ago2026", each if _ = 1 then "Sim" else "Não", type text}, {"presente_no_fato_beneficiarios", each if _ = 1 then "Sim" else "Não", type text}, {"presente_no_fato_receitas", each if _ = 1 then "Sim" else "Não", type text}}),
+				    Final = Table.SelectColumns(Sinal, {"operadora_id", "codigo", "razao_social", "cadastro_ativo_ago2026", "presente_no_fato_beneficiarios", "presente_no_fato_receitas", "fontes", "correspondencia"}),
+				    Curto = Table.AddColumn(Final, "nome_curto", each Text.Proper(Text.Trim(List.Accumulate({" S.A.", " S/A", " S.A", " LTDA.", " LTDA"}, [razao_social], (t, x) => Text.Replace(t, x, "")))), type text)
+				in
+				    Curto
+

@@ -1,0 +1,39 @@
+model ANS_Panorama
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_ProTooling = ["MCP-PBIModeling","DevMode"]
+
+annotation PBI_QueryOrder = ["Período","UF","Região","Município","Capital","Modalidade","Partição territorial","Catálogo de medidas","Recorte de vínculos","Operadora","Vínculos por UF e competência","Vínculos por recorte","Vínculos por partição","Vínculos por capital","Vínculos por município","Vínculos por operadora","Cobertura por UF e ano","Cobertura por município e ano","Receitas por operadora e ano","Receitas por modalidade e ano","PastaCurated"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+ref table Período
+ref table UF
+ref table Região
+ref table Município
+ref table Capital
+ref table Modalidade
+ref table 'Partição territorial'
+ref table 'Catálogo de medidas'
+ref table 'Recorte de vínculos'
+ref table Operadora
+ref table 'Vínculos por UF e competência'
+ref table 'Vínculos por recorte'
+ref table 'Vínculos por partição'
+ref table 'Vínculos por capital'
+ref table 'Vínculos por município'
+ref table 'Vínculos por operadora'
+ref table 'Cobertura por UF e ano'
+ref table 'Cobertura por município e ano'
+ref table 'Receitas por operadora e ano'
+ref table 'Receitas por modalidade e ano'
+ref table DateTableTemplate_4b4864e2-4938-4a08-b663-9608e8335f43
+ref table LocalDateTable_910adea6-41a8-44c1-aaed-a3cc169e212d
+
+ref cultureInfo en-US
+

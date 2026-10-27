@@ -1,0 +1,869 @@
+/// Grão: período x UF (28 códigos, incluindo UF:00 resíduo). Fato principal de vínculos por unidade federativa.
+table 'Vínculos por UF e competência'
+	lineageTag: a954fdfd-3bd8-4644-8e94-3a19b96d10e4
+
+	/// Soma dos vínculos com assistência médica do fato por UF (base: 28 códigos, incluindo o resíduo UF:00). Sem filtro de recorte é um total aditivo e seguro. Estoque: com mais de uma competência no filtro, devolve a competência trimestral mais recente do filtro (nunca soma trimestres).
+	measure 'Vínculos (assistência médica)' =
+			VAR _ord =
+			    CALCULATE ( MAX ( 'Período'[Ordem] ), 'Período'[Tipo de granularidade] = "trimestral" )
+			RETURN
+			    CALCULATE ( SUM ( 'Vínculos por UF e competência'[Vínculos com assistência médica] ), 'Período'[Ordem] = _ord )
+		formatString: #,##0
+		lineageTag: f0ce9153-38c9-4a89-9abc-4a7abfeacefb
+
+	/// Vínculos com assistência médica excluindo planos exclusivamente odontológicos. Estoque: com mais de uma competência no filtro, devolve a competência trimestral mais recente do filtro (nunca soma trimestres).
+	measure 'Vínculos (sem odontológico exclusivo)' =
+			VAR _ord =
+			    CALCULATE ( MAX ( 'Período'[Ordem] ), 'Período'[Tipo de granularidade] = "trimestral" )
+			RETURN
+			    CALCULATE ( SUM ( 'Vínculos por UF e competência'[Vínculos (exceto odontológico exclusivo)] ), 'Período'[Ordem] = _ord )
+		formatString: #,##0
+		lineageTag: 65608dad-6d79-4a9c-b220-ce25edd5ac34
+
+	/// Rótulo da competência trimestral mais recente disponível no fato de UF (ex.: Jun/26). Ignora o filtro de período da página.
+	measure 'Última competência' =
+			VAR _pid =
+			    CALCULATE ( MAX ( 'Vínculos por UF e competência'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			RETURN
+			    LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[periodo_id], _pid )
+		lineageTag: c91411d7-e5e6-46e5-9418-a2504fef6836
+
+	/// Ano civil do corte mais recente dos dados (derivado do maior período do fato de cobertura). Em 2026 = 2026.
+	measure 'Ano de corte dos dados' =
+			VAR _pid =
+			    CALCULATE ( MAX ( 'Cobertura por UF e ano'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _ord =
+			    LOOKUPVALUE ( 'Período'[Ordem], 'Período'[periodo_id], _pid )
+			RETURN
+			    INT ( _ord / 100 )
+		formatString: 0
+		lineageTag: 42b2d49c-2843-4b81-bb12-11bff0e4d0de
+
+	/// Último ano civil completo para comparações anuais. Regra: se o corte está em dezembro, o próprio ano; senão, o ano anterior. Em 2026 = 2025.
+	measure 'Último ano completo' =
+			VAR _pid =
+			    CALCULATE ( MAX ( 'Cobertura por UF e ano'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _ord =
+			    LOOKUPVALUE ( 'Período'[Ordem], 'Período'[periodo_id], _pid )
+			VAR _ano =
+			    INT ( _ord / 100 )
+			RETURN
+			    IF ( MOD ( _ord, 100 ) = 12, _ano, _ano - 1 )
+		formatString: 0
+		lineageTag: eeea84e1-8d2c-43f8-b9d4-7600243b9c1f
+
+	/// Texto de aviso para cartão de página: informa o corte dos dados e alerta sobre comparação com anos completos.
+	measure 'Nota de período parcial' =
+			VAR _pid =
+			    CALCULATE ( MAX ( 'Cobertura por UF e ano'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _rot =
+			    LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[periodo_id], _pid )
+			RETURN
+			    "Dados de " & [Ano de corte dos dados] & " são parciais (corte em " & _rot & "). Não comparar com anos completos."
+		lineageTag: d21e8fd1-478f-4ae9-9d33-6e4e5b0ce634
+
+	/// Total nacional (soma das 28 UF) na competência trimestral mais recente. Ignora o filtro de período da página.
+	measure 'Vínculos - última competência' =
+			VAR _pid =
+			    CALCULATE ( MAX ( 'Vínculos por UF e competência'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			RETURN
+			    CALCULATE ( [Vínculos (assistência médica)], 'Período'[periodo_id] = _pid )
+		formatString: #,##0
+		lineageTag: dd884821-a09f-40cb-bd22-34dd2c5c983c
+
+	/// Total nacional na mesma competência do ano anterior (4 trimestres antes), para base de variação anual.
+	measure 'Vínculos - mesma competência do ano anterior' =
+			VAR _pid =
+			    CALCULATE ( MAX ( 'Vínculos por UF e competência'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _ord =
+			    LOOKUPVALUE ( 'Período'[Ordem], 'Período'[periodo_id], _pid )
+			RETURN
+			    CALCULATE ( [Vínculos (assistência médica)], 'Período'[Ordem] = _ord - 100 )
+		formatString: #,##0
+		lineageTag: eaa38a9a-fb88-4281-918d-72c42652c969
+
+	/// Variação percentual dos vínculos entre a última competência e a mesma competência do ano anterior.
+	measure 'Variação anual de vínculos' =
+			DIVIDE (
+			    [Vínculos - última competência] - [Vínculos - mesma competência do ano anterior],
+			    [Vínculos - mesma competência do ano anterior]
+			)
+		formatString: +0.0%;-0.0%;0.0%
+		lineageTag: 0ef201d8-b5cd-4968-b498-0d006b2006b9
+
+	/// Participação da UF no total nacional do período em contexto. Denominador apurado sem o filtro de UF; use apenas com uma UF no eixo.
+	measure 'Participação da UF no total' =
+			DIVIDE (
+			    [Vínculos (assistência médica)],
+			    CALCULATE ( [Vínculos (assistência médica)], REMOVEFILTERS ( 'UF' ) )
+			)
+		formatString: 0.0%
+		lineageTag: 8305473f-8857-4d8f-9c16-15ec9f462f9a
+
+	/// Apresentação: faixa de KPIs da página Visão geral em HTML/SVG para o visual HTML Content (Secure). Só monta texto a partir das medidas de negócio existentes; números crus serializados com ponto (en-US) e rótulos em pt-BR.
+	measure 'KPI HTML - Panorama' =
+			VAR _pid = CALCULATE ( MAX ( 'Vínculos por UF e competência'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _ord = LOOKUPVALUE ( 'Período'[Ordem], 'Período'[periodo_id], _pid )
+			VAR _rot = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[periodo_id], _pid )
+			VAR _rotAnt = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[Ordem], _ord - 100 )
+			VAR _vin = [Vínculos - última competência]
+			VAR _vinAnt = [Vínculos - mesma competência do ano anterior]
+			VAR _vinVar = [Variação anual de vínculos]
+			VAR _ano = [Último ano completo]
+			VAR _rec = [Receita - último ano completo]
+			VAR _recVar = [Variação anual de receita]
+			VAR _ops = [Operadoras com vínculos]
+			VAR _pidCob = CALCULATE ( MAX ( 'Cobertura por UF e ano'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _pidCobIni = CALCULATE ( MIN ( 'Cobertura por UF e ano'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _rotCob = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[periodo_id], _pidCob )
+			VAR _anoCobIni = LOOKUPVALUE ( 'Período'[Ano], 'Período'[periodo_id], _pidCobIni )
+			VAR _cob = CALCULATE ( [Média simples das taxas (UF)], REMOVEFILTERS ( 'Período' ), 'Período'[periodo_id] = _pidCob )
+			VAR _cobIni = CALCULATE ( [Média simples das taxas (UF)], REMOVEFILTERS ( 'Período' ), 'Período'[periodo_id] = _pidCobIni )
+			-- séries das mini-visualizações (números crus; formatação só nos rótulos)
+			VAR _sVin =
+			    FILTER (
+			        ADDCOLUMNS (
+			            CALCULATETABLE ( VALUES ( 'Período'[Ordem] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "trimestral" ),
+			            "@v", CALCULATE ( SUM ( 'Vínculos por UF e competência'[Vínculos com assistência médica] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ) )
+			        ),
+			        NOT ISBLANK ( [@v] )
+			    )
+			VAR _sRec =
+			    FILTER (
+			        ADDCOLUMNS (
+			            CALCULATETABLE ( VALUES ( 'Período'[Ano] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "anual", 'Período'[Ano] <= _ano ),
+			            "@v", CALCULATE ( SUM ( 'Receitas por operadora e ano'[Receita de contraprestações] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ano] = EARLIER ( 'Período'[Ano] ) )
+			        ),
+			        NOT ISBLANK ( [@v] )
+			    )
+			VAR _sCob =
+			    FILTER (
+			        ADDCOLUMNS (
+			            CALCULATETABLE ( VALUES ( 'Período'[Ano] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "anual" ),
+			            "@v", CALCULATE ( AVERAGE ( 'Cobertura por UF e ano'[Taxa de cobertura] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ano] = EARLIER ( 'Período'[Ano] ) )
+			        ),
+			        NOT ISBLANK ( [@v] )
+			    )
+			VAR _sOps =
+			    FILTER (
+			        ADDCOLUMNS (
+			            CALCULATETABLE ( VALUES ( 'Período'[Ordem] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "trimestral" ),
+			            "@v", CALCULATE ( DISTINCTCOUNT ( 'Vínculos por operadora'[operadora_id] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ), 'Vínculos por operadora'[Vínculos] > 0 )
+			        ),
+			        NOT ISBLANK ( [@v] )
+			    )
+			VAR _opsAnt = MAXX ( FILTER ( _sOps, 'Período'[Ordem] = _ord - 100 ), [@v] )
+			VAR _opsVar = DIVIDE ( _ops - _opsAnt, _opsAnt )
+			VAR _nO = COUNTROWS ( _sOps )
+			VAR _minO = MINX ( _sOps, [@v] )
+			VAR _maxO = MAXX ( _sOps, [@v] )
+			VAR _ptsOps =
+			    CONCATENATEX (
+			        _sOps,
+			        VAR _i = COUNTROWS ( FILTER ( _sOps, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN
+			            FORMAT ( _i / ( _nO - 1 ) * 192 + 4, "0.0", "en-US" ) & ","
+			                & FORMAT ( 30 - DIVIDE ( [@v] - _minO, _maxO - _minO ) * 26, "0.0", "en-US" ),
+			        " ",
+			        'Período'[Ordem], ASC
+			    )
+			VAR _yLastOps = FORMAT ( 30 - DIVIDE ( _ops - _minO, _maxO - _minO ) * 26, "0.0", "en-US" )
+			-- linha: vínculos por trimestre (viewBox 200 x 34)
+			VAR _nV = COUNTROWS ( _sVin )
+			VAR _minV = MINX ( _sVin, [@v] )
+			VAR _maxV = MAXX ( _sVin, [@v] )
+			VAR _ordMin = MINX ( _sVin, 'Período'[Ordem] )
+			VAR _pts =
+			    CONCATENATEX (
+			        _sVin,
+			        VAR _i = COUNTROWS ( FILTER ( _sVin, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN
+			            FORMAT ( _i / ( _nV - 1 ) * 192 + 4, "0.0", "en-US" ) & ","
+			                & FORMAT ( 30 - DIVIDE ( [@v] - _minV, _maxV - _minV ) * 26, "0.0", "en-US" ),
+			        " ",
+			        'Período'[Ordem], ASC
+			    )
+			VAR _yLast = FORMAT ( 30 - DIVIDE ( _vin - _minV, _maxV - _minV ) * 26, "0.0", "en-US" )
+			-- barras: receita anual e cobertura anual (última barra em destaque)
+			VAR _bars = "<rect x='{x}' y='{y}' width='{w}' height='{h}' rx='2' fill='#0E6E6B' fill-opacity='{o}'/>"
+			VAR _nR = COUNTROWS ( _sRec )
+			VAR _maxR = MAXX ( _sRec, [@v] )
+			VAR _minR = MINX ( _sRec, [@v] ) * 0.8
+			VAR _barsRec =
+			    CONCATENATEX (
+			        _sRec,
+			        VAR _i = COUNTROWS ( FILTER ( _sRec, 'Período'[Ano] < EARLIER ( 'Período'[Ano] ) ) )
+			        VAR _y = 30 - DIVIDE ( [@v] - _minR, _maxR - _minR ) * 26
+			        RETURN
+			            SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _bars,
+			                "{x}", FORMAT ( _i * 200 / _nR + 3, "0.0", "en-US" ) ),
+			                "{y}", FORMAT ( _y, "0.0", "en-US" ) ),
+			                "{w}", FORMAT ( 200 / _nR - 6, "0.0", "en-US" ) ),
+			                "{h}", FORMAT ( 32 - _y, "0.0", "en-US" ) ),
+			                "{o}", IF ( _i = _nR - 1, "1", "0.3" ) ),
+			        "",
+			        'Período'[Ano], ASC
+			    )
+			VAR _nC = COUNTROWS ( _sCob )
+			VAR _maxC = MAXX ( _sCob, [@v] )
+			VAR _minC = MINX ( _sCob, [@v] ) * 0.8
+			VAR _barsCob =
+			    CONCATENATEX (
+			        _sCob,
+			        VAR _i = COUNTROWS ( FILTER ( _sCob, 'Período'[Ano] < EARLIER ( 'Período'[Ano] ) ) )
+			        VAR _y = 30 - DIVIDE ( [@v] - _minC, _maxC - _minC ) * 26
+			        RETURN
+			            SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _bars,
+			                "{x}", FORMAT ( _i * 200 / _nC + 3, "0.0", "en-US" ) ),
+			                "{y}", FORMAT ( _y, "0.0", "en-US" ) ),
+			                "{w}", FORMAT ( 200 / _nC - 6, "0.0", "en-US" ) ),
+			                "{h}", FORMAT ( 32 - _y, "0.0", "en-US" ) ),
+			                "{o}", IF ( _i = _nC - 1, "1", "0.3" ) ),
+			        "",
+			        'Período'[Ano], ASC
+			    )
+			-- peças de apresentação
+			VAR _pill =
+			    "<span style='font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:{bg};color:{fg}'>{t}</span>"
+			VAR _pos = SUBSTITUTE ( SUBSTITUTE ( _pill, "{bg}", "#E6EFEE" ), "{fg}", "#0B5754" )
+			VAR _neg = SUBSTITUTE ( SUBSTITUTE ( _pill, "{bg}", "#FBE9E4" ), "{fg}", "#9A3B26" )
+			VAR _neu = SUBSTITUTE ( SUBSTITUTE ( _pill, "{bg}", "#EEECE6" ), "{fg}", "#5B6170" )
+			VAR _pillOps = SUBSTITUTE ( _neu, "{t}", IF ( _opsVar >= 0, UNICHAR ( 9650 ), UNICHAR ( 9660 ) ) & " " & FORMAT ( ABS ( _opsVar ), "0.0%", "pt-BR" ) )
+			VAR _pillVin = SUBSTITUTE ( IF ( _vinVar >= 0, _pos, _neg ), "{t}", IF ( _vinVar >= 0, UNICHAR ( 9650 ), UNICHAR ( 9660 ) ) & " " & FORMAT ( ABS ( _vinVar ), "0.0%", "pt-BR" ) )
+			VAR _pillRec = SUBSTITUTE ( IF ( _recVar >= 0, _pos, _neg ), "{t}", IF ( _recVar >= 0, UNICHAR ( 9650 ), UNICHAR ( 9660 ) ) & " " & FORMAT ( ABS ( _recVar ), "0.0%", "pt-BR" ) )
+			VAR _pillCob = SUBSTITUTE ( IF ( _cob >= _cobIni, _pos, _neg ), "{t}", IF ( _cob >= _cobIni, UNICHAR ( 9650 ), UNICHAR ( 9660 ) ) & " " & FORMAT ( ABS ( _cob - _cobIni ), "0.0", "pt-BR" ) & " p.p." )
+			VAR _card =
+			    "<div style='background:#FFFFFF;border:1px solid #E7E5DF;border-radius:10px;padding:12px 16px 8px;display:flex;flex-direction:column;min-width:0;height:100%;box-sizing:border-box;overflow:hidden'>"
+			        & "<div style='font-size:11px;color:#5B6170;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'>{label}</div>"
+			        & "<div style='font-size:26px;font-weight:600;color:#16181D;line-height:1.25;margin-top:2px;white-space:nowrap'>{value}</div>"
+			        & "<div style='display:flex;align-items:center;gap:8px;margin-top:4px;min-height:20px;white-space:nowrap'>{pill}<span style='font-size:11px;color:#8A8F99;overflow:hidden;text-overflow:ellipsis'>{ctx}</span></div>"
+			        & "<svg viewBox='0 0 200 34' preserveAspectRatio='none' style='width:100%;height:22px;margin-top:auto;display:block'>{spark}</svg>"
+			        & "</div>"
+			VAR _unit = "<span style='font-size:14px;font-weight:400;color:#5B6170;margin-left:4px'>{u}</span>"
+			VAR _c1 =
+			    SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Vínculos de assistência médica · " & _rot ),
+			        "{value}", FORMAT ( _vin / 1e6, "#,0.0", "pt-BR" ) & SUBSTITUTE ( _unit, "{u}", "mi" ) ),
+			        "{pill}", _pillVin ),
+			        "{ctx}", "vs " & _rotAnt & " · " & FORMAT ( _vinAnt / 1e6, "#,0.0", "pt-BR" ) & " mi" ),
+			        "{spark}", "<polyline points='" & _pts & "' fill='none' stroke='#0E6E6B' stroke-width='1.6' vector-effect='non-scaling-stroke'/>"
+			            & "<circle cx='196' cy='" & _yLast & "' r='2.6' fill='#0E6E6B'/>" )
+			VAR _c2 =
+			    SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Receita de contraprestações · " & _ano ),
+			        "{value}", "R$ " & FORMAT ( _rec / 1e9, "#,0.0", "pt-BR" ) & SUBSTITUTE ( _unit, "{u}", "bi" ) ),
+			        "{pill}", _pillRec ),
+			        "{ctx}", "vs " & ( _ano - 1 ) & " · valores correntes" ),
+			        "{spark}", _barsRec )
+			VAR _c3 =
+			    SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Operadoras com vínculos · " & _rot ),
+			        "{value}", FORMAT ( _ops, "#,0", "pt-BR" ) ),
+			        "{pill}", _pillOps ),
+			        "{ctx}", "vs " & _rotAnt & " · " & FORMAT ( _opsAnt, "#,0", "pt-BR" ) ),
+			        "{spark}", "<polyline points='" & _ptsOps & "' fill='none' stroke='#8A8F99' stroke-width='1.6' vector-effect='non-scaling-stroke'/>"
+			            & "<circle cx='196' cy='" & _yLastOps & "' r='2.6' fill='#5B6170'/>" )
+			VAR _c4 =
+			    SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Cobertura média das UFs · " & _rotCob ),
+			        "{value}", FORMAT ( _cob, "0.0", "pt-BR" ) & SUBSTITUTE ( _unit, "{u}", "%" ) ),
+			        "{pill}", _pillCob ),
+			        "{ctx}", "desde " & _anoCobIni & " · média simples" ),
+			        "{spark}", _barsCob )
+			RETURN
+			    "<div style='display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;height:118px;overflow:hidden;box-sizing:border-box;font-family:Segoe UI,sans-serif'>"
+			        & _c1 & _c2 & _c3 & _c4
+			        & "</div>"
+		displayFolder: Apresentação
+		lineageTag: b7a73a92-0c4d-4606-be49-2bdeb40bd102
+
+	/// Apresentação: cabeçalho da Visão geral (título, frase-resumo dinâmica e fonte) para o HTML Content.
+	measure 'Cabeçalho HTML - Panorama' =
+			VAR _rot = [Última competência]
+			VAR _vin = [Vínculos - última competência]
+			VAR _vinVar = [Variação anual de vínculos]
+			VAR _ops = [Operadoras com vínculos]
+			VAR _ano = [Último ano completo]
+			VAR _rec = [Receita - último ano completo]
+			VAR _recVar = [Variação anual de receita]
+			VAR _frase =
+			    FORMAT ( _vin / 1e6, "#,0.0", "pt-BR" ) & " mi de vínculos em " & _rot & " (" & FORMAT ( _vinVar, "+0.0%;-0.0%", "pt-BR" ) & " em 12 meses)  ·  "
+			        & FORMAT ( _ops, "#,0", "pt-BR" ) & " operadoras  ·  receita " & _ano & " de R$ " & FORMAT ( _rec / 1e9, "#,0.0", "pt-BR" ) & " bi ("
+			        & FORMAT ( _recVar, "+0.0%;-0.0%", "pt-BR" ) & ")"
+			RETURN
+			    "<div style='font-family:Segoe UI,sans-serif;height:80px;box-sizing:border-box;overflow:hidden'>"
+			        & "<div style='font-size:22px;font-weight:600;color:#16181D;line-height:1.2'>Saúde suplementar no Brasil</div>"
+			        & "<div style='font-size:12px;color:#5B6170;line-height:1.45;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'>" & _frase & "</div>"
+			        & "<div style='font-size:10px;color:#8A8F99;margin-top:4px'>Fonte: ANS TabNet (SIB/ANS/MS e receitas de operadoras)  ·  vínculo não equivale a pessoa</div>"
+			        & "</div>"
+		displayFolder: Apresentação
+		lineageTag: aaeca098-1891-4ee3-bd57-e07381dd08d7
+
+	/// Apresentação: faixa de KPIs da página Território (região líder, capitais, maior e menor cobertura) para o HTML Content.
+	measure 'KPI HTML - Território' =
+			VAR _pid = CALCULATE ( MAX ( 'Vínculos por UF e competência'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _ord = LOOKUPVALUE ( 'Período'[Ordem], 'Período'[periodo_id], _pid )
+			VAR _rot = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[periodo_id], _pid )
+			VAR _ordIni = CALCULATE ( MIN ( 'Período'[Ordem] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "trimestral" )
+			VAR _rotIni = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[Ordem], _ordIni )
+			VAR _pidCob = CALCULATE ( MAX ( 'Cobertura por UF e ano'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _pidCobIni = CALCULATE ( MIN ( 'Cobertura por UF e ano'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _rotCob = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[periodo_id], _pidCob )
+			VAR _anoCobIni = LOOKUPVALUE ( 'Período'[Ano], 'Período'[periodo_id], _pidCobIni )
+			-- trimestres disponíveis
+			VAR _tri = CALCULATETABLE ( VALUES ( 'Período'[Ordem] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "trimestral", 'Vínculos por UF e competência' )
+			-- 1. região com mais vínculos e sua participação por trimestre
+			VAR _regs = ADDCOLUMNS ( CALCULATETABLE ( VALUES ( 'Região'[Nome] ), 'Região'[Tipo] = "regiao" ), "@v", [Vínculos por grande região] )
+			VAR _regNome = MAXX ( TOPN ( 1, _regs, [@v], DESC ), 'Região'[Nome] )
+			VAR _sReg =
+			    FILTER (
+			        ADDCOLUMNS (
+			            _tri,
+			            "@v", DIVIDE (
+			                CALCULATE ( [Vínculos por grande região], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ), 'Região'[Nome] = _regNome ),
+			                CALCULATE ( [Vínculos (assistência médica)], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ) )
+			            )
+			        ),
+			        NOT ISBLANK ( [@v] )
+			    )
+			VAR _regShare = MAXX ( FILTER ( _sReg, 'Período'[Ordem] = _ord ), [@v] )
+			VAR _regShareIni = MAXX ( FILTER ( _sReg, 'Período'[Ordem] = _ordIni ), [@v] )
+			-- 2. participação das capitais por trimestre
+			VAR _sCap =
+			    FILTER (
+			        ADDCOLUMNS (
+			            _tri,
+			            "@v", DIVIDE (
+			                CALCULATE ( [Vínculos nas capitais], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ) ),
+			                CALCULATE ( [Vínculos (assistência médica)], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ) )
+			            )
+			        ),
+			        NOT ISBLANK ( [@v] )
+			    )
+			VAR _capShare = MAXX ( FILTER ( _sCap, 'Período'[Ordem] = _ord ), [@v] )
+			VAR _capShareIni = MAXX ( FILTER ( _sCap, 'Período'[Ordem] = _ordIni ), [@v] )
+			VAR _cap = CALCULATE ( [Vínculos nas capitais], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _ord )
+			-- 3 e 4. maior e menor cobertura entre as UFs (ano mais recente)
+			VAR _ufs = ADDCOLUMNS ( CALCULATETABLE ( VALUES ( 'UF'[Sigla] ), 'UF'[Tipo] = "real" ), "@c", CALCULATE ( [Média simples das taxas (UF)], REMOVEFILTERS ( 'Período' ), 'Período'[periodo_id] = _pidCob ) )
+			VAR _maxSig = MAXX ( TOPN ( 1, _ufs, [@c], DESC ), 'UF'[Sigla] )
+			VAR _minSig = MAXX ( TOPN ( 1, _ufs, [@c], ASC ), 'UF'[Sigla] )
+			VAR _maxNome = LOOKUPVALUE ( 'UF'[Nome], 'UF'[Sigla], _maxSig )
+			VAR _minNome = LOOKUPVALUE ( 'UF'[Nome], 'UF'[Sigla], _minSig )
+			VAR _maxC = MAXX ( _ufs, [@c] )
+			VAR _minC = MINX ( _ufs, [@c] )
+			VAR _sCobMax = FILTER ( ADDCOLUMNS ( CALCULATETABLE ( VALUES ( 'Período'[Ano] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "anual" ),
+			        "@v", CALCULATE ( AVERAGE ( 'Cobertura por UF e ano'[Taxa de cobertura] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ano] = EARLIER ( 'Período'[Ano] ), 'UF'[Sigla] = _maxSig ) ), NOT ISBLANK ( [@v] ) )
+			VAR _sCobMin = FILTER ( ADDCOLUMNS ( CALCULATETABLE ( VALUES ( 'Período'[Ano] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "anual" ),
+			        "@v", CALCULATE ( AVERAGE ( 'Cobertura por UF e ano'[Taxa de cobertura] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ano] = EARLIER ( 'Período'[Ano] ), 'UF'[Sigla] = _minSig ) ), NOT ISBLANK ( [@v] ) )
+			VAR _maxIni = MINX ( TOPN ( 1, _sCobMax, 'Período'[Ano], ASC ), [@v] )
+			VAR _minIni = MINX ( TOPN ( 1, _sCobMin, 'Período'[Ano], ASC ), [@v] )
+			-- geometria das mini-séries
+			VAR _line = "<polyline points='{p}' fill='none' stroke='#0E6E6B' stroke-width='1.6' vector-effect='non-scaling-stroke'/>"
+			VAR _ptsReg =
+			    VAR _n = COUNTROWS ( _sReg ) VAR _lo = MINX ( _sReg, [@v] ) VAR _hi = MAXX ( _sReg, [@v] )
+			    RETURN CONCATENATEX ( _sReg,
+			        VAR _i = COUNTROWS ( FILTER ( _sReg, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN FORMAT ( _i / ( _n - 1 ) * 192 + 4, "0.0", "en-US" ) & "," & FORMAT ( 30 - DIVIDE ( [@v] - _lo, _hi - _lo ) * 26, "0.0", "en-US" ),
+			        " ", 'Período'[Ordem], ASC )
+			VAR _ptsCap =
+			    VAR _n = COUNTROWS ( _sCap ) VAR _lo = MINX ( _sCap, [@v] ) VAR _hi = MAXX ( _sCap, [@v] )
+			    RETURN CONCATENATEX ( _sCap,
+			        VAR _i = COUNTROWS ( FILTER ( _sCap, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN FORMAT ( _i / ( _n - 1 ) * 192 + 4, "0.0", "en-US" ) & "," & FORMAT ( 30 - DIVIDE ( [@v] - _lo, _hi - _lo ) * 26, "0.0", "en-US" ),
+			        " ", 'Período'[Ordem], ASC )
+			VAR _bar = "<rect x='{x}' y='{y}' width='{w}' height='{h}' rx='2' fill='{f}' fill-opacity='{o}'/>"
+			VAR _barsMax =
+			    VAR _n = COUNTROWS ( _sCobMax )
+			    RETURN CONCATENATEX ( _sCobMax,
+			        VAR _i = COUNTROWS ( FILTER ( _sCobMax, 'Período'[Ano] < EARLIER ( 'Período'[Ano] ) ) )
+			        VAR _y = 32 - DIVIDE ( [@v], _maxC ) * 28
+			        RETURN SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _bar,
+			            "{x}", FORMAT ( _i * 200 / _n + 3, "0.0", "en-US" ) ), "{y}", FORMAT ( _y, "0.0", "en-US" ) ),
+			            "{w}", FORMAT ( 200 / _n - 6, "0.0", "en-US" ) ), "{h}", FORMAT ( 32 - _y, "0.0", "en-US" ) ),
+			            "{f}", "#0E6E6B" ), "{o}", IF ( _i = _n - 1, "1", "0.3" ) ),
+			        "", 'Período'[Ano], ASC )
+			VAR _barsMin =
+			    VAR _n = COUNTROWS ( _sCobMin )
+			    VAR _hiMin = MAXX ( _sCobMin, [@v] )
+			    RETURN CONCATENATEX ( _sCobMin,
+			        VAR _i = COUNTROWS ( FILTER ( _sCobMin, 'Período'[Ano] < EARLIER ( 'Período'[Ano] ) ) )
+			        VAR _y = 32 - DIVIDE ( [@v], _hiMin ) * 28
+			        RETURN SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _bar,
+			            "{x}", FORMAT ( _i * 200 / _n + 3, "0.0", "en-US" ) ), "{y}", FORMAT ( _y, "0.0", "en-US" ) ),
+			            "{w}", FORMAT ( 200 / _n - 6, "0.0", "en-US" ) ), "{h}", FORMAT ( 32 - _y, "0.0", "en-US" ) ),
+			            "{f}", "#E0684B" ), "{o}", IF ( _i = _n - 1, "1", "0.35" ) ),
+			        "", 'Período'[Ano], ASC )
+			-- peças de apresentação (mesmo padrão da Visão geral)
+			VAR _pill = "<span style='font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:{bg};color:{fg}'>{t}</span>"
+			VAR _neu = SUBSTITUTE ( SUBSTITUTE ( _pill, "{bg}", "#EEECE6" ), "{fg}", "#5B6170" )
+			VAR _pos = SUBSTITUTE ( SUBSTITUTE ( _pill, "{bg}", "#E6EFEE" ), "{fg}", "#0B5754" )
+			VAR _pp = ( _regShare - _regShareIni ) * 100
+			VAR _ppCap = ( _capShare - _capShareIni ) * 100
+			VAR _arrow = IF ( _pp >= 0, UNICHAR ( 9650 ), UNICHAR ( 9660 ) )
+			VAR _arrowCap = IF ( _ppCap >= 0, UNICHAR ( 9650 ), UNICHAR ( 9660 ) )
+			VAR _card =
+			    "<div style='background:#FFFFFF;border:1px solid #E7E5DF;border-radius:10px;padding:12px 16px 8px;display:flex;flex-direction:column;min-width:0;height:100%;box-sizing:border-box;overflow:hidden'>"
+			        & "<div style='font-size:11px;color:#5B6170;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'>{label}</div>"
+			        & "<div style='font-size:26px;font-weight:600;color:#16181D;line-height:1.25;margin-top:2px;white-space:nowrap'>{value}</div>"
+			        & "<div style='display:flex;align-items:center;gap:8px;margin-top:4px;min-height:20px;white-space:nowrap'>{pill}<span style='font-size:11px;color:#8A8F99;overflow:hidden;text-overflow:ellipsis'>{ctx}</span></div>"
+			        & "<svg viewBox='0 0 200 34' preserveAspectRatio='none' style='width:100%;height:22px;margin-top:auto;display:block'>{spark}</svg>"
+			        & "</div>"
+			VAR _unit = "<span style='font-size:14px;font-weight:400;color:#5B6170;margin-left:4px'>{u}</span>"
+			VAR _c1 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Região com mais vínculos · " & _rot ),
+			        "{value}", _regNome & " <span style='font-size:20px;font-weight:600;color:#0E6E6B;margin-left:6px'>" & FORMAT ( _regShare, "0.0%", "pt-BR" ) & "</span>" ),
+			        "{pill}", SUBSTITUTE ( _neu, "{t}", _arrow & " " & FORMAT ( ABS ( _pp ), "0.0", "pt-BR" ) & " p.p." ) ),
+			        "{ctx}", "participação vs " & _rotIni ),
+			        "{spark}", SUBSTITUTE ( _line, "{p}", _ptsReg ) )
+			VAR _c2 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Vínculos nas 27 capitais · " & _rot ),
+			        "{value}", FORMAT ( _capShare * 100, "0.0", "pt-BR" ) & SUBSTITUTE ( _unit, "{u}", "% do total" ) ),
+			        "{pill}", SUBSTITUTE ( _neu, "{t}", _arrowCap & " " & FORMAT ( ABS ( _ppCap ), "0.0", "pt-BR" ) & " p.p." ) ),
+			        "{ctx}", FORMAT ( _cap / 1e6, "#,0.0", "pt-BR" ) & " mi  ·  vs " & _rotIni ),
+			        "{spark}", SUBSTITUTE ( _line, "{p}", _ptsCap ) )
+			VAR _c3 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Maior cobertura · " & _rotCob ),
+			        "{value}", _maxSig & " <span style='font-size:20px;font-weight:600;color:#0E6E6B;margin-left:6px'>" & FORMAT ( _maxC, "0.0", "pt-BR" ) & "%</span>" ),
+			        "{pill}", SUBSTITUTE ( _pos, "{t}", IF ( _maxC >= _maxIni, UNICHAR ( 9650 ), UNICHAR ( 9660 ) ) & " " & FORMAT ( ABS ( _maxC - _maxIni ), "0.0", "pt-BR" ) & " p.p." ) ),
+			        "{ctx}", _maxNome & "  ·  desde " & _anoCobIni ),
+			        "{spark}", _barsMax )
+			VAR _c4 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Menor cobertura · " & _rotCob ),
+			        "{value}", _minSig & " <span style='font-size:20px;font-weight:600;color:#E0684B;margin-left:6px'>" & FORMAT ( _minC, "0.0", "pt-BR" ) & "%</span>" ),
+			        "{pill}", SUBSTITUTE ( _neu, "{t}", FORMAT ( DIVIDE ( _maxC, _minC ), "0", "pt-BR" ) & "× menor que " & _maxSig ) ),
+			        "{ctx}", _minNome & "  ·  desde " & _anoCobIni ),
+			        "{spark}", _barsMin )
+			RETURN
+			    "<div style='display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;height:118px;overflow:hidden;box-sizing:border-box;font-family:Segoe UI,sans-serif'>"
+			        & _c1 & _c2 & _c3 & _c4
+			        & "</div>"
+		displayFolder: Apresentação
+		lineageTag: e5932349-bd98-48fd-a23b-def68ecda1da
+
+	/// Apresentação: cabeçalho da página Território (título, frase-resumo dinâmica e nota) para o HTML Content.
+	measure 'Cabeçalho HTML - Território' =
+			VAR _rot = [Última competência]
+			VAR _pidCob = CALCULATE ( MAX ( 'Cobertura por UF e ano'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _ufsV = ADDCOLUMNS ( CALCULATETABLE ( VALUES ( 'UF'[Sigla] ), 'UF'[Tipo] = "real" ), "@p", [Participação da UF no total] )
+			VAR _ufsC = ADDCOLUMNS ( CALCULATETABLE ( VALUES ( 'UF'[Sigla] ), 'UF'[Tipo] = "real" ), "@c", CALCULATE ( [Média simples das taxas (UF)], REMOVEFILTERS ( 'Período' ), 'Período'[periodo_id] = _pidCob ) )
+			VAR _topSig = MAXX ( TOPN ( 1, _ufsV, [@p], DESC ), 'UF'[Sigla] )
+			VAR _topP = MAXX ( _ufsV, [@p] )
+			VAR _top3 = SUMX ( TOPN ( 3, _ufsV, [@p], DESC ), [@p] )
+			VAR _maxSig = MAXX ( TOPN ( 1, _ufsC, [@c], DESC ), 'UF'[Sigla] )
+			VAR _minSig = MAXX ( TOPN ( 1, _ufsC, [@c], ASC ), 'UF'[Sigla] )
+			VAR _frase =
+			    _topSig & " concentra " & FORMAT ( _topP, "0.0%", "pt-BR" ) & " dos vínculos e as 3 maiores UFs somam " & FORMAT ( _top3, "0%", "pt-BR" )
+			        & "  ·  cobertura vai de " & FORMAT ( MINX ( _ufsC, [@c] ), "0.0", "pt-BR" ) & "% (" & _minSig & ") a "
+			        & FORMAT ( MAXX ( _ufsC, [@c] ), "0.0", "pt-BR" ) & "% (" & _maxSig & ")"
+			RETURN
+			    "<div style='font-family:Segoe UI,sans-serif;height:80px;box-sizing:border-box;overflow:hidden'>"
+			        & "<div style='font-size:22px;font-weight:600;color:#16181D;line-height:1.2'>Território e cobertura</div>"
+			        & "<div style='font-size:12px;color:#5B6170;line-height:1.45;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'>" & _frase & "</div>"
+			        & "<div style='font-size:10px;color:#8A8F99;margin-top:4px'>Vínculos em " & _rot & "  ·  cobertura = beneficiários ÷ população (pode passar de 100% em município)</div>"
+			        & "</div>"
+		displayFolder: Apresentação
+		lineageTag: 56dcf8bb-0038-4ee3-a275-50ce03cd3d99
+
+	/// Apresentação: painel de perfil da página Território. Mostra Brasil sem UF filtrada e a UF clicada no mapa (vínculos, cobertura, capital, tipo de contratação, séries).
+	measure 'Perfil HTML - UF' =
+			VAR _sel = HASONEVALUE ( 'UF'[uf_id] ) && ISFILTERED ( 'UF' )
+			VAR _nome = IF ( _sel, SELECTEDVALUE ( 'UF'[Nome] ), "Brasil" )
+			VAR _pid = CALCULATE ( MAX ( 'Vínculos por UF e competência'[periodo_id] ), REMOVEFILTERS ( 'Período' ), REMOVEFILTERS ( 'UF' ) )
+			VAR _ord = LOOKUPVALUE ( 'Período'[Ordem], 'Período'[periodo_id], _pid )
+			VAR _rot = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[periodo_id], _pid )
+			VAR _rotAnt = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[Ordem], _ord - 100 )
+			VAR _ordIni = CALCULATE ( MIN ( 'Período'[Ordem] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "trimestral" )
+			VAR _rotIni = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[Ordem], _ordIni )
+			VAR _vin = CALCULATE ( [Vínculos (assistência médica)], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _ord )
+			VAR _vinAnt = CALCULATE ( [Vínculos (assistência médica)], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _ord - 100 )
+			VAR _tot = CALCULATE ( [Vínculos (assistência médica)], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _ord, REMOVEFILTERS ( 'UF' ) )
+			VAR _var = DIVIDE ( _vin - _vinAnt, _vinAnt )
+			VAR _pidCob = CALCULATE ( MAX ( 'Cobertura por UF e ano'[periodo_id] ), REMOVEFILTERS ( 'Período' ), REMOVEFILTERS ( 'UF' ) )
+			VAR _pidCobIni = CALCULATE ( MIN ( 'Cobertura por UF e ano'[periodo_id] ), REMOVEFILTERS ( 'Período' ), REMOVEFILTERS ( 'UF' ) )
+			VAR _anoCobIni = LOOKUPVALUE ( 'Período'[Ano], 'Período'[periodo_id], _pidCobIni )
+			VAR _rotCob = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[periodo_id], _pidCob )
+			VAR _cob = CALCULATE ( [Média simples das taxas (UF)], REMOVEFILTERS ( 'Período' ), 'Período'[periodo_id] = _pidCob, 'UF'[Tipo] = "real" )
+			VAR _cobIni = CALCULATE ( [Média simples das taxas (UF)], REMOVEFILTERS ( 'Período' ), 'Período'[periodo_id] = _pidCobIni, 'UF'[Tipo] = "real" )
+			VAR _cap = CALCULATE ( [Vínculos nas capitais], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _ord )
+			VAR _capNome = IF ( _sel, CALCULATE ( SELECTEDVALUE ( 'Capital'[Nome] ) ), "27 capitais" )
+			VAR _capShare = DIVIDE ( _cap, _vin )
+			-- mix de tipo de contratação (nível UF; sem UF selecionada, a soma das UFs = Brasil)
+			VAR _mixT =
+			    ADDCOLUMNS (
+			        CALCULATETABLE ( VALUES ( 'Recorte de vínculos'[Membro] ), 'Recorte de vínculos'[Recorte] = "tipo_contratacao" ),
+			        "@v", CALCULATE ( [Vínculos por tipo de contratação por UF], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _ord )
+			    )
+			VAR _mixTot = SUMX ( _mixT, [@v] )
+			VAR _emp = DIVIDE ( MAXX ( FILTER ( _mixT, 'Recorte de vínculos'[Membro] = "Coletivo Empresarial" ), [@v] ), _mixTot )
+			VAR _ind = DIVIDE ( MAXX ( FILTER ( _mixT, 'Recorte de vínculos'[Membro] = "Individual ou Familiar" ), [@v] ), _mixTot )
+			VAR _ade = DIVIDE ( MAXX ( FILTER ( _mixT, 'Recorte de vínculos'[Membro] = "Coletivo por adesão" ), [@v] ), _mixTot )
+			VAR _out = MAX ( 0, 1 - _emp - _ind - _ade )
+			-- séries
+			VAR _sVin =
+			    FILTER (
+			        ADDCOLUMNS (
+			            CALCULATETABLE ( VALUES ( 'Período'[Ordem] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "trimestral" ),
+			            "@v", CALCULATE ( [Vínculos (assistência médica)], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ) )
+			        ),
+			        NOT ISBLANK ( [@v] )
+			    )
+			VAR _sCob =
+			    FILTER (
+			        ADDCOLUMNS (
+			            CALCULATETABLE ( VALUES ( 'Período'[Ano] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "anual" ),
+			            "@v", CALCULATE ( AVERAGE ( 'Cobertura por UF e ano'[Taxa de cobertura] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ano] = EARLIER ( 'Período'[Ano] ), 'UF'[Tipo] = "real" )
+			        ),
+			        NOT ISBLANK ( [@v] )
+			    )
+			VAR _nV = COUNTROWS ( _sVin )
+			VAR _loV = MINX ( _sVin, [@v] )
+			VAR _hiV = MAXX ( _sVin, [@v] )
+			VAR _pts =
+			    CONCATENATEX ( _sVin,
+			        VAR _i = COUNTROWS ( FILTER ( _sVin, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN FORMAT ( _i / ( _nV - 1 ) * 352 + 4, "0.0", "en-US" ) & "," & FORMAT ( 50 - DIVIDE ( [@v] - _loV, _hiV - _loV ) * 44, "0.0", "en-US" ),
+			        " ", 'Período'[Ordem], ASC )
+			VAR _area = "4,54 " & _pts & " 356,54"
+			VAR _yLast = FORMAT ( 50 - DIVIDE ( _vin - _loV, _hiV - _loV ) * 44, "0.0", "en-US" )
+			VAR _nC = COUNTROWS ( _sCob )
+			VAR _hiC = MAXX ( _sCob, [@v] )
+			VAR _barsCob =
+			    CONCATENATEX ( _sCob,
+			        VAR _i = COUNTROWS ( FILTER ( _sCob, 'Período'[Ano] < EARLIER ( 'Período'[Ano] ) ) )
+			        VAR _w = 360 / _nC
+			        VAR _h = DIVIDE ( [@v], _hiC ) * 26
+			        VAR _x = _i * _w
+			        RETURN
+			            "<rect x='" & FORMAT ( _x + 6, "0.0", "en-US" ) & "' y='" & FORMAT ( 42 - _h, "0.0", "en-US" ) & "' width='" & FORMAT ( _w - 12, "0.0", "en-US" )
+			                & "' height='" & FORMAT ( _h, "0.0", "en-US" ) & "' rx='2' fill='#0E6E6B' fill-opacity='" & IF ( _i = _nC - 1, "1", "0.3" ) & "'/>"
+			                & "<text x='" & FORMAT ( _x + _w / 2, "0.0", "en-US" ) & "' y='54' text-anchor='middle' font-size='9' fill='#8A8F99'>" & 'Período'[Ano] & "</text>"
+			                & "<text x='" & FORMAT ( _x + _w / 2, "0.0", "en-US" ) & "' y='" & FORMAT ( 39 - _h, "0.0", "en-US" ) & "' text-anchor='middle' font-size='9' fill='#5B6170'>" & FORMAT ( [@v], "0.0", "pt-BR" ) & "</text>",
+			        "", 'Período'[Ano], ASC )
+			-- peças
+			VAR _pp = _cob - _cobIni
+			VAR _seg = "<div style='width:{w}%;background:{c}'></div>"
+			VAR _mixBar =
+			    "<div style='display:flex;height:10px;border-radius:5px;overflow:hidden;margin-top:6px'>"
+			        & SUBSTITUTE ( SUBSTITUTE ( _seg, "{w}", FORMAT ( _emp * 100, "0.0", "en-US" ) ), "{c}", "#0E6E6B" )
+			        & SUBSTITUTE ( SUBSTITUTE ( _seg, "{w}", FORMAT ( _ind * 100, "0.0", "en-US" ) ), "{c}", "#8FB3A1" )
+			        & SUBSTITUTE ( SUBSTITUTE ( _seg, "{w}", FORMAT ( _ade * 100, "0.0", "en-US" ) ), "{c}", "#C49A5A" )
+			        & SUBSTITUTE ( SUBSTITUTE ( _seg, "{w}", FORMAT ( _out * 100, "0.0", "en-US" ) ), "{c}", "#D9D6CE" )
+			        & "</div>"
+			VAR _leg = "<span style='display:inline-flex;align-items:center;gap:4px;margin-right:10px'><span style='width:8px;height:8px;border-radius:2px;background:{c}'></span>{t} <b style='color:#16181D;font-weight:600'>{p}</b></span>"
+			VAR _mixLeg =
+			    "<div style='font-size:10px;color:#5B6170;margin-top:6px;white-space:nowrap'>"
+			        & SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _leg, "{c}", "#0E6E6B" ), "{t}", "Empresarial" ), "{p}", FORMAT ( _emp, "0%", "pt-BR" ) )
+			        & SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _leg, "{c}", "#8FB3A1" ), "{t}", "Individual" ), "{p}", FORMAT ( _ind, "0%", "pt-BR" ) )
+			        & SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _leg, "{c}", "#C49A5A" ), "{t}", "Adesão" ), "{p}", FORMAT ( _ade, "0%", "pt-BR" ) )
+			        & "</div>"
+			VAR _lbl = "<div style='font-size:11px;color:#5B6170'>{t}</div>"
+			VAR _sec = "<div style='border-top:1px solid #EEECE6;margin-top:9px;padding-top:8px'>"
+			RETURN
+			    "<div style='font-family:Segoe UI,sans-serif;background:#FFFFFF;border:1px solid #E7E5DF;border-radius:10px;padding:14px 16px;height:452px;box-sizing:border-box;overflow:hidden;color:#16181D'>"
+			        & "<div style='display:flex;justify-content:space-between;align-items:baseline'><span style='font-size:11px;color:#8A8F99;letter-spacing:.04em'>PERFIL</span>"
+			        & "<span style='font-size:10px;color:#8A8F99'>" & IF ( _sel, "clique de novo para voltar ao Brasil", "clique numa UF no mapa" ) & "</span></div>"
+			        & "<div style='font-size:24px;font-weight:600;line-height:1.2;margin-top:2px'>" & _nome & "</div>"
+			        & "<div style='display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:6px'>"
+			        & "<div>" & SUBSTITUTE ( _lbl, "{t}", "Vínculos · " & _rot ) & "<div style='font-size:20px;font-weight:600'>" & FORMAT ( _vin / 1e6, "#,0.00", "pt-BR" ) & "<span style='font-size:12px;font-weight:400;color:#5B6170;margin-left:3px'>mi</span></div>"
+			        & "<div style='font-size:10px;color:#8A8F99'>" & FORMAT ( _var, "+0.0%;-0.0%", "pt-BR" ) & " vs " & _rotAnt & IF ( _sel, "  ·  " & FORMAT ( DIVIDE ( _vin, _tot ), "0.0%", "pt-BR" ) & " do Brasil", "" ) & "</div></div>"
+			        & "<div>" & SUBSTITUTE ( _lbl, "{t}", "Cobertura · " & _rotCob ) & "<div style='font-size:20px;font-weight:600;color:#0E6E6B'>" & FORMAT ( _cob, "0.0", "pt-BR" ) & "<span style='font-size:12px;font-weight:400;color:#5B6170;margin-left:2px'>%</span></div>"
+			        & "<div style='font-size:10px;color:#8A8F99'>" & FORMAT ( _pp, "+0.0;-0.0", "pt-BR" ) & " p.p. desde " & _anoCobIni & IF ( _sel, "", "  ·  média das UFs" ) & "</div></div>"
+			        & "</div>"
+			        & _sec & SUBSTITUTE ( _lbl, "{t}", "Vínculos por trimestre, " & _rotIni & " a " & _rot )
+			        & "<svg viewBox='0 0 360 56' preserveAspectRatio='none' style='width:100%;height:36px;display:block;margin-top:4px'>"
+			        & "<polygon points='" & _area & "' fill='#0E6E6B' fill-opacity='0.08'/>"
+			        & "<polyline points='" & _pts & "' fill='none' stroke='#0E6E6B' stroke-width='1.8' vector-effect='non-scaling-stroke'/>"
+			        & "<circle cx='356' cy='" & _yLast & "' r='3' fill='#0E6E6B'/></svg></div>"
+			        & _sec & SUBSTITUTE ( _lbl, "{t}", "Na capital (" & _capNome & ")" )
+			        & "<div style='display:flex;align-items:center;gap:10px;margin-top:4px'><div style='flex:1;height:8px;border-radius:4px;background:#EEECE6;overflow:hidden'><div style='width:" & FORMAT ( _capShare * 100, "0.0", "en-US" ) & "%;height:100%;background:#0E6E6B'></div></div>"
+			        & "<span style='font-size:13px;font-weight:600'>" & FORMAT ( _capShare, "0.0%", "pt-BR" ) & "</span></div></div>"
+			        & _sec & SUBSTITUTE ( _lbl, "{t}", "Tipo de contratação" ) & _mixBar & _mixLeg & "</div>"
+			        & _sec & SUBSTITUTE ( _lbl, "{t}", "Cobertura por ano (%)" )
+			        & "<svg viewBox='0 0 360 58' style='width:100%;height:58px;display:block;margin-top:2px'>" & _barsCob & "</svg></div>"
+			        & "</div>"
+		displayFolder: Apresentação
+		lineageTag: bc4940f8-29c7-4722-8962-b4dee93c02d3
+
+	/// Apresentação: faixa de KPIs da página Perfil dos vínculos (mulheres, 60+, até 19 anos, segmentação hospitalar e ambulatorial) para o HTML Content.
+	measure 'KPI HTML - Perfil' =
+			VAR _pid = CALCULATE ( MAX ( 'Vínculos por UF e competência'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _ord = LOOKUPVALUE ( 'Período'[Ordem], 'Período'[periodo_id], _pid )
+			VAR _rot = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[periodo_id], _pid )
+			VAR _ordIni = CALCULATE ( MIN ( 'Período'[Ordem] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "trimestral" )
+			VAR _rotIni = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[Ordem], _ordIni )
+			VAR _idosos = { "60 a 64 anos", "65 a 69 anos", "70 a 74 anos", "75 a 79 anos", "80 anos ou mais" }
+			VAR _jovens = { "Até 1 ano", "1 a 4 anos", "5 a 9 anos", "10 a 14 anos", "15 a 19 anos" }
+			VAR _tri = CALCULATETABLE ( VALUES ( 'Período'[Ordem] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "trimestral", 'Vínculos por recorte' )
+			-- participações por trimestre (cada recorte dividido pelo próprio total do recorte)
+			VAR _s =
+			    ADDCOLUMNS (
+			        _tri,
+			        "@fem", DIVIDE (
+			            CALCULATE ( [Vínculos por sexo], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ), 'Recorte de vínculos'[Membro] = "Feminino" ),
+			            CALCULATE ( [Vínculos por sexo], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ) ) ),
+			        "@ido", DIVIDE (
+			            CALCULATE ( [Vínculos por faixa etária], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ), 'Recorte de vínculos'[Membro] IN _idosos ),
+			            CALCULATE ( [Vínculos por faixa etária], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ) ) ),
+			        "@jov", DIVIDE (
+			            CALCULATE ( [Vínculos por faixa etária], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ), 'Recorte de vínculos'[Membro] IN _jovens ),
+			            CALCULATE ( [Vínculos por faixa etária], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ) ) ),
+			        "@seg", DIVIDE (
+			            CALCULATE ( [Vínculos por segmentação], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ), 'Recorte de vínculos'[Membro] = "Hospitalar e Ambulatorial" ),
+			            CALCULATE ( [Vínculos por segmentação], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ) ) )
+			    )
+			VAR _fem = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ord ), [@fem] )
+			VAR _femIni = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ordIni ), [@fem] )
+			VAR _ido = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ord ), [@ido] )
+			VAR _idoIni = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ordIni ), [@ido] )
+			VAR _jov = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ord ), [@jov] )
+			VAR _jovIni = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ordIni ), [@jov] )
+			VAR _seg = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ord ), [@seg] )
+			VAR _segIni = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ordIni ), [@seg] )
+			VAR _n = COUNTROWS ( _s )
+			VAR _line = "<polyline points='{p}' fill='none' stroke='{c}' stroke-width='1.6' vector-effect='non-scaling-stroke'/>"
+			VAR _ptsFem =
+			    VAR _lo = MINX ( _s, [@fem] ) VAR _hi = MAXX ( _s, [@fem] )
+			    RETURN CONCATENATEX ( _s, VAR _i = COUNTROWS ( FILTER ( _s, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN FORMAT ( _i / ( _n - 1 ) * 192 + 4, "0.0", "en-US" ) & "," & FORMAT ( 30 - DIVIDE ( [@fem] - _lo, _hi - _lo ) * 26, "0.0", "en-US" ), " ", 'Período'[Ordem], ASC )
+			VAR _ptsIdo =
+			    VAR _lo = MINX ( _s, [@ido] ) VAR _hi = MAXX ( _s, [@ido] )
+			    RETURN CONCATENATEX ( _s, VAR _i = COUNTROWS ( FILTER ( _s, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN FORMAT ( _i / ( _n - 1 ) * 192 + 4, "0.0", "en-US" ) & "," & FORMAT ( 30 - DIVIDE ( [@ido] - _lo, _hi - _lo ) * 26, "0.0", "en-US" ), " ", 'Período'[Ordem], ASC )
+			VAR _ptsJov =
+			    VAR _lo = MINX ( _s, [@jov] ) VAR _hi = MAXX ( _s, [@jov] )
+			    RETURN CONCATENATEX ( _s, VAR _i = COUNTROWS ( FILTER ( _s, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN FORMAT ( _i / ( _n - 1 ) * 192 + 4, "0.0", "en-US" ) & "," & FORMAT ( 30 - DIVIDE ( [@jov] - _lo, _hi - _lo ) * 26, "0.0", "en-US" ), " ", 'Período'[Ordem], ASC )
+			VAR _ptsSeg =
+			    VAR _lo = MINX ( _s, [@seg] ) VAR _hi = MAXX ( _s, [@seg] )
+			    RETURN CONCATENATEX ( _s, VAR _i = COUNTROWS ( FILTER ( _s, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN FORMAT ( _i / ( _n - 1 ) * 192 + 4, "0.0", "en-US" ) & "," & FORMAT ( 30 - DIVIDE ( [@seg] - _lo, _hi - _lo ) * 26, "0.0", "en-US" ), " ", 'Período'[Ordem], ASC )
+			VAR _pill = "<span style='font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:#EEECE6;color:#5B6170'>{t}</span>"
+			VAR _pp = "{a} {v} p.p."
+			VAR _fmtPP = "0.0"
+			VAR _p1 = SUBSTITUTE ( _pill, "{t}", IF ( _fem >= _femIni, UNICHAR ( 9650 ), UNICHAR ( 9660 ) ) & " " & FORMAT ( ABS ( _fem - _femIni ) * 100, _fmtPP, "pt-BR" ) & " p.p." )
+			VAR _p2 = SUBSTITUTE ( _pill, "{t}", IF ( _ido >= _idoIni, UNICHAR ( 9650 ), UNICHAR ( 9660 ) ) & " " & FORMAT ( ABS ( _ido - _idoIni ) * 100, _fmtPP, "pt-BR" ) & " p.p." )
+			VAR _p3 = SUBSTITUTE ( _pill, "{t}", IF ( _jov >= _jovIni, UNICHAR ( 9650 ), UNICHAR ( 9660 ) ) & " " & FORMAT ( ABS ( _jov - _jovIni ) * 100, _fmtPP, "pt-BR" ) & " p.p." )
+			VAR _p4 = SUBSTITUTE ( _pill, "{t}", IF ( _seg >= _segIni, UNICHAR ( 9650 ), UNICHAR ( 9660 ) ) & " " & FORMAT ( ABS ( _seg - _segIni ) * 100, _fmtPP, "pt-BR" ) & " p.p." )
+			VAR _card =
+			    "<div style='background:#FFFFFF;border:1px solid #E7E5DF;border-radius:10px;padding:12px 16px 8px;display:flex;flex-direction:column;min-width:0;height:100%;box-sizing:border-box;overflow:hidden'>"
+			        & "<div style='font-size:11px;color:#5B6170;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'>{label}</div>"
+			        & "<div style='font-size:26px;font-weight:600;color:#16181D;line-height:1.25;margin-top:2px;white-space:nowrap'>{value}<span style='font-size:14px;font-weight:400;color:#5B6170;margin-left:4px'>% dos vínculos</span></div>"
+			        & "<div style='display:flex;align-items:center;gap:8px;margin-top:4px;min-height:20px;white-space:nowrap'>{pill}<span style='font-size:11px;color:#8A8F99;overflow:hidden;text-overflow:ellipsis'>{ctx}</span></div>"
+			        & "<svg viewBox='0 0 200 34' preserveAspectRatio='none' style='width:100%;height:22px;margin-top:auto;display:block'>{spark}</svg>"
+			        & "</div>"
+			VAR _mk = SUBSTITUTE ( _card, "{ctx}", "vs " & _rotIni )
+			VAR _c1 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _mk, "{label}", "Mulheres · " & _rot ), "{value}", FORMAT ( _fem * 100, "0.0", "pt-BR" ) ), "{pill}", _p1 ), "{spark}", SUBSTITUTE ( SUBSTITUTE ( _line, "{p}", _ptsFem ), "{c}", "#0E6E6B" ) )
+			VAR _c2 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _mk, "{label}", "60 anos ou mais · " & _rot ), "{value}", FORMAT ( _ido * 100, "0.0", "pt-BR" ) ), "{pill}", _p2 ), "{spark}", SUBSTITUTE ( SUBSTITUTE ( _line, "{p}", _ptsIdo ), "{c}", "#0E6E6B" ) )
+			VAR _c3 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _mk, "{label}", "Até 19 anos · " & _rot ), "{value}", FORMAT ( _jov * 100, "0.0", "pt-BR" ) ), "{pill}", _p3 ), "{spark}", SUBSTITUTE ( SUBSTITUTE ( _line, "{p}", _ptsJov ), "{c}", "#0E6E6B" ) )
+			VAR _c4 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _mk, "{label}", "Segmentação hospitalar e ambulatorial · " & _rot ), "{value}", FORMAT ( _seg * 100, "0.0", "pt-BR" ) ), "{pill}", _p4 ), "{spark}", SUBSTITUTE ( SUBSTITUTE ( _line, "{p}", _ptsSeg ), "{c}", "#0E6E6B" ) )
+			RETURN
+			    "<div style='display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;height:118px;overflow:hidden;box-sizing:border-box;font-family:Segoe UI,sans-serif'>"
+			        & _c1 & _c2 & _c3 & _c4
+			        & "</div>"
+		displayFolder: Apresentação
+		lineageTag: 287fabb9-f11e-4e3f-91e5-590ebefee457
+
+	/// Apresentação: cabeçalho da página Perfil dos vínculos para o HTML Content.
+	measure 'Cabeçalho HTML - Perfil' =
+			VAR _rot = [Última competência]
+			VAR _idosos = { "60 a 64 anos", "65 a 69 anos", "70 a 74 anos", "75 a 79 anos", "80 anos ou mais" }
+			VAR _fem = DIVIDE ( CALCULATE ( [Vínculos por sexo], 'Recorte de vínculos'[Membro] = "Feminino" ), [Vínculos por sexo] )
+			VAR _ido = DIVIDE ( CALCULATE ( [Vínculos por faixa etária], 'Recorte de vínculos'[Membro] IN _idosos ), [Vínculos por faixa etária] )
+			VAR _ufs =
+			    ADDCOLUMNS (
+			        CALCULATETABLE ( VALUES ( 'UF'[Sigla] ), 'UF'[Tipo] = "real" ),
+			        "@ind", DIVIDE (
+			            CALCULATE ( [Vínculos por tipo de contratação por UF], 'Recorte de vínculos'[Membro] = "Individual ou Familiar" ),
+			            CALCULATE ( [Vínculos por tipo de contratação por UF], 'Recorte de vínculos'[Recorte] = "tipo_contratacao" ) ),
+			        "@emp", DIVIDE (
+			            CALCULATE ( [Vínculos por tipo de contratação por UF], 'Recorte de vínculos'[Membro] = "Coletivo Empresarial" ),
+			            CALCULATE ( [Vínculos por tipo de contratação por UF], 'Recorte de vínculos'[Recorte] = "tipo_contratacao" ) )
+			    )
+			VAR _nEmp = COUNTROWS ( FILTER ( _ufs, [@emp] > 0.5 ) )
+			VAR _indSig = MAXX ( TOPN ( 1, _ufs, [@ind], DESC ), 'UF'[Sigla] )
+			VAR _indMax = MAXX ( _ufs, [@ind] )
+			VAR _frase =
+			    "Mulheres são " & FORMAT ( _fem, "0.0%", "pt-BR" ) & " dos vínculos  ·  " & FORMAT ( _ido, "0.0%", "pt-BR" ) & " têm 60 anos ou mais  ·  o plano individual chega a "
+			        & FORMAT ( _indMax, "0%", "pt-BR" ) & " em " & _indSig
+			RETURN
+			    "<div style='font-family:Segoe UI,sans-serif;height:80px;box-sizing:border-box;overflow:hidden'>"
+			        & "<div style='font-size:22px;font-weight:600;color:#16181D;line-height:1.2'>Perfil dos vínculos</div>"
+			        & "<div style='font-size:12px;color:#5B6170;line-height:1.45;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'>" & _frase & "</div>"
+			        & "<div style='font-size:10px;color:#8A8F99;margin-top:4px'>Vínculos em " & _rot & "  ·  cada recorte (sexo, idade, contratação, segmentação) é independente e soma o total; não cruzar entre si</div>"
+			        & "</div>"
+		displayFolder: Apresentação
+		lineageTag: 253f5f4a-a3d1-4a2b-94d1-ed250e3f3c65
+
+	/// Apresentação: faixa de KPIs da página Operadoras e mercado (operadoras, 5 maiores, HHI, receita por vínculo) para o HTML Content. Receita por vínculo = receita do ano ÷ vínculos de dezembro do mesmo ano.
+	measure 'KPI HTML - Mercado' =
+			VAR _pid = CALCULATE ( MAX ( 'Vínculos por UF e competência'[periodo_id] ), REMOVEFILTERS ( 'Período' ) )
+			VAR _ord = LOOKUPVALUE ( 'Período'[Ordem], 'Período'[periodo_id], _pid )
+			VAR _rot = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[periodo_id], _pid )
+			VAR _ordIni = CALCULATE ( MIN ( 'Período'[Ordem] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "trimestral" )
+			VAR _rotIni = LOOKUPVALUE ( 'Período'[Rótulo], 'Período'[Ordem], _ordIni )
+			VAR _ano = [Último ano completo]
+			VAR _tri = CALCULATETABLE ( VALUES ( 'Período'[Ordem] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "trimestral", 'Vínculos por operadora' )
+			-- por trimestre: número de operadoras, participação das 5 maiores e HHI (com vínculos > 0)
+			VAR _s =
+			    ADDCOLUMNS (
+			        _tri,
+			        "@n", CALCULATE ( [Operadoras com vínculos], REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ordem] ) ),
+			        "@top5", VAR _o = 'Período'[Ordem]
+			            VAR _t = ADDCOLUMNS ( CALCULATETABLE ( VALUES ( 'Operadora'[operadora_id] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _o, 'Vínculos por operadora'[Vínculos] > 0 ),
+			                "@v", CALCULATE ( SUM ( 'Vínculos por operadora'[Vínculos] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _o ) )
+			            VAR _tot = SUMX ( _t, [@v] )
+			            RETURN DIVIDE ( SUMX ( TOPN ( 5, _t, [@v], DESC ), [@v] ), _tot ),
+			        "@hhi", VAR _o = 'Período'[Ordem]
+			            VAR _t = ADDCOLUMNS ( CALCULATETABLE ( VALUES ( 'Operadora'[operadora_id] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _o, 'Vínculos por operadora'[Vínculos] > 0 ),
+			                "@v", CALCULATE ( SUM ( 'Vínculos por operadora'[Vínculos] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = _o ) )
+			            VAR _tot = SUMX ( _t, [@v] )
+			            RETURN SUMX ( _t, POWER ( DIVIDE ( [@v], _tot ) * 100, 2 ) )
+			    )
+			VAR _n = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ord ), [@n] )
+			VAR _nIni = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ordIni ), [@n] )
+			VAR _t5 = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ord ), [@top5] )
+			VAR _t5Ini = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ordIni ), [@top5] )
+			VAR _h = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ord ), [@hhi] )
+			VAR _hIni = MAXX ( FILTER ( _s, 'Período'[Ordem] = _ordIni ), [@hhi] )
+			-- receita por vínculo: receita do ano ÷ vínculos de dezembro do mesmo ano (alinhamento explícito de época)
+			VAR _sRpv =
+			    FILTER (
+			        ADDCOLUMNS (
+			            CALCULATETABLE ( VALUES ( 'Período'[Ano] ), REMOVEFILTERS ( 'Período' ), 'Período'[Tipo de granularidade] = "anual", 'Período'[Ano] <= _ano ),
+			            "@v", DIVIDE (
+			                CALCULATE ( SUM ( 'Receitas por operadora e ano'[Receita de contraprestações] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ano] = EARLIER ( 'Período'[Ano] ) ),
+			                CALCULATE ( SUM ( 'Vínculos por UF e competência'[Vínculos com assistência médica] ), REMOVEFILTERS ( 'Período' ), 'Período'[Ordem] = EARLIER ( 'Período'[Ano] ) * 100 + 12 ) )
+			        ),
+			        NOT ISBLANK ( [@v] )
+			    )
+			VAR _rpv = MAXX ( FILTER ( _sRpv, 'Período'[Ano] = _ano ), [@v] )
+			VAR _rpvAnt = MAXX ( FILTER ( _sRpv, 'Período'[Ano] = _ano - 1 ), [@v] )
+			-- geometria
+			VAR _nS = COUNTROWS ( _s )
+			VAR _line = "<polyline points='{p}' fill='none' stroke='{c}' stroke-width='1.6' vector-effect='non-scaling-stroke'/>"
+			VAR _ptsN =
+			    VAR _lo = MINX ( _s, [@n] ) VAR _hi = MAXX ( _s, [@n] )
+			    RETURN CONCATENATEX ( _s, VAR _i = COUNTROWS ( FILTER ( _s, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN FORMAT ( _i / ( _nS - 1 ) * 192 + 4, "0.0", "en-US" ) & "," & FORMAT ( 30 - DIVIDE ( [@n] - _lo, _hi - _lo ) * 26, "0.0", "en-US" ), " ", 'Período'[Ordem], ASC )
+			VAR _ptsT5 =
+			    VAR _lo = MINX ( _s, [@top5] ) VAR _hi = MAXX ( _s, [@top5] )
+			    RETURN CONCATENATEX ( _s, VAR _i = COUNTROWS ( FILTER ( _s, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN FORMAT ( _i / ( _nS - 1 ) * 192 + 4, "0.0", "en-US" ) & "," & FORMAT ( 30 - DIVIDE ( [@top5] - _lo, _hi - _lo ) * 26, "0.0", "en-US" ), " ", 'Período'[Ordem], ASC )
+			VAR _ptsH =
+			    VAR _lo = MINX ( _s, [@hhi] ) VAR _hi = MAXX ( _s, [@hhi] )
+			    RETURN CONCATENATEX ( _s, VAR _i = COUNTROWS ( FILTER ( _s, 'Período'[Ordem] < EARLIER ( 'Período'[Ordem] ) ) )
+			        RETURN FORMAT ( _i / ( _nS - 1 ) * 192 + 4, "0.0", "en-US" ) & "," & FORMAT ( 30 - DIVIDE ( [@hhi] - _lo, _hi - _lo ) * 26, "0.0", "en-US" ), " ", 'Período'[Ordem], ASC )
+			VAR _barsRpv =
+			    VAR _k = COUNTROWS ( _sRpv ) VAR _hi = MAXX ( _sRpv, [@v] ) VAR _lo = MINX ( _sRpv, [@v] ) * 0.8
+			    RETURN CONCATENATEX ( _sRpv,
+			        VAR _i = COUNTROWS ( FILTER ( _sRpv, 'Período'[Ano] < EARLIER ( 'Período'[Ano] ) ) )
+			        VAR _y = 30 - DIVIDE ( [@v] - _lo, _hi - _lo ) * 26
+			        RETURN "<rect x='" & FORMAT ( _i * 200 / _k + 3, "0.0", "en-US" ) & "' y='" & FORMAT ( _y, "0.0", "en-US" ) & "' width='" & FORMAT ( 200 / _k - 6, "0.0", "en-US" )
+			            & "' height='" & FORMAT ( 32 - _y, "0.0", "en-US" ) & "' rx='2' fill='#0E6E6B' fill-opacity='" & IF ( _i = _k - 1, "1", "0.3" ) & "'/>",
+			        "", 'Período'[Ano], ASC )
+			VAR _pill = "<span style='font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:{bg};color:{fg}'>{t}</span>"
+			VAR _neu = SUBSTITUTE ( SUBSTITUTE ( _pill, "{bg}", "#EEECE6" ), "{fg}", "#5B6170" )
+			VAR _pos = SUBSTITUTE ( SUBSTITUTE ( _pill, "{bg}", "#E6EFEE" ), "{fg}", "#0B5754" )
+			VAR _arr = UNICHAR ( 9650 )
+			VAR _arrD = UNICHAR ( 9660 )
+			VAR _card =
+			    "<div style='background:#FFFFFF;border:1px solid #E7E5DF;border-radius:10px;padding:12px 16px 8px;display:flex;flex-direction:column;min-width:0;height:100%;box-sizing:border-box;overflow:hidden'>"
+			        & "<div style='font-size:11px;color:#5B6170;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'>{label}</div>"
+			        & "<div style='font-size:26px;font-weight:600;color:#16181D;line-height:1.25;margin-top:2px;white-space:nowrap'>{value}</div>"
+			        & "<div style='display:flex;align-items:center;gap:8px;margin-top:4px;min-height:20px;white-space:nowrap'>{pill}<span style='font-size:11px;color:#8A8F99;overflow:hidden;text-overflow:ellipsis'>{ctx}</span></div>"
+			        & "<svg viewBox='0 0 200 34' preserveAspectRatio='none' style='width:100%;height:22px;margin-top:auto;display:block'>{spark}</svg>"
+			        & "</div>"
+			VAR _unit = "<span style='font-size:14px;font-weight:400;color:#5B6170;margin-left:4px'>{u}</span>"
+			VAR _c1 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Operadoras com vínculos · " & _rot ), "{value}", FORMAT ( _n, "#,0", "pt-BR" ) ),
+			        "{pill}", SUBSTITUTE ( _neu, "{t}", IF ( _n >= _nIni, _arr & " +", _arrD & " −" ) & FORMAT ( ABS ( _n - _nIni ), "0", "pt-BR" ) ) ),
+			        "{ctx}", "vs " & _rotIni & " · " & FORMAT ( _nIni, "#,0", "pt-BR" ) ),
+			        "{spark}", SUBSTITUTE ( SUBSTITUTE ( _line, "{p}", _ptsN ), "{c}", "#8A8F99" ) )
+			VAR _c2 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "5 maiores operadoras · " & _rot ), "{value}", FORMAT ( _t5 * 100, "0.0", "pt-BR" ) & SUBSTITUTE ( _unit, "{u}", "% dos vínculos" ) ),
+			        "{pill}", SUBSTITUTE ( _neu, "{t}", IF ( _t5 >= _t5Ini, _arr, _arrD ) & " " & FORMAT ( ABS ( _t5 - _t5Ini ) * 100, "0.0", "pt-BR" ) & " p.p." ) ),
+			        "{ctx}", "vs " & _rotIni ),
+			        "{spark}", SUBSTITUTE ( SUBSTITUTE ( _line, "{p}", _ptsT5 ), "{c}", "#0E6E6B" ) )
+			VAR _c3 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Concentração (índice HHI) · " & _rot ), "{value}", FORMAT ( _h, "#,0", "pt-BR" ) & SUBSTITUTE ( _unit, "{u}", IF ( _h < 1500, "baixa", IF ( _h < 2500, "moderada", "alta" ) ) ) ),
+			        "{pill}", SUBSTITUTE ( _neu, "{t}", IF ( _h >= _hIni, _arr & " +", _arrD & " −" ) & FORMAT ( ABS ( _h - _hIni ), "0", "pt-BR" ) ) ),
+			        "{ctx}", "vs " & _rotIni & " · escala 0–10.000" ),
+			        "{spark}", SUBSTITUTE ( SUBSTITUTE ( _line, "{p}", _ptsH ), "{c}", "#0E6E6B" ) )
+			VAR _c4 = SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( SUBSTITUTE ( _card,
+			        "{label}", "Receita por vínculo · " & _ano ), "{value}", "R$ " & FORMAT ( _rpv, "#,0", "pt-BR" ) & SUBSTITUTE ( _unit, "{u}", "/ano" ) ),
+			        "{pill}", SUBSTITUTE ( _pos, "{t}", IF ( _rpv >= _rpvAnt, _arr, _arrD ) & " " & FORMAT ( ABS ( DIVIDE ( _rpv, _rpvAnt ) - 1 ), "0.0%", "pt-BR" ) ) ),
+			        "{ctx}", "vs " & ( _ano - 1 ) & " · vínculos de dezembro" ),
+			        "{spark}", _barsRpv )
+			RETURN
+			    "<div style='display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;height:118px;overflow:hidden;box-sizing:border-box;font-family:Segoe UI,sans-serif'>"
+			        & _c1 & _c2 & _c3 & _c4
+			        & "</div>"
+		displayFolder: Apresentação
+		lineageTag: b78fc87c-e3f7-4354-b01a-8af051838c4e
+
+	/// Apresentação: cabeçalho da página Operadoras e mercado para o HTML Content.
+	measure 'Cabeçalho HTML - Mercado' =
+			VAR _rot = [Última competência]
+			VAR _ano = [Último ano completo]
+			VAR _ops = ADDCOLUMNS ( CALCULATETABLE ( VALUES ( 'Operadora'[operadora_id] ), 'Vínculos por operadora'[Vínculos] > 0 ), "@v", [Vínculos das operadoras] )
+			VAR _tot = SUMX ( _ops, [@v] )
+			VAR _t5 = DIVIDE ( SUMX ( TOPN ( 5, _ops, [@v], DESC ), [@v] ), _tot )
+			VAR _t20 = DIVIDE ( SUMX ( TOPN ( 20, _ops, [@v], DESC ), [@v] ), _tot )
+			VAR _mods = ADDCOLUMNS ( VALUES ( 'Modalidade'[Nome] ),
+			    "@g", DIVIDE ( CALCULATE ( [Receita de contraprestações (modalidade)], 'Período'[Ano] = _ano, 'Período'[Tipo de granularidade] = "anual" ),
+			                   CALCULATE ( [Receita de contraprestações (modalidade)], 'Período'[Ano] = 2021, 'Período'[Tipo de granularidade] = "anual" ) ) - 1,
+			    "@r", CALCULATE ( [Receita de contraprestações (modalidade)], 'Período'[Ano] = _ano, 'Período'[Tipo de granularidade] = "anual" ) )
+			VAR _grandes = TOPN ( 4, _mods, [@r], DESC )
+			VAR _gNome = MAXX ( TOPN ( 1, _grandes, [@g], DESC ), 'Modalidade'[Nome] )
+			VAR _gVal = MAXX ( _grandes, [@g] )
+			VAR _gCurto = SWITCH ( _gNome, "Seguradora Especializada em Saúde", "seguradoras", "Cooperativa Médica", "cooperativas médicas", "Medicina de Grupo", "medicina de grupo", "Autogestão", "autogestões", LOWER ( _gNome ) )
+			VAR _frase =
+			    "As 5 maiores operadoras têm " & FORMAT ( _t5, "0.0%", "pt-BR" ) & " dos vínculos"
+			        & "  ·  " & _gCurto & " lideram a alta da receita desde 2021 (" & FORMAT ( _gVal, "+0%", "pt-BR" ) & ")"
+			RETURN
+			    "<div style='font-family:Segoe UI,sans-serif;height:80px;box-sizing:border-box;overflow:hidden'>"
+			        & "<div style='font-size:22px;font-weight:600;color:#16181D;line-height:1.2'>Operadoras e mercado</div>"
+			        & "<div style='font-size:12px;color:#5B6170;line-height:1.45;margin-top:6px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis'>" & _frase & "</div>"
+			        & "<div style='font-size:10px;color:#8A8F99;margin-top:4px'>Vínculos em " & _rot & "  ·  receita de contraprestações em valores correntes (1 das 7 contas da ANS); " & ( _ano + 1 ) & " é parcial e fica fora das comparações</div>"
+			        & "</div>"
+		displayFolder: Apresentação
+		lineageTag: 7e6fdfb5-8b6e-40c4-82b8-12f101277509
+
+	column periodo_id
+		dataType: string
+		isHidden
+		lineageTag: 01d5a3f1-a03d-42db-a5c1-6b421f135576
+		sourceColumn: periodo_id
+
+	column uf_id
+		dataType: string
+		isHidden
+		lineageTag: ee47767b-6e66-4c7f-ae23-0926eac5df19
+		sourceColumn: uf_id
+
+	/// Vínculos de planos médicco-hospitalares e mistos com ou sem odontologia.
+	column 'Vínculos com assistência médica'
+		dataType: int64
+		formatString: #,##0
+		lineageTag: 62262d85-85f8-4e0d-a6c9-3a84b66a3221
+		summarizeBy: sum
+		sourceColumn: vinculos_assistencia_medica
+
+	/// Vínculos com assistência médica, excluindo planos exclusivamente odontológicos.
+	column 'Vínculos (exceto odontológico exclusivo)'
+		dataType: int64
+		formatString: #,##0
+		lineageTag: 00edab00-4deb-4d75-8c41-64608c5b17b2
+		summarizeBy: sum
+		sourceColumn: vinculos_excl_odontologico
+
+	partition 'Vínculos por UF e competência' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\fatos\fato_beneficiarios_uf_competencia.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"periodo_id", type text}, {"uf_id", type text}, {"vinculos_assistencia_medica", Int64.Type}, {"vinculos_excl_odontologico", Int64.Type}}, "en-US")
+				in
+				    Tipos
+

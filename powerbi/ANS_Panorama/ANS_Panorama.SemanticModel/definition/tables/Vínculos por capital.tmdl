@@ -1,0 +1,51 @@
+/// Grão: período x capital (27). As 27 capitais não somam o total nacional.
+table 'Vínculos por capital'
+	lineageTag: f1e81c72-3c31-4294-ae0b-0d957e6f6102
+
+	/// Vínculos nas 27 capitais. As capitais são subconjunto dos municípios: não representam o total nacional. Estoque: com mais de uma competência no filtro, devolve a competência trimestral mais recente do filtro (nunca soma trimestres).
+	measure 'Vínculos nas capitais' =
+			VAR _ord =
+			    CALCULATE ( MAX ( 'Período'[Ordem] ), 'Período'[Tipo de granularidade] = "trimestral" )
+			RETURN
+			    CALCULATE ( SUM ( 'Vínculos por capital'[Vínculos] ), 'Período'[Ordem] = _ord )
+		formatString: #,##0
+		lineageTag: f233887b-5bfa-46ee-a80b-e3377298810d
+
+	/// Participação da capital no total nacional do período em contexto. Use com uma capital no eixo.
+	measure 'Participação da capital no total' =
+			DIVIDE (
+			    [Vínculos nas capitais],
+			    CALCULATE ( [Vínculos (assistência médica)], REMOVEFILTERS ( 'Capital' ) )
+			)
+		formatString: 0.0%
+		lineageTag: f21384e3-9769-4271-b5b6-7fc70bc5563b
+
+	column periodo_id
+		dataType: string
+		isHidden
+		lineageTag: baffd844-3a06-4d73-a374-df14062b58f7
+		sourceColumn: periodo_id
+
+	column capital_id
+		dataType: string
+		isHidden
+		lineageTag: bd429ba7-7428-4908-90b2-c1e18694e0ea
+		sourceColumn: capital_id
+
+	column Vínculos
+		dataType: int64
+		formatString: #,##0
+		lineageTag: 5c0d8c57-56b0-4311-a58e-2447d386aaa8
+		summarizeBy: sum
+		sourceColumn: vinculos
+
+	partition 'Vínculos por capital' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\fatos\fato_beneficiarios_capital_competencia.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"periodo_id", type text}, {"capital_id", type text}, {"vinculos", Int64.Type}}, "en-US")
+				in
+				    Tipos
+

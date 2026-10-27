@@ -1,0 +1,59 @@
+/// Grão: período x município. Inclui linhas 'ignorado na UF', exterior e um município provisório (R2): filtrar por Tipo = municipio para valores territoriais.
+table 'Vínculos por município'
+	lineageTag: 9b66c40b-62b0-41ee-96c5-09c4e78b5ebc
+
+	/// Vínculos do fato municipal, incluindo linhas de resíduo (ignorado na UF, exterior, provisório). Para valores territoriais estritos use a medida de territórios. Estoque: com mais de uma competência no filtro, devolve a competência trimestral mais recente do filtro (nunca soma trimestres).
+	measure 'Vínculos municipais' =
+			VAR _ord =
+			    CALCULATE ( MAX ( 'Período'[Ordem] ), 'Período'[Tipo de granularidade] = "trimestral" )
+			RETURN
+			    CALCULATE ( SUM ( 'Vínculos por município'[Vínculos] ), 'Período'[Ordem] = _ord )
+		formatString: #,##0
+		lineageTag: b2a0eed5-b19f-4828-b366-6fb7ba8b0eec
+
+	/// Vínculos apenas das linhas efetivamente municipais (Tipo = municipio), excluindo resíduos.
+	measure 'Vínculos municipais - territórios' = CALCULATE ( [Vínculos municipais], 'Município'[Tipo] = "municipio" )
+		formatString: #,##0
+		lineageTag: dc873f9e-984d-4731-af6b-43c0f05fd553
+
+	/// Vínculos das linhas que não são municípios reais (ignorado na UF, exterior, provisório).
+	measure 'Vínculos municipais - resíduos' = CALCULATE ( [Vínculos municipais], 'Município'[Tipo] <> "municipio" )
+		formatString: #,##0
+		lineageTag: 64a2d5df-3dda-4c4a-a8de-985f88bb15fe
+
+	column periodo_id
+		dataType: string
+		isHidden
+		lineageTag: 1be5f31f-5ce4-484b-8439-c27e6d53d957
+		sourceColumn: periodo_id
+
+	column municipio_id
+		dataType: string
+		isHidden
+		lineageTag: 4dcd1994-db54-4377-8676-058a89c43d9b
+		sourceColumn: municipio_id
+
+	column uf_id
+		dataType: string
+		isHidden
+		lineageTag: 3240531c-2c9c-43ee-8f1a-b709b5d6422d
+		sourceColumn: uf_id
+
+	column Vínculos
+		dataType: int64
+		formatString: #,##0
+		lineageTag: d39d5683-f463-42e3-9c20-0d81b1423195
+		summarizeBy: sum
+		sourceColumn: vinculos
+
+	partition 'Vínculos por município' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\fatos\fato_beneficiarios_municipio_competencia.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"periodo_id", type text}, {"municipio_id", type text}, {"uf_id", type text}, {"vinculos", Int64.Type}, {"flag_codigo_inconsistente", Int64.Type}, {"classificacao_provisoria", Int64.Type}, {"codigo_origem", type text}, {"origem", type text}}, "en-US"),
+				    Final = Table.SelectColumns(Tipos, {"periodo_id", "municipio_id", "uf_id", "vinculos"})
+				in
+				    Final
+

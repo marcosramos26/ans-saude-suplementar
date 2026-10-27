@@ -1,0 +1,49 @@
+/// Grão: ano x UF. Taxa de cobertura de planos em pontos percentuais, não aditiva. Não relacionar com os fatos trimestrais.
+table 'Cobertura por UF e ano'
+	lineageTag: c63699ae-6701-4669-941e-8b8c9ca4cd70
+
+	/// Taxa de cobertura em pontos percentuais. Retorna vazio quando o contexto agrega mais de uma UF ou mais de um ano (taxa não é aditiva).
+	measure 'Taxa de cobertura (UF)' = SELECTEDVALUE ( 'Cobertura por UF e ano'[Taxa de cobertura] )
+		formatString: 0.00"%"
+		lineageTag: 26da9645-820e-494b-8bb4-e270d5c4cf30
+
+	/// Média simples das taxas de cobertura das UFs no contexto (NÃO é a taxa nacional ponderada; use apenas como referência exploratória). Usa o ano de cobertura mais recente do filtro (nunca mistura anos).
+	measure 'Média simples das taxas (UF)' =
+			VAR _pid = MAX ( 'Cobertura por UF e ano'[periodo_id] )
+			RETURN
+			    CALCULATE ( AVERAGE ( 'Cobertura por UF e ano'[Taxa de cobertura] ), 'Período'[periodo_id] = _pid )
+		formatString: 0.00"%"
+		lineageTag: 956016fd-ca98-4f10-8c2c-db9dd7f6468d
+
+	column periodo_id
+		dataType: string
+		isHidden
+		lineageTag: ea4b2be5-b516-4f8e-9d25-dcfea14b8087
+		sourceColumn: periodo_id
+
+	column uf_id
+		dataType: string
+		isHidden
+		lineageTag: 441a03ef-5ca5-4787-a292-2c0ea44831f5
+		sourceColumn: uf_id
+
+	/// Percentual em pontos percentuais (9 = 9%). Taxa não é aditiva: não somar entre UF nem entre anos.
+	column 'Taxa de cobertura'
+		dataType: double
+		formatString: 0.00"%"
+		lineageTag: 86235553-0bd5-4997-a0dd-4a834d7629e2
+		summarizeBy: sum
+		sourceColumn: taxa_cobertura_pct
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Cobertura por UF e ano' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\fatos\fato_taxa_cobertura_uf_ano.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"periodo_id", type text}, {"uf_id", type text}, {"taxa_cobertura_pct", type number}}, "en-US")
+				in
+				    Tipos
+

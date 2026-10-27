@@ -1,0 +1,163 @@
+﻿dimensao;periodo;valor;medida;consulta;cadencia;granularidade;arquivo_origem
+Rondônia;dez/2021;9,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rondônia;dez/2022;8,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rondônia;dez/2023;8,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rondônia;dez/2024;9,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rondônia;dez/2025;9,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rondônia;ago/2026;9,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Acre;dez/2021;4,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Acre;dez/2022;4,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Acre;dez/2023;4,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Acre;dez/2024;5,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Acre;dez/2025;5,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Acre;ago/2026;5,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amazonas;dez/2021;12,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amazonas;dez/2022;13,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amazonas;dez/2023;13,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amazonas;dez/2024;14,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amazonas;dez/2025;16,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amazonas;ago/2026;16,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Roraima;dez/2021;3,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Roraima;dez/2022;4,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Roraima;dez/2023;4,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Roraima;dez/2024;4,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Roraima;dez/2025;4,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Roraima;ago/2026;4,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pará;dez/2021;9,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pará;dez/2022;9,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pará;dez/2023;9,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pará;dez/2024;10,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pará;dez/2025;10,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pará;ago/2026;10,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amapá;dez/2021;7,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amapá;dez/2022;7,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amapá;dez/2023;7,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amapá;dez/2024;7,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amapá;dez/2025;8,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Amapá;ago/2026;7,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Tocantins;dez/2021;7,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Tocantins;dez/2022;7,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Tocantins;dez/2023;7,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Tocantins;dez/2024;7,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Tocantins;dez/2025;8,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Tocantins;ago/2026;8,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Maranhão;dez/2021;6,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Maranhão;dez/2022;7,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Maranhão;dez/2023;7,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Maranhão;dez/2024;7,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Maranhão;dez/2025;7,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Maranhão;ago/2026;7,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Piauí;dez/2021;10,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Piauí;dez/2022;11,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Piauí;dez/2023;11,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Piauí;dez/2024;12,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Piauí;dez/2025;12,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Piauí;ago/2026;12,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Ceará;dez/2021;13,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Ceará;dez/2022;14,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Ceará;dez/2023;14,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Ceará;dez/2024;15,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Ceará;dez/2025;16,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Ceará;ago/2026;16,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Norte;dez/2021;16,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Norte;dez/2022;17,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Norte;dez/2023;17,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Norte;dez/2024;17,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Norte;dez/2025;18,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Norte;ago/2026;19,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraíba;dez/2021;10,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraíba;dez/2022;10,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraíba;dez/2023;10,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraíba;dez/2024;10,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraíba;dez/2025;11,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraíba;ago/2026;11,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pernambuco;dez/2021;14,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pernambuco;dez/2022;14,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pernambuco;dez/2023;14,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pernambuco;dez/2024;14,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pernambuco;dez/2025;15,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Pernambuco;ago/2026;15,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Alagoas;dez/2021;11,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Alagoas;dez/2022;11,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Alagoas;dez/2023;11,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Alagoas;dez/2024;11,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Alagoas;dez/2025;11,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Alagoas;ago/2026;11,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Sergipe;dez/2021;13,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Sergipe;dez/2022;14,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Sergipe;dez/2023;14,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Sergipe;dez/2024;14,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Sergipe;dez/2025;14,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Sergipe;ago/2026;14,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Bahia;dez/2021;10,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Bahia;dez/2022;11,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Bahia;dez/2023;11,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Bahia;dez/2024;11,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Bahia;dez/2025;11,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Bahia;ago/2026;11,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Minas Gerais;dez/2021;25,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Minas Gerais;dez/2022;25,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Minas Gerais;dez/2023;26,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Minas Gerais;dez/2024;26,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Minas Gerais;dez/2025;27,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Minas Gerais;ago/2026;27,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Espírito Santo;dez/2021;28,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Espírito Santo;dez/2022;30,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Espírito Santo;dez/2023;31,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Espírito Santo;dez/2024;32,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Espírito Santo;dez/2025;33,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Espírito Santo;ago/2026;34,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio de Janeiro;dez/2021;31,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio de Janeiro;dez/2022;31,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio de Janeiro;dez/2023;32,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio de Janeiro;dez/2024;32,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio de Janeiro;dez/2025;32,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio de Janeiro;ago/2026;32,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+São Paulo;dez/2021;37,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+São Paulo;dez/2022;38,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+São Paulo;dez/2023;39,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+São Paulo;dez/2024;39,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+São Paulo;dez/2025;39,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+São Paulo;ago/2026;40,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraná;dez/2021;24,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraná;dez/2022;25,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraná;dez/2023;26,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraná;dez/2024;26,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraná;dez/2025;26,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Paraná;ago/2026;27,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Santa Catarina;dez/2021;18,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Santa Catarina;dez/2022;19,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Santa Catarina;dez/2023;20,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Santa Catarina;dez/2024;20,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Santa Catarina;dez/2025;21,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Santa Catarina;ago/2026;21,3;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Sul;dez/2021;22,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Sul;dez/2022;22,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Sul;dez/2023;22,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Sul;dez/2024;23,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Sul;dez/2025;23,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Rio Grande do Sul;ago/2026;23,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso do Sul;dez/2021;21,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso do Sul;dez/2022;21,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso do Sul;dez/2023;22,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso do Sul;dez/2024;23,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso do Sul;dez/2025;23,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso do Sul;ago/2026;23,0;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso;dez/2021;15,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso;dez/2022;16,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso;dez/2023;17,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso;dez/2024;17,5;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso;dez/2025;17,6;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Mato Grosso;ago/2026;17,8;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Goiás;dez/2021;22,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Goiás;dez/2022;24,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Goiás;dez/2023;24,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Goiás;dez/2024;25,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Goiás;dez/2025;26,2;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Goiás;ago/2026;26,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Distrito Federal;dez/2021;30,9;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Distrito Federal;dez/2022;31,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Distrito Federal;dez/2023;31,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Distrito Federal;dez/2024;31,7;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Distrito Federal;dez/2025;33,4;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv
+Distrito Federal;ago/2026;35,1;Taxa de Cobertura (%);Taxa de Cobertura de Planos de Saúde;anual;UF x anual;taxa_cobertura_uf_ano_assistencia_medica.csv

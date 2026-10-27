@@ -1,0 +1,19 @@
+# Toolkit de agentes e skills (fica fora do repositório público)
+.agents/
+scripts/
+evals/
+AGENTS.md
+.claude/
+
+# Cópias temporárias de validação e área de staging do extrator
+.tmp-validation-curated/
+_stage/
+
+# Power BI: configurações locais (contêm assinatura de credenciais) e cache de dados
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+*.abf
+
+# Python
+__pycache__/
+*.pyc

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.1.0/schema.json",
+  "name": "71c2a4e6b8d09f3a1c02",
+  "displayName": "Território",
+  "displayOption": "FitToPage",
+  "height": 720,
+  "width": 1280,
+  "visualInteractions": [
+    {
+      "source": "a0000000000000000024",
+      "target": "a0000000000000000021",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a0000000000000000024",
+      "target": "a0000000000000000022",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a0000000000000000024",
+      "target": "a0000000000000000023",
+      "type": "NoFilter"
+    },
+    {
+      "source": "a0000000000000000024",
+      "target": "a0000000000000000025",
+      "type": "HighlightFilter"
+    },
+    {
+      "source": "a0000000000000000024",
+      "target": "a0000000000000000026",
+      "type": "DataFilter"
+    }
+  ]
+}

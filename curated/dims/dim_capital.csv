@@ -1,0 +1,28 @@
+﻿capital_id;nome;capital_ordem;municipio_id;resolucao
+CAP:01;Aracaju;1;MUN:280030;nome_unico_na_lista_municipal
+CAP:02;Belo Horizonte;2;MUN:310620;nome_unico_na_lista_municipal
+CAP:03;Belém;3;MUN:150140;serie_valores_identica_entre_3_candidatos
+CAP:04;Boa Vista;4;MUN:140010;serie_valores_identica_entre_2_candidatos
+CAP:05;Brasília;5;MUN:530010;nome_unico_na_lista_municipal
+CAP:06;Campo Grande;6;MUN:500270;serie_valores_identica_entre_2_candidatos
+CAP:07;Cuiabá;7;MUN:510340;nome_unico_na_lista_municipal
+CAP:08;Curitiba;8;MUN:410690;nome_unico_na_lista_municipal
+CAP:09;Florianópolis;9;MUN:420540;nome_unico_na_lista_municipal
+CAP:10;Fortaleza;10;MUN:230440;nome_unico_na_lista_municipal
+CAP:11;Goiânia;11;MUN:520870;nome_unico_na_lista_municipal
+CAP:12;João Pessoa;12;MUN:250750;nome_unico_na_lista_municipal
+CAP:13;Macapá;13;MUN:160030;nome_unico_na_lista_municipal
+CAP:14;Maceió;14;MUN:270430;nome_unico_na_lista_municipal
+CAP:15;Manaus;15;MUN:130260;nome_unico_na_lista_municipal
+CAP:16;Natal;16;MUN:240810;nome_unico_na_lista_municipal
+CAP:17;Palmas;17;MUN:172100;serie_valores_identica_entre_2_candidatos
+CAP:18;Porto Alegre;18;MUN:431490;nome_unico_na_lista_municipal
+CAP:19;Porto Velho;19;MUN:110020;nome_unico_na_lista_municipal
+CAP:20;Recife;20;MUN:261160;nome_unico_na_lista_municipal
+CAP:21;Rio Branco;21;MUN:120040;serie_valores_identica_entre_2_candidatos
+CAP:22;Rio de Janeiro;22;MUN:330455;nome_unico_na_lista_municipal
+CAP:23;Salvador;23;MUN:292740;nome_unico_na_lista_municipal
+CAP:24;São Luís;24;MUN:211130;nome_unico_na_lista_municipal
+CAP:25;São Paulo;25;MUN:355030;nome_unico_na_lista_municipal
+CAP:26;Teresina;26;MUN:221100;nome_unico_na_lista_municipal
+CAP:27;Vitória;27;MUN:320530;nome_unico_na_lista_municipal

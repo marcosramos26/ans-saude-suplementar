@@ -1,0 +1,90 @@
+/// Calendário analítico com 34 períodos: 21 competências trimestrais, anos com mês (cobertura), anos sem mês (receitas) e 1 snapshot de cadastro. Grãos de tempo distintos não devem ser somados entre si.
+table Período
+	lineageTag: c27285c2-142c-4836-9fa4-7c38b7f432a4
+
+	column periodo_id
+		dataType: string
+		isHidden
+		lineageTag: 17fc02cd-1ddd-4875-a4db-b42cae5fbe89
+		summarizeBy: none
+		sourceColumn: periodo_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column Rótulo
+		dataType: string
+		lineageTag: 2a18ff88-aba8-4561-a895-c903964dd6d7
+		summarizeBy: none
+		sourceColumn: rotulo_origem
+		sortByColumn: Ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Tipo de granularidade'
+		dataType: string
+		lineageTag: bcc54ace-c610-4881-94b0-36af094cbe84
+		summarizeBy: none
+		sourceColumn: tipo_granularidade
+
+		annotation SummarizationSetBy = Automatic
+
+	column Ano
+		dataType: int64
+		lineageTag: 1f22d190-1039-44fc-afe1-cde4e1270537
+		summarizeBy: sum
+		sourceColumn: ano
+
+		annotation SummarizationSetBy = Automatic
+
+	column Trimestre
+		dataType: int64
+		lineageTag: 1b615449-f735-45af-b359-7fa152d308d2
+		summarizeBy: sum
+		sourceColumn: trimestre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mês
+		dataType: int64
+		lineageTag: 347abac8-76c8-41e0-99ba-68066d24f87a
+		summarizeBy: sum
+		sourceColumn: mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Data de referência'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: cd6434eb-9b34-4147-9901-cd34818a5bf1
+		summarizeBy: none
+		sourceColumn: data_referencia
+
+		variation Variação
+			isDefault
+			relationship: c66bb51c-b357-4423-ace7-94d07a78da0a
+			defaultHierarchy: LocalDateTable_910adea6-41a8-44c1-aaed-a3cc169e212d.'Date Hierarchy'
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation SummarizationSetBy = Automatic
+
+	/// Chave de ordenação cronológica (AAAAMM).
+	column Ordem
+		dataType: int64
+		isHidden
+		lineageTag: aa1c9494-8f6d-49ae-b1c4-4e1faf2fb451
+		summarizeBy: sum
+		sourceColumn: ordem
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Período = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\dims\dim_periodo.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"periodo_id", type text}, {"rotulo_origem", type text}, {"tipo_granularidade", type text}, {"ano", Int64.Type}, {"trimestre", Int64.Type}, {"mes", Int64.Type}, {"data_referencia", type date}, {"ordem", Int64.Type}}, "en-US")
+				in
+				    Tipos
+

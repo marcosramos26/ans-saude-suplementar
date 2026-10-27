@@ -1,0 +1,17 @@
+﻿teste;resultado;n;detalhe
+V1 unicidade de chave em 20 tabelas;OK;0;chaves duplicadas: 0
+V2 integridade referencial (fatos -> dimensoes);OK;0;nenhuma chave orfa
+T4 cardinalidade pos-juncao (chave de dimensao unica e total);OK;0;tabelas com chave repetida: []
+V3a UF x tipo de contratacao == total da UF (21 competencias x 28 UFs);OK;0;divergencias: []
+V3b recortes nacionais (sexo/faixa/contratacao/segmentacao/modalidade/faixa_sexo) == total nacional;OK;0;divergencias: []
+V3c municipios (5.598 rotulos) == total nacional;OK;0;divergencias: []
+V3d particao Capital + Interior == total nacional;OK;0;divergencias: []
+V3e operadora (758) == total nacional;OK;0;divergencias: []
+V3f grande regiao == total nacional;OK;0;divergencias: []
+V4 cobertura de relacionamento: capitais resolvidas 27/27;OK;0;todas resolvidas
+V4 cobertura de relacionamento: operadora (R4);OK;0;dimensao=1201 | nas 3 fontes=636 | so cadastro ativo=17 | so beneficiarios=22 | so receitas=217
+V5a taxas na faixa 0-100% (sem negativos);OK;0;acima de 100%: 1 ocorrencia(s) [('MUN:270080', 100.5, 'A2021-12')]
+V5b teste NAO aditivo: taxa da UF dentro do min/max municipal do proprio estado;OK;0;violacoes: []
+V6a SHA-256 dos 29 originais == registrado no log de extracao;OK;29;29/29 arquivos conferidos (29 resolvidos pelo nome apos a movimentacao da pasta)
+V6b soma tidy (UF x competencia) == soma curated (UF x competencia);OK;0;tidy=1072851372 | curated=1072851372
+V6c nenhuma coluna Total entrou na curated;OK;0;colunas verificadas: capital_id, classificacao_provisoria, codigo_origem, flag_codigo_inconsistente, geo_id, medida, membro, membro_id, modalidade_id, municipio_id, nivel_geografico, operadora_id, origem, particao_id, periodo_id, receita_contraprestacoes_reais, recorte, taxa_cobertura_pct, uf_id, vinculos, vinculos_assistencia_medica, vinculos_excl_odontologico

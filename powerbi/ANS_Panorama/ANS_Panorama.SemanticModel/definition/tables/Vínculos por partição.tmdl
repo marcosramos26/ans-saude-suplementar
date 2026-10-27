@@ -1,0 +1,51 @@
+/// Grão: período x partição (Capital x Interior). Soma o total nacional sem sobreposição.
+table 'Vínculos por partição'
+	lineageTag: d3baaa11-417b-4cb0-9779-cdc1546848d7
+
+	/// Vínculos por partição Capital x Interior. Soma o total nacional sem sobreposição. Estoque: com mais de uma competência no filtro, devolve a competência trimestral mais recente do filtro (nunca soma trimestres).
+	measure 'Vínculos capital + interior' =
+			VAR _ord =
+			    CALCULATE ( MAX ( 'Período'[Ordem] ), 'Período'[Tipo de granularidade] = "trimestral" )
+			RETURN
+			    CALCULATE ( SUM ( 'Vínculos por partição'[Vínculos] ), 'Período'[Ordem] = _ord )
+		formatString: #,##0
+		lineageTag: 42d99b93-8bf7-40ad-945f-00de1b75b8dd
+
+	/// Participação da partição (Capital ou Interior) no total nacional do período em contexto.
+	measure 'Participação da partição' =
+			DIVIDE (
+			    [Vínculos capital + interior],
+			    CALCULATE ( [Vínculos capital + interior], REMOVEFILTERS ( 'Partição territorial' ) )
+			)
+		formatString: 0.0%
+		lineageTag: 7194abb7-9e13-4efb-8028-86c7b325babb
+
+	column periodo_id
+		dataType: string
+		isHidden
+		lineageTag: 9b7438ff-99fc-4004-aede-f0a4a1844c4f
+		sourceColumn: periodo_id
+
+	column particao_id
+		dataType: string
+		isHidden
+		lineageTag: ddd290d4-b846-4b15-9705-3510d4eb2707
+		sourceColumn: particao_id
+
+	column Vínculos
+		dataType: int64
+		formatString: #,##0
+		lineageTag: f6f45d08-9b2c-4cd1-a267-6b33a27d68f4
+		summarizeBy: sum
+		sourceColumn: vinculos
+
+	partition 'Vínculos por partição' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\fatos\fato_beneficiarios_particao_competencia.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"periodo_id", type text}, {"particao_id", type text}, {"vinculos", Int64.Type}}, "en-US")
+				in
+				    Tipos
+

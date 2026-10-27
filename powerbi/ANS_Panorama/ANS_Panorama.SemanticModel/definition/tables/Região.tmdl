@@ -1,0 +1,39 @@
+/// Grandes regiões brasileiras (5) mais o membro 'Não Identificado'. Não somar com a dimensão UF como se fossem a mesma partição territorial.
+table Região
+	lineageTag: 417afce4-3237-450e-87e9-009e4f3fe2b7
+
+	column regiao_id
+		dataType: string
+		isHidden
+		lineageTag: 54b44933-303f-4d75-ba1e-1be8b3ee6d3c
+		sourceColumn: regiao_id
+
+	column Nome
+		dataType: string
+		lineageTag: e16fd497-2447-423c-aa41-9c5f8d7b6bf2
+		sourceColumn: nome
+		sortByColumn: Ordem
+
+	column Tipo
+		dataType: string
+		isHidden
+		lineageTag: 0d97ea93-535b-4dfd-9b53-d057456a4ba6
+		sourceColumn: tipo
+
+	column Ordem
+		dataType: int64
+		isHidden
+		lineageTag: f85b9bda-c235-4dad-b42e-994131f1d9e4
+		summarizeBy: none
+		sourceColumn: ordem
+
+	partition Região = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\dims\dim_regiao.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"regiao_id", type text}, {"nome", type text}, {"tipo", type text}, {"ordem", Int64.Type}}, "en-US")
+				in
+				    Tipos
+

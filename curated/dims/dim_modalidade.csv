@@ -1,0 +1,10 @@
+﻿modalidade_id;nome;origem
+MODAL:administradora de beneficios;Administradora de Benefícios;receitas+receitas+receitas+receitas+receitas+receitas
+MODAL:autogestao;Autogestão;beneficiarios+receitas+receitas+receitas+receitas+receitas+receitas
+MODAL:cooperativa medica;Cooperativa Médica;beneficiarios+receitas+receitas+receitas+receitas+receitas+receitas
+MODAL:cooperativa odontologica;Cooperativa Odontológica;receitas+receitas+receitas+receitas+receitas+receitas
+MODAL:filantropia;Filantropia;beneficiarios+receitas+receitas+receitas+receitas+receitas+receitas
+MODAL:medicina de grupo;Medicina de Grupo;beneficiarios+receitas+receitas+receitas+receitas+receitas+receitas
+MODAL:odontologia de grupo;Odontologia de Grupo;receitas+receitas+receitas+receitas+receitas+receitas
+MODAL:seguradora especializada em saude;Seguradora Especializada em Saúde;beneficiarios+receitas+receitas+receitas+receitas+receitas+receitas
+PSEUDO:sem_modalidade;(não informada);tecnico

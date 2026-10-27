@@ -1,0 +1,56 @@
+/// 80 membros de 7 recortes (sexo, faixa etária, faixa x sexo, tipo de contratação, segmentação, modalidade e grande região). Recortes se sobrepõem: nunca somar membros de recortes diferentes.
+table 'Recorte de vínculos'
+	lineageTag: 9d1da87c-df86-4b90-87b5-37b753a5ee02
+
+	column membro_id
+		dataType: string
+		isHidden
+		lineageTag: 2a2e4ad1-d151-4007-bc75-d9a588233f2c
+		sourceColumn: membro_id
+
+	column Recorte
+		dataType: string
+		lineageTag: 2a0dd0de-d8e2-47c0-bc43-79f906496de3
+		sourceColumn: recorte
+
+	column Membro
+		dataType: string
+		lineageTag: 696b8f65-a08e-4c0f-b169-81ec410e90d3
+		sourceColumn: membro
+		sortByColumn: Ordem
+
+	column Tipo
+		dataType: string
+		isHidden
+		lineageTag: ebedec51-2880-48bc-b07f-dd68efb9bce5
+		sourceColumn: tipo
+
+	column Ordem
+		dataType: int64
+		isHidden
+		lineageTag: e20a5d5f-af92-4b9c-b48a-bae81ea522c6
+		summarizeBy: none
+		sourceColumn: ordem
+
+	column 'Faixa etária associada'
+		dataType: string
+		lineageTag: 364183a5-a1ac-4757-be28-a5560fe4dbea
+		sourceColumn: faixa_assoc
+
+	column 'Sexo associado'
+		dataType: string
+		lineageTag: 3673db64-e41b-4060-8990-7b6c1246c47e
+		sourceColumn: sexo_assoc
+
+	partition 'Recorte de vínculos' = m
+		mode: import
+		source =
+				let
+				    Fonte = Csv.Document(File.Contents(PastaCurated & "\dims\dim_recorte_membro.csv"), [Delimiter = ";", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Cab = Table.PromoteHeaders(Fonte, [PromoteAllScalars = true]),
+				    Tipos = Table.TransformColumnTypes(Cab, {{"recorte", type text}, {"membro_id", type text}, {"membro", type text}, {"tipo", type text}, {"ordem", Int64.Type}}, "en-US"),
+				    Faixa = Table.AddColumn(Tipos, "faixa_assoc", each if [recorte] = "faixa_etaria_sexo" then Text.BeforeDelimiter([membro], "|") else if [recorte] = "faixa_etaria" then [membro] else null, type text),
+				    Sexos = Table.AddColumn(Faixa, "sexo_assoc", each if [recorte] = "faixa_etaria_sexo" then Text.AfterDelimiter([membro], "|") else if [recorte] = "sexo" then [membro] else null, type text)
+				in
+				    Sexos
+

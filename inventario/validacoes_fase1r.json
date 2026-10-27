@@ -1,0 +1,125 @@
+[
+ {
+  "teste": "Soma das 28 UFs == linha Total",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": ""
+ },
+ {
+  "teste": "Municipios (6 arquivos por regiao) == Total UF",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": ""
+ },
+ {
+  "teste": "Sexo (M+F) == Total UF",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": ""
+ },
+ {
+  "teste": "Grande Regiao == Total UF",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": ""
+ },
+ {
+  "teste": "Segmentacao grupo == Total UF",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": ""
+ },
+ {
+  "teste": "Modalidade == Total UF",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": ""
+ },
+ {
+  "teste": "Tipo de contratacao == Total UF",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": ""
+ },
+ {
+  "teste": "Faixa etaria == Total UF",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": ""
+ },
+ {
+  "teste": "Interior (eixo Capital/Interior, 2 linhas) == Total UF",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": "eixo Interior e a particao Capital x Interior"
+ },
+ {
+  "teste": "Capital (27 capitais somadas) == linha \"Capital\" do eixo Interior",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": "Capital sozinho NAO fecha o total nacional"
+ },
+ {
+  "teste": "UF x Tipo de contratacao (5 arquivos) == Total UF",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": ""
+ },
+ {
+  "teste": "Faixa etaria x Sexo (2 arquivos) == Faixa etaria",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": ""
+ },
+ {
+  "teste": "Operadora == Total UF",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": "758 operadoras com beneficiarios no periodo"
+ },
+ {
+  "teste": "Assistencia Medica vs Excl. Odontologico sao medidas distintas (nao somar)",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": "Jun/26: AM=53055406 | EO=36736226"
+ },
+ {
+  "teste": "Taxa de cobertura: coluna \"Total\" e a MEDIA dos anos (nao a soma)",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [
+   "media 23.97 vs coluna 24.00"
+  ],
+  "nota": "valores em % com virgula decimal"
+ },
+ {
+  "teste": "Receitas: coluna \"Total\" e a SOMA dos anos",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [
+   "soma 1603582001141 vs coluna 1603582001141"
+  ],
+  "nota": "R$ correntes, sem deflacionamento"
+ },
+ {
+  "teste": "Cobertura municipal: 5598 linhas de municipio nos 6 arquivos",
+  "ok": true,
+  "n_divergencias": 0,
+  "exemplos": [],
+  "nota": "contagem inclui os rotulos XX0000 Municipio ignorado - UF"
+ }
+]

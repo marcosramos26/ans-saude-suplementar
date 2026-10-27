@@ -1,0 +1,81 @@
+﻿recorte;membro_id;membro;tipo;ordem
+faixa_etaria;MEMB:faixa_etaria:ate 1 ano;Até 1 ano;categoria;3
+faixa_etaria;MEMB:faixa_etaria:1 a 4 anos;1 a 4 anos;categoria;4
+faixa_etaria;MEMB:faixa_etaria:5 a 9 anos;5 a 9 anos;categoria;5
+faixa_etaria;MEMB:faixa_etaria:10 a 14 anos;10 a 14 anos;categoria;6
+faixa_etaria;MEMB:faixa_etaria:15 a 19 anos;15 a 19 anos;categoria;7
+faixa_etaria;MEMB:faixa_etaria:20 a 24 anos;20 a 24 anos;categoria;8
+faixa_etaria;MEMB:faixa_etaria:25 a 29 anos;25 a 29 anos;categoria;9
+faixa_etaria;MEMB:faixa_etaria:30 a 34 anos;30 a 34 anos;categoria;10
+faixa_etaria;MEMB:faixa_etaria:35 a 39 anos;35 a 39 anos;categoria;11
+faixa_etaria;MEMB:faixa_etaria:40 a 44 anos;40 a 44 anos;categoria;12
+faixa_etaria;MEMB:faixa_etaria:45 a 49 anos;45 a 49 anos;categoria;13
+faixa_etaria;MEMB:faixa_etaria:50 a 54 anos;50 a 54 anos;categoria;14
+faixa_etaria;MEMB:faixa_etaria:55 a 59 anos;55 a 59 anos;categoria;15
+faixa_etaria;MEMB:faixa_etaria:60 a 64 anos;60 a 64 anos;categoria;16
+faixa_etaria;MEMB:faixa_etaria:65 a 69 anos;65 a 69 anos;categoria;17
+faixa_etaria;MEMB:faixa_etaria:70 a 74 anos;70 a 74 anos;categoria;18
+faixa_etaria;MEMB:faixa_etaria:75 a 79 anos;75 a 79 anos;categoria;19
+faixa_etaria;MEMB:faixa_etaria:80 anos ou mais;80 anos ou mais;categoria;20
+faixa_etaria;MEMB:faixa_etaria:inconsistente;Inconsistente;categoria;21
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:ate 1 ano|masculino;Até 1 ano|Masculino;categoria;43
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:1 a 4 anos|masculino;1 a 4 anos|Masculino;categoria;44
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:5 a 9 anos|masculino;5 a 9 anos|Masculino;categoria;45
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:10 a 14 anos|masculino;10 a 14 anos|Masculino;categoria;46
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:15 a 19 anos|masculino;15 a 19 anos|Masculino;categoria;47
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:20 a 24 anos|masculino;20 a 24 anos|Masculino;categoria;48
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:25 a 29 anos|masculino;25 a 29 anos|Masculino;categoria;49
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:30 a 34 anos|masculino;30 a 34 anos|Masculino;categoria;50
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:35 a 39 anos|masculino;35 a 39 anos|Masculino;categoria;51
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:40 a 44 anos|masculino;40 a 44 anos|Masculino;categoria;52
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:45 a 49 anos|masculino;45 a 49 anos|Masculino;categoria;53
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:50 a 54 anos|masculino;50 a 54 anos|Masculino;categoria;54
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:55 a 59 anos|masculino;55 a 59 anos|Masculino;categoria;55
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:60 a 64 anos|masculino;60 a 64 anos|Masculino;categoria;56
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:65 a 69 anos|masculino;65 a 69 anos|Masculino;categoria;57
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:70 a 74 anos|masculino;70 a 74 anos|Masculino;categoria;58
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:75 a 79 anos|masculino;75 a 79 anos|Masculino;categoria;59
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:80 anos ou mais|masculino;80 anos ou mais|Masculino;categoria;60
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:inconsistente|masculino;Inconsistente|Masculino;categoria;61
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:ate 1 ano|feminino;Até 1 ano|Feminino;categoria;62
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:1 a 4 anos|feminino;1 a 4 anos|Feminino;categoria;63
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:5 a 9 anos|feminino;5 a 9 anos|Feminino;categoria;64
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:10 a 14 anos|feminino;10 a 14 anos|Feminino;categoria;65
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:15 a 19 anos|feminino;15 a 19 anos|Feminino;categoria;66
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:20 a 24 anos|feminino;20 a 24 anos|Feminino;categoria;67
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:25 a 29 anos|feminino;25 a 29 anos|Feminino;categoria;68
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:30 a 34 anos|feminino;30 a 34 anos|Feminino;categoria;69
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:35 a 39 anos|feminino;35 a 39 anos|Feminino;categoria;70
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:40 a 44 anos|feminino;40 a 44 anos|Feminino;categoria;71
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:45 a 49 anos|feminino;45 a 49 anos|Feminino;categoria;72
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:50 a 54 anos|feminino;50 a 54 anos|Feminino;categoria;73
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:55 a 59 anos|feminino;55 a 59 anos|Feminino;categoria;74
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:60 a 64 anos|feminino;60 a 64 anos|Feminino;categoria;75
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:65 a 69 anos|feminino;65 a 69 anos|Feminino;categoria;76
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:70 a 74 anos|feminino;70 a 74 anos|Feminino;categoria;77
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:75 a 79 anos|feminino;75 a 79 anos|Feminino;categoria;78
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:80 anos ou mais|feminino;80 anos ou mais|Feminino;categoria;79
+faixa_etaria_sexo;MEMB:faixa_etaria_sexo:inconsistente|feminino;Inconsistente|Feminino;categoria;80
+grande_regiao;MEMB:grande_regiao:norte;Norte;categoria;37
+grande_regiao;MEMB:grande_regiao:nordeste;Nordeste;categoria;38
+grande_regiao;MEMB:grande_regiao:sudeste;Sudeste;categoria;39
+grande_regiao;MEMB:grande_regiao:sul;Sul;categoria;40
+grande_regiao;MEMB:grande_regiao:centro oeste;Centro Oeste;categoria;41
+grande_regiao;MEMB:grande_regiao:nao identificado;Não Identificado;pseudo;42
+modalidade;MEMB:modalidade:autogestao;Autogestão;categoria;32
+modalidade;MEMB:modalidade:cooperativa medica;Cooperativa Médica;categoria;33
+modalidade;MEMB:modalidade:filantropia;Filantropia;categoria;34
+modalidade;MEMB:modalidade:medicina de grupo;Medicina de Grupo;categoria;35
+modalidade;MEMB:modalidade:seguradora especializada em saude;Seguradora Especializada em Saúde;categoria;36
+segmentacao_grupo;MEMB:segmentacao_grupo:ambulatorial;Ambulatorial;categoria;27
+segmentacao_grupo;MEMB:segmentacao_grupo:hospitalar;Hospitalar;categoria;28
+segmentacao_grupo;MEMB:segmentacao_grupo:hospitalar e ambulatorial;Hospitalar e Ambulatorial;categoria;29
+segmentacao_grupo;MEMB:segmentacao_grupo:referencia;Referência;categoria;30
+segmentacao_grupo;MEMB:segmentacao_grupo:nao informado;Não Informado;pseudo;31
+sexo;MEMB:sexo:masculino;Masculino;categoria;1
+sexo;MEMB:sexo:feminino;Feminino;categoria;2
+tipo_contratacao;MEMB:tipo_contratacao:individual ou familiar;Individual ou Familiar;categoria;22
+tipo_contratacao;MEMB:tipo_contratacao:coletivo empresarial;Coletivo Empresarial;categoria;23
+tipo_contratacao;MEMB:tipo_contratacao:coletivo por adesao;Coletivo por adesão;categoria;24
+tipo_contratacao;MEMB:tipo_contratacao:coletivo nao identificado;Coletivo não identificado;pseudo;25
+tipo_contratacao;MEMB:tipo_contratacao:nao informado;Não Informado;pseudo;26
